@@ -98,6 +98,10 @@ def render(setup: dict, df: pd.DataFrame, out_path: str, tf_label: str, source: 
 
     # ---- axes cosmetics ----------------------------------------------------
     lo_y = min(stop, float(d["low"].min())) * 0.985
+    if "sma200" in d and d["sma200"].notna().any():
+        ma_lo = float(d["sma200"].dropna().min())
+        if ma_lo > lo_y * 0.9:                     # keep the 200MA in frame when it is close
+            lo_y = min(lo_y, ma_lo * 0.99)
     hi_y = max(final_tp, float(d["high"].max())) * 1.02
     ax.set_ylim(lo_y, hi_y)
     ax.yaxis.tick_right()

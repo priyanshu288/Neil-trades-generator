@@ -30,6 +30,11 @@ RETRIES = 3
 EXCLUDE_BASES = {
     "USDC", "USDT", "DAI", "TUSD", "FDUSD", "USDE", "USD1", "PYUSD", "BUSD", "EUR", "GBP", "USDD",
     "BTCDOM", "DEFI", "SHIB1000", "1000SHIB",
+    # commodities / FX / stock-index perps that MEXC lists alongside crypto
+    "UKOIL", "USOIL", "BZ", "XAU", "XAG", "XAUT", "PAXG", "XPT", "XPD", "NATGAS", "COPPER",
+    "SPY", "NDX", "NAS100", "US500", "US30", "DJI", "QQQ", "TSLA", "NVDA", "AAPL", "MSFT",
+    "AMZN", "GOOGL", "META", "COIN", "MSTR", "HOOD", "CRCL", "GME", "AMC", "PLTR", "AMD", "INTC",
+    "EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCHF", "USDCAD", "JPY", "CHF", "AUD", "CAD",
 }
 
 

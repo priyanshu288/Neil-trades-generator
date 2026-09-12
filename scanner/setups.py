@@ -127,17 +127,22 @@ def build_tps(entry: float, stop: float, df4: pd.DataFrame, df1d: Optional[pd.Da
         cands.append(measured)
     levels = cluster_levels(cands)
 
+    # Neil's ladder: TP1 ~1.5-2.5R, TP2 ~3-5R, TP3 ~5-12R.  A structural level is used
+    # when one sits inside the band; otherwise a synthetic R-multiple fills the slot.
     tps: list[float] = []
-    min_r = [1.4, 2.8, 4.5]           # minimum R each TP must add
-    for target_r in min_r:
-        nxt = [x for x in levels if (x - entry) / risk >= target_r and (not tps or x > tps[-1] * 1.02)]
+    bands = [(1.4, 3.0), (2.8, 6.0), (4.5, 12.0)]
+    last_r = 0.0
+    for lo_r, hi_r in bands:
+        lo_r = max(lo_r, last_r + 1.0)
+        nxt = [x for x in levels if lo_r <= (x - entry) / risk <= max(hi_r, lo_r + 1.0)]
         if nxt:
-            tps.append(nice(nxt[0], "down"))
+            tp = nice(nxt[0], "down")
         else:
-            synth = entry + risk * (target_r + 0.4)
-            if not tps or synth > tps[-1] * 1.02:
-                tps.append(nice(synth, "down"))
-    tps = tps[:3]
+            tp = nice(entry + risk * (lo_r + 0.4), "down")
+        if tps and tp <= tps[-1] * 1.01:
+            tp = nice(tps[-1] + risk * 1.5, "down")
+        tps.append(tp)
+        last_r = (tp - entry) / risk
     tp_r = [round((t - entry) / risk, 2) for t in tps]
     return tps, tp_r
 
