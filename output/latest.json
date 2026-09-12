@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-12",
+  "generated_utc": "2026-09-12T16:07:30+00:00",
+  "universe_size": 136,
+  "scanned": 135,
+  "btc": {
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "above_4h_200": true,
+    "change_3d_pct": -1.03,
+    "last": 77387.5
+  },
+  "setups": [
+    {
+      "symbol": "ETH",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 2534.85,
+      "stop": 2492.0,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        2667.0,
+        3045.0,
+        3403.0
+      ],
+      "tp_r": [
+        3.08,
+        11.91,
+        20.26
+      ],
+      "risk_pct": 1.69,
+      "score": 9.58638619546066,
+      "facts": [
+        "4H closed above the 2523 resistance 8 bars ago and is holding above it, low already retested the level",
+        "level rejected price 32x before the flip",
+        "reclaim bar volume 6.8x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +2.3% vs BTC -3.0% (RS +5.3%)"
+      ],
+      "chart_tf": "4h",
+      "level": 2523.0,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-09-12_ETH.png",
+      "alert": "Market long ETH here at CMP (2,534.85). No DCA, 4H close under 2,492.00 for stops, TPs above \u2014 TP1 2,667.00 (3.1R) \u00b7 TP2 3,045.00 (11.9R) \u00b7 TP3 3,403.00 (20.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "ORDI",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 4.293,
+      "stop": 4.243,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        4.395,
+        4.514,
+        4.696
+      ],
+      "tp_r": [
+        2.04,
+        4.42,
+        8.06
+      ],
+      "risk_pct": 1.16,
+      "score": 9.468695447116827,
+      "facts": [
+        "4H closed above the 4.295 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 5x before the flip",
+        "reclaim bar volume 1.9x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +2.8% vs BTC -3.0% (RS +5.8%)"
+      ],
+      "chart_tf": "4h",
+      "level": 4.295,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-09-12_ORDI.png",
+      "alert": "Market long ORDI here at CMP (4.293). No DCA, 4H close under 4.243 for stops, TPs above \u2014 TP1 4.395 (2.0R) \u00b7 TP2 4.514 (4.4R) \u00b7 TP3 4.696 (8.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "RAY",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 1.5444,
+      "stop": 1.448,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        1.739,
+        2.27
+      ],
+      "tp_r": [
+        2.02,
+        7.53
+      ],
+      "risk_pct": 6.24,
+      "score": 8.883959564958959,
+      "facts": [
+        "daily close above the 20-day range high 1.4855 (1 day(s) ago) and holding",
+        "range depth 112% \u2192 measured move ~2.2702",
+        "above the 1H/4H/daily 200MA",
+        "7d: +70.2% vs BTC -3.0% (RS +73.3%)"
+      ],
+      "chart_tf": "4h",
+      "level": 1.4855,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-09-12_RAY.png",
+      "alert": "Market long RAY here at CMP (1.544). No DCA, 4H close under 1.448 for stops, TPs above \u2014 TP1 1.739 (2.0R) \u00b7 TP2 2.27 (7.5R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "TRX",
+      "kind": "sr_flip",
+      "score": 8.83,
+      "entry": 0.33992,
+      "stop": 0.3363
+    },
+    {
+      "symbol": "BERA",
+      "kind": "sr_flip",
+      "score": 8.7,
+      "entry": 0.1913,
+      "stop": 0.1879
+    },
+    {
+      "symbol": "WLFI",
+      "kind": "sr_flip",
+      "score": 8.32,
+      "entry": 0.05796,
+      "stop": 0.05665
+    },
+    {
+      "symbol": "UKOIL",
+      "kind": "ma_retest",
+      "score": 7.85,
+      "entry": 99.94,
+      "stop": 97.08
+    },
+    {
+      "symbol": "SAGA",
+      "kind": "sr_flip",
+      "score": 7.57,
+      "entry": 0.0159,
+      "stop": 0.01549
+    },
+    {
+      "symbol": "BZ",
+      "kind": "ma_retest",
+      "score": 7.18,
+      "entry": 99.78,
+      "stop": 97.07
+    },
+    {
+      "symbol": "USOIL",
+      "kind": "daily_breakout",
+      "score": 6.99,
+      "entry": 95.77,
+      "stop": 92.07
+    }
+  ]
+}
