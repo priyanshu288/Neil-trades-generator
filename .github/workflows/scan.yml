@@ -1,0 +1,45 @@
+name: daily-neil-scan
+
+on:
+  schedule:
+    # 12:30 UTC = 6:00 PM IST = 8:30 AM New York (EDT). One hour before the US cash open
+    # while EDT applies; adjust to "30 13 * * *" after the US switches to EST in November.
+    - cron: "30 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r scanner/requirements.txt
+
+      - name: Run scanner
+        run: python scanner/scan.py -v 2>&1 | tail -n 200
+
+      - name: Commit results
+        run: |
+          git config user.name "neil-scanner-bot"
+          git config user.email "neil-scanner-bot@users.noreply.github.com"
+          git add output/
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "scan $(date -u +%Y-%m-%d) [skip ci]"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
