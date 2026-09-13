@@ -129,9 +129,18 @@ def gate_universe() -> dict[str, Instrument]:
     return out
 
 
+# Same coin listed under a different ticker on another venue.
+ALIASES = {
+    "FILECOIN": "FIL", "BITCOIN": "BTC", "ETHEREUM": "ETH", "SOLANA": "SOL", "RIPPLE": "XRP",
+    "DOGECOIN": "DOGE", "CARDANO": "ADA", "POLKADOT": "DOT", "CHAINLINK": "LINK",
+    "AVALANCHE": "AVAX", "LITECOIN": "LTC", "POLYGON": "POL", "MATIC": "POL",
+    "TONCOIN": "TON", "MONERO": "XMR", "ZCASH": "ZEC", "WORLDCOIN": "WLD",
+}
+
+
 def _norm_base(base: str) -> str:
-    """Map 1000PEPE / kPEPE style names onto the plain coin name."""
-    b = base.upper()
+    """Map 1000PEPE / kPEPE / full-name style tickers onto the plain coin name."""
+    b = ALIASES.get(base.upper(), base.upper())
     for pref in ("1000000", "100000", "10000", "1000"):
         if b.startswith(pref) and len(b) > len(pref):
             return b[len(pref):]

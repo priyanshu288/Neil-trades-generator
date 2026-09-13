@@ -229,6 +229,8 @@ class Pack:
         if below:
             f.append("still under the " + "/".join(below) + " 200MA")
         f.append(f"7d: {self.ret7*100:+.1f}% vs BTC {self.btc7*100:+.1f}% (RS {self.rs7*100:+.1f}%)")
+        if self.ret7 > 0.60:
+            f.append(f"already {self.ret7*100:.0f}% up on the week — extended, size down or wait for a deeper pullback")
         return f
 
 
@@ -242,6 +244,9 @@ def _common_score(p: Pack) -> float:
         s += 0.6
     s += max(-1.5, min(2.0, p.rs7 * 10))           # relative strength
     s += min(1.0, math.log10(max(p.usd_vol, 1e6) / 1e6) * 0.4)  # liquidity
+    # Neil buys retests and higher lows, not blow-off tops: fade anything already parabolic
+    if p.ret7 > 0.60:
+        s -= min(3.0, (p.ret7 - 0.60) * 4)
     return s
 
 
@@ -288,6 +293,9 @@ def detect_sr_flip(p: Pack) -> Optional[Setup]:
         # retest: some low since reclaim came within 1.5% of the level
         touch = (low[r0:] <= lvl * 1.015).any()
         touches_before = int(((high[max(0, i - 60):i] >= lvl * 0.985) & (high[max(0, i - 60):i] <= lvl * 1.015)).sum())
+        # a level price never traded into before is not a level — it is just a pivot high
+        if touches_before < 1:
+            continue
         freshness = n - r0
         sc = 2.0 + (1.0 if touch else 0.0) + min(1.5, touches_before * 0.3) + max(0, 1.2 - freshness * 0.08)
         vol_ratio = float(df["volume"].iloc[r0] / max(df["volume"].iloc[r0 - 20:r0].mean(), 1e-9))
