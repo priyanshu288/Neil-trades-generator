@@ -1,166 +1,167 @@
 {
   "date": "2026-09-13",
-  "generated_utc": "2026-09-13T15:01:44+00:00",
-  "universe_size": 134,
-  "scanned": 133,
+  "generated_utc": "2026-09-13T15:14:02+00:00",
+  "universe_size": 132,
+  "scanned": 131,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": true,
-    "change_3d_pct": -0.04,
-    "last": 77188.0
+    "change_3d_pct": -0.17,
+    "last": 77087.4
   },
   "setups": [
-    {
-      "symbol": "VTHO",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 0.0008113,
-      "stop": 0.0007898,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.00085,
-        0.000891,
-        0.0009211
-      ],
-      "tp_r": [
-        1.8,
-        3.71,
-        5.11
-      ],
-      "risk_pct": 2.65,
-      "score": 9.382476916327048,
-      "facts": [
-        "4H closed above the 0.0007994 resistance 3 bars ago and is holding above it, low already retested the level",
-        "level rejected price 0x before the flip",
-        "reclaim bar volume 1.9x the 20-bar average",
-        "above the 1H/4H/daily 200MA",
-        "7d: +92.3% vs BTC -3.3% (RS +95.5%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.0007994,
-      "source": "gate",
-      "extra": {},
-      "chart": "output/charts/2026-09-13_VTHO.png",
-      "alert": "Market long VTHO here at CMP (0.0008113). No DCA, 4H close under 0.0007898 for stops, TPs above \u2014 TP1 0.00085 (1.8R) \u00b7 TP2 0.000891 (3.7R) \u00b7 TP3 0.0009211 (5.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
     {
       "symbol": "FIL",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.9152,
+      "entry": 0.9177,
       "stop": 0.8592,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.995,
+        1.027,
         1.107,
         1.321
       ],
       "tp_r": [
-        1.42,
-        3.42,
-        7.25
+        1.87,
+        3.24,
+        6.89
       ],
-      "risk_pct": 6.12,
-      "score": 8.948419160425871,
+      "risk_pct": 6.37,
+      "score": 9.007927014160794,
       "facts": [
         "daily close above the 20-day range high 0.8813 (0 day(s) ago) and holding",
         "range depth 37% \u2192 measured move ~1.1177",
         "above the 1H/4H/daily 200MA",
-        "7d: +15.0% vs BTC -3.3% (RS +18.2%)"
+        "7d: +15.3% vs BTC -3.4% (RS +18.7%)"
       ],
       "chart_tf": "4h",
       "level": 0.8813,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-13_FIL.png",
-      "alert": "Market long FIL here at CMP (0.9152). No DCA, 4H close under 0.8592 for stops, TPs above \u2014 TP1 0.995 (1.4R) \u00b7 TP2 1.107 (3.4R) \u00b7 TP3 1.321 (7.2R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long FIL here at CMP (0.9177). No DCA, 4H close under 0.8592 for stops, TPs above \u2014 TP1 1.027 (1.9R) \u00b7 TP2 1.107 (3.2R) \u00b7 TP3 1.321 (6.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     },
     {
-      "symbol": "VVV",
-      "kind": "ma_retest",
-      "label": "1H 200MA first retest",
-      "entry": 21.862,
-      "stop": 21.21,
-      "stop_tf": "1H",
+      "symbol": "RAY",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 1.4797,
+      "stop": 1.448,
+      "stop_tf": "4H",
       "dca": null,
       "tps": [
-        23.03,
-        24.69,
-        25.7
+        1.536,
+        1.581,
+        1.739
+      ],
+      "tp_r": [
+        1.78,
+        3.2,
+        8.18
+      ],
+      "risk_pct": 2.14,
+      "score": 8.531831289985652,
+      "facts": [
+        "daily close above the 20-day range high 1.4855 (2 day(s) ago) and holding",
+        "range depth 112% \u2192 measured move ~2.2702",
+        "above the 1H/4H/daily 200MA",
+        "7d: +18.3% vs BTC -3.4% (RS +21.7%)"
+      ],
+      "chart_tf": "4h",
+      "level": 1.4855,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-09-13_RAY.png",
+      "alert": "Market long RAY here at CMP (1.48). No DCA, 4H close under 1.448 for stops, TPs above \u2014 TP1 1.536 (1.8R) \u00b7 TP2 1.581 (3.2R) \u00b7 TP3 1.739 (8.2R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    },
+    {
+      "symbol": "API3",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.248,
+      "stop": 0.2418,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.2591,
+        0.2759,
+        0.29
       ],
       "tp_r": [
         1.79,
-        4.34,
-        5.89
+        4.5,
+        6.77
       ],
-      "risk_pct": 2.98,
-      "score": 8.780588478709022,
+      "risk_pct": 2.5,
+      "score": 8.528903886205594,
       "facts": [
-        "first tap of the rising 1H 200MA (21.5408) after a 35% extension above it",
-        "impulse high at 27.092 is the natural first target",
+        "4H closed above the 0.2448 resistance 4 bars ago and is holding above it, low already retested the level",
+        "level rejected price 3x before the flip",
+        "reclaim bar volume 3.2x the 20-bar average",
         "above the 1H/4H 200MA",
-        "7d: +28.6% vs BTC -3.3% (RS +31.9%)"
+        "still under the daily 200MA",
+        "7d: +5.8% vs BTC -3.4% (RS +9.2%)"
       ],
-      "chart_tf": "1h",
-      "level": 21.540755,
+      "chart_tf": "4h",
+      "level": 0.2448,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-09-13_VVV.png",
-      "alert": "Market long VVV here at CMP (21.86). No DCA, 1H close under 21.21 for stops, TPs above \u2014 TP1 23.03 (1.8R) \u00b7 TP2 24.69 (4.3R) \u00b7 TP3 25.7 (5.9R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
+      "chart": "output/charts/2026-09-13_API3.png",
+      "alert": "Market long API3 here at CMP (0.248). No DCA, 4H close under 0.2418 for stops, TPs above \u2014 TP1 0.2591 (1.8R) \u00b7 TP2 0.2759 (4.5R) \u00b7 TP3 0.29 (6.8R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     }
   ],
   "watchlist": [
     {
-      "symbol": "RAY",
-      "kind": "daily_breakout",
-      "score": 8.53,
-      "entry": 1.4959,
-      "stop": 1.448
-    },
-    {
-      "symbol": "FILECOIN",
-      "kind": "daily_breakout",
-      "score": 8.47,
-      "entry": 0.9109,
-      "stop": 0.8587
-    },
-    {
-      "symbol": "GLM",
-      "kind": "daily_breakout",
-      "score": 8.24,
-      "entry": 0.12331,
-      "stop": 0.113
+      "symbol": "VVV",
+      "kind": "ma_retest",
+      "score": 8.28,
+      "entry": 21.642,
+      "stop": 21.21
     },
     {
       "symbol": "MINA",
       "kind": "daily_breakout",
       "score": 8.23,
-      "entry": 0.09803,
+      "entry": 0.09833,
       "stop": 0.09536
     },
     {
       "symbol": "TRX",
       "kind": "sr_flip",
-      "score": 8.2,
-      "entry": 0.34074,
+      "score": 8.22,
+      "entry": 0.34083,
       "stop": 0.3363
     },
     {
-      "symbol": "ZRX",
-      "kind": "sr_flip",
-      "score": 8.15,
-      "entry": 0.11191,
-      "stop": 0.1091
+      "symbol": "GLM",
+      "kind": "daily_breakout",
+      "score": 8.08,
+      "entry": 0.12132,
+      "stop": 0.113
     },
     {
       "symbol": "ETH",
       "kind": "sr_flip",
       "score": 7.99,
-      "entry": 2491.41,
+      "entry": 2486.57,
       "stop": 2459.0
+    },
+    {
+      "symbol": "ETHFI",
+      "kind": "daily_breakout",
+      "score": 7.91,
+      "entry": 0.6478,
+      "stop": 0.6404
+    },
+    {
+      "symbol": "ME",
+      "kind": "sr_flip",
+      "score": 7.83,
+      "entry": 0.06718,
+      "stop": 0.06576
     }
   ]
 }
