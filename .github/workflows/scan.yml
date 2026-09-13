@@ -2,9 +2,14 @@ name: daily-neil-scan
 
 on:
   schedule:
-    # 12:30 UTC = 6:00 PM IST = 8:30 AM New York (EDT). One hour before the US cash open
-    # while EDT applies; adjust to "30 13 * * *" after the US switches to EST in November.
-    - cron: "30 12 * * *"
+    # Two slots ~12:10 and ~12:45 UTC (5:40 / 6:15 PM IST, 8:10 / 8:45 AM New York in EDT),
+    # both before the 13:30 UTC US cash open. GitHub's cron is best-effort: runs at :00/:30
+    # are often delayed or dropped under load, so off-peak minutes plus a second slot give
+    # the daily Claude task (13:12 UTC) a much better chance of finding fresh data.
+    # After the US switches to EST in November, shift both an hour later if you want the
+    # same distance from the open.
+    - cron: "11 12 * * *"
+    - cron: "46 12 * * *"
   workflow_dispatch:
 
 permissions:
