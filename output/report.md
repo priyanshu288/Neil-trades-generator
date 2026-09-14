@@ -1,59 +1,59 @@
-# Neil-style setups — 2026-09-13
+# Neil-style setups — 2026-09-14
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -0.2%)
+**BTC context:** BTC above its 4H 50/200MA — alts have a tailwind. (3d +2.2%)
 
-Scanned 131 USDT perps; 23 raw setups; showing top 3.
+Scanned 153 USDT perps; 25 raw setups; showing top 3.
 
-## 1. FIL — Daily range breakout  (score 9.0)
+## 1. SOXS — 4H SR flip / retest  (score 10.4)
 
-> Market long FIL here at CMP (0.9177). No DCA, 4H close under 0.8592 for stops, TPs above — TP1 1.027 (1.9R) · TP2 1.107 (3.2R) · TP3 1.321 (6.9R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long SOXS here at CMP (50.68). No DCA, 4H close under 49.32 for stops, TPs above — TP1 52.79 (1.6R) · TP2 54.67 (2.9R) · TP3 60.45 (7.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 6.37% · TP1 1.9R · TP2 3.2R · TP3 6.9R
-
-Why it qualifies:
-- daily close above the 20-day range high 0.8813 (0 day(s) ago) and holding
-- range depth 37% → measured move ~1.1177
-- above the 1H/4H/daily 200MA
-- 7d: +15.3% vs BTC -3.4% (RS +18.7%)
-
-![chart](output/charts/2026-09-13_FIL.png)
-
-## 2. RAY — Daily range breakout  (score 8.5)
-
-> Market long RAY here at CMP (1.48). No DCA, 4H close under 1.448 for stops, TPs above — TP1 1.536 (1.8R) · TP2 1.581 (3.2R) · TP3 1.739 (8.2R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
-
-Risk to stop: 2.14% · TP1 1.8R · TP2 3.2R · TP3 8.2R
+Risk to stop: 2.68% · TP1 1.6R · TP2 2.9R · TP3 7.2R
 
 Why it qualifies:
-- daily close above the 20-day range high 1.4855 (2 day(s) ago) and holding
-- range depth 112% → measured move ~2.2702
-- above the 1H/4H/daily 200MA
-- 7d: +18.3% vs BTC -3.4% (RS +21.7%)
-
-![chart](output/charts/2026-09-13_RAY.png)
-
-## 3. API3 — 4H SR flip / retest  (score 8.5)
-
-> Market long API3 here at CMP (0.248). No DCA, 4H close under 0.2418 for stops, TPs above — TP1 0.2591 (1.8R) · TP2 0.2759 (4.5R) · TP3 0.29 (6.8R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 2.50% · TP1 1.8R · TP2 4.5R · TP3 6.8R
-
-Why it qualifies:
-- 4H closed above the 0.2448 resistance 4 bars ago and is holding above it, low already retested the level
-- level rejected price 3x before the flip
-- reclaim bar volume 3.2x the 20-bar average
+- 4H closed above the 49.92 resistance 3 bars ago and is holding above it, low already retested the level
+- level rejected price 5x before the flip
+- reclaim bar volume 3.6x the 20-bar average
 - above the 1H/4H 200MA
-- still under the daily 200MA
-- 7d: +5.8% vs BTC -3.4% (RS +9.2%)
+- 7d: +16.8% vs BTC -0.2% (RS +17.0%)
 
-![chart](output/charts/2026-09-13_API3.png)
+![chart](output/charts/2026-09-14_SOXS.png)
+
+## 2. MSFTSTOCK — 4H SR flip / retest  (score 9.5)
+
+> Market long MSFTSTOCK here at CMP (509.21). No DCA, 4H close under 497.3 for stops, TPs above — TP1 530.6 (1.8R) · TP2 547.3 (3.2R) · TP3 567.5 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 2.34% · TP1 1.8R · TP2 3.2R · TP3 4.9R
+
+Why it qualifies:
+- 4H closed above the 503.38 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 36x before the flip
+- reclaim bar volume 7.3x the 20-bar average
+- above the 1H/4H/daily 200MA
+- 7d: +2.3% vs BTC -0.2% (RS +2.5%)
+
+![chart](output/charts/2026-09-14_MSFTSTOCK.png)
+
+## 3. VET — 1H 200MA first retest  (score 7.7)
+
+> Market long VET here at CMP (0.007731). No DCA, 1H close under 0.007467 for stops, TPs above — TP1 0.008151 (1.6R) · TP2 0.008945 (4.6R) · TP3 0.009314 (6.0R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+
+Risk to stop: 3.41% · TP1 1.6R · TP2 4.6R · TP3 6.0R
+
+Why it qualifies:
+- first tap of the rising 1H 200MA (0.0075817) after a 7% extension above it
+- impulse high at 0.008121 is the natural first target
+- above the 1H/4H/daily 200MA
+- 7d: +7.8% vs BTC -0.2% (RS +8.0%)
+
+![chart](output/charts/2026-09-14_VET.png)
 
 ## Watchlist (next in line)
 
-- VVV — ma_retest (score 8.28)
-- MINA — daily_breakout (score 8.23)
-- TRX — sr_flip (score 8.22)
-- GLM — daily_breakout (score 8.08)
-- ETH — sr_flip (score 7.99)
-- ETHFI — daily_breakout (score 7.91)
-- ME — sr_flip (score 7.83)
+- SPCXSTOCK — sr_flip (score 9.05)
+- IOTA — sr_flip (score 8.83)
+- ZIL — sr_flip (score 8.4)
+- API3 — sr_flip (score 7.78)
+- VET — ma_retest (score 7.73)
+- PENDLE — daily_breakout (score 7.69)
+- QNT — sr_flip (score 7.16)
