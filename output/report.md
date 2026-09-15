@@ -1,59 +1,59 @@
-# Neil-style setups — 2026-09-14
+# Neil-style setups — 2026-09-15
 
-**BTC context:** BTC above its 4H 50/200MA — alts have a tailwind. (3d +2.1%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -0.9%)
 
-Scanned 154 USDT perps; 24 raw setups; showing top 3.
+Scanned 149 USDT perps; 13 raw setups; showing top 3.
 
-## 1. SOXS — 4H SR flip / retest  (score 10.4)
+## 1. XLM — 4H SR flip / retest  (score 9.1)
 
-> Market long SOXS here at CMP (50.58). No DCA, 4H close under 49.32 for stops, TPs above — TP1 52.79 (1.8R) · TP2 54.67 (3.2R) · TP3 60.45 (7.8R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long XLM here at CMP (0.19021). No DCA, 4H close under 0.1874 for stops, TPs above — TP1 0.1964 (2.2R) · TP2 0.2013 (4.0R) · TP3 0.2119 (7.7R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.49% · TP1 1.8R · TP2 3.2R · TP3 7.8R
+Risk to stop: 1.48% · TP1 2.2R · TP2 4.0R · TP3 7.7R
 
 Why it qualifies:
-- 4H closed above the 49.92 resistance 3 bars ago and is holding above it, low already retested the level
+- 4H closed above the 0.18973 resistance 8 bars ago and is holding above it, low already retested the level
 - level rejected price 5x before the flip
-- reclaim bar volume 3.6x the 20-bar average
-- above the 1H/4H 200MA
-- 7d: +16.5% vs BTC -0.3% (RS +16.8%)
+- reclaim bar volume 4.3x the 20-bar average
+- above the 1H/4H/daily 200MA
+- 7d: +1.4% vs BTC -2.6% (RS +3.9%)
 
-![chart](output/charts/2026-09-14_SOXS.png)
+![chart](output/charts/2026-09-15_XLM.png)
 
-## 2. MSFTSTOCK — 4H SR flip / retest  (score 9.5)
+## 2. MSFTSTOCK — 4H SR flip / retest  (score 8.8)
 
-> Market long MSFTSTOCK here at CMP (508.58). No DCA, 4H close under 497.3 for stops, TPs above — TP1 528.8 (1.8R) · TP2 544.6 (3.2R) · TP3 563.8 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long MSFTSTOCK here at CMP (501.32). No DCA, 4H close under 493.1 for stops, TPs above — TP1 515.3 (1.7R) · TP2 527.6 (3.2R) · TP3 541.5 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.22% · TP1 1.8R · TP2 3.2R · TP3 4.9R
+Risk to stop: 1.64% · TP1 1.7R · TP2 3.2R · TP3 4.9R
 
 Why it qualifies:
-- 4H closed above the 503.38 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 36x before the flip
+- 4H closed above the 499.12 resistance 8 bars ago and is holding above it, low already retested the level
+- level rejected price 53x before the flip
 - reclaim bar volume 7.3x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +2.2% vs BTC -0.3% (RS +2.5%)
+- 7d: +1.6% vs BTC -2.6% (RS +4.1%)
 
-![chart](output/charts/2026-09-14_MSFTSTOCK.png)
+![chart](output/charts/2026-09-15_MSFTSTOCK.png)
 
-## 3. VET — 1H 200MA first retest  (score 7.8)
+## 3. SAGA — Daily range breakout  (score 8.6)
 
-> Market long VET here at CMP (0.007769). No DCA, 1H close under 0.007468 for stops, TPs above — TP1 0.008431 (2.2R) · TP2 0.008945 (3.9R) · TP3 0.009366 (5.3R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+> Market long SAGA here at CMP (0.02183). No DCA, 4H close under 0.01969 for stops, TPs above — TP1 0.02631 (2.1R) · TP2 0.03157 (4.5R) · TP3 0.03554 (6.4R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 3.87% · TP1 2.2R · TP2 3.9R · TP3 5.3R
+Risk to stop: 9.80% · TP1 2.1R · TP2 4.5R · TP3 6.4R
 
 Why it qualifies:
-- first tap of the rising 1H 200MA (0.00758189) after a 7% extension above it
-- impulse high at 0.008121 is the natural first target
+- daily close above the 20-day range high 0.0202 (0 day(s) ago) and holding
+- range depth 58% → measured move ~0.02764
 - above the 1H/4H/daily 200MA
-- 7d: +8.3% vs BTC -0.3% (RS +8.6%)
+- 7d: +48.2% vs BTC -2.6% (RS +50.8%)
 
-![chart](output/charts/2026-09-14_VET.png)
+![chart](output/charts/2026-09-15_SAGA.png)
 
 ## Watchlist (next in line)
 
-- SPCXSTOCK — sr_flip (score 9.05)
-- IOTA — sr_flip (score 8.84)
-- VET — ma_retest (score 7.79)
-- API3 — sr_flip (score 7.78)
-- PENDLE — daily_breakout (score 7.69)
-- QNT — sr_flip (score 7.14)
-- LTC — compression (score 6.01)
+- FIL — ma_retest (score 8.33)
+- PENDLE — sr_flip (score 8.23)
+- NOT — sr_flip (score 8.06)
+- ZIL — sr_flip (score 6.95)
+- MSTRSTOCK — sr_flip (score 6.67)
+- AVAX — sr_flip (score 6.01)
+- JTO — range_low (score 3.48)
