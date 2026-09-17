@@ -1,59 +1,59 @@
-# Neil-style setups — 2026-09-16
+# Neil-style setups — 2026-09-17
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -2.0%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -3.0%)
 
-Scanned 152 USDT perps; 19 raw setups; showing top 3.
+Scanned 167 USDT perps; 45 raw setups; showing top 3.
 
-## 1. SPCX — 4H SR flip / retest  (score 9.4)
+## 1. PEPE — 4H SR flip / retest  (score 10.6)
 
-> Market long SPCX here at CMP (150.88). No DCA, 4H close under 147.4 for stops, TPs above — TP1 157.1 (1.8R) · TP2 167.9 (4.9R) · TP3 176.3 (7.3R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long PEPE here at CMP (3.6286e-06). No DCA, 4H close under 3.55e-06 for stops, TPs above — TP1 3.821e-06 (2.5R) · TP2 4.001e-06 (4.7R) · TP3 4.139e-06 (6.5R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.31% · TP1 1.8R · TP2 4.9R · TP3 7.3R
-
-Why it qualifies:
-- 4H closed above the 149.23 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 48x before the flip
-- reclaim bar volume 7.7x the 20-bar average
-- above the 1H/4H 200MA
-- 7d: +2.5% vs BTC -3.2% (RS +5.7%)
-
-![chart](output/charts/2026-09-16_SPCX.png)
-
-## 2. AMDSTOCK — 4H SR flip / retest  (score 9.3)
-
-> Market long AMDSTOCK here at CMP (523.94). No DCA, 4H close under 514.8 for stops, TPs above — TP1 540.3 (1.8R) · TP2 560.6 (4.0R) · TP3 572.6 (5.3R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 1.74% · TP1 1.8R · TP2 4.0R · TP3 5.3R
+Risk to stop: 2.17% · TP1 2.5R · TP2 4.7R · TP3 6.5R
 
 Why it qualifies:
-- 4H closed above the 521.12 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 7x before the flip
-- reclaim bar volume 5.6x the 20-bar average
+- 4H closed above the 3.5939e-06 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 13x before the flip
+- reclaim bar volume 1.8x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +0.6% vs BTC -3.2% (RS +3.8%)
+- 7d: +12.2% vs BTC +0.1% (RS +12.2%)
 
-![chart](output/charts/2026-09-16_AMDSTOCK.png)
+![chart](output/charts/2026-09-17_PEPE.png)
 
-## 3. PENDLE — 1H 200MA first retest  (score 7.8)
+## 2. PEOPLE — 4H SR flip / retest  (score 10.2)
 
-> Market long PENDLE here at CMP (2.156). No DCA, 1H close under 2.118 for stops, TPs above — TP1 2.22 (1.7R) · TP2 2.275 (3.1R) · TP3 2.331 (4.6R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+> Market long PEOPLE here at CMP (0.008337). No DCA, 4H close under 0.008146 for stops, TPs above — TP1 0.00883 (2.6R) · TP2 0.009104 (4.0R) · TP3 0.009561 (6.4R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 1.76% · TP1 1.7R · TP2 3.1R · TP3 4.6R
+Risk to stop: 2.29% · TP1 2.6R · TP2 4.0R · TP3 6.4R
 
 Why it qualifies:
-- first tap of the rising 1H 200MA (2.15075) after a 14% extension above it
-- impulse high at 2.464 is the natural first target
+- 4H closed above the 0.008245 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 16x before the flip
+- reclaim bar volume 1.9x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +7.6% vs BTC -3.2% (RS +10.8%)
+- 7d: +13.2% vs BTC +0.1% (RS +13.1%)
 
-![chart](output/charts/2026-09-16_PENDLE.png)
+![chart](output/charts/2026-09-17_PEOPLE.png)
+
+## 3. UNI — Daily range breakout  (score 9.4)
+
+> Market long UNI here at CMP (7.589). No DCA, 4H close under 7.294 for stops, TPs above — TP1 8.12 (1.8R) · TP2 8.533 (3.2R) · TP3 10.62 (10.3R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 3.89% · TP1 1.8R · TP2 3.2R · TP3 10.3R
+
+Why it qualifies:
+- daily close above the 20-day range high 7.482 (0 day(s) ago) and holding
+- range depth 72% → measured move ~10.62
+- above the 1H/4H/daily 200MA
+- 7d: +27.6% vs BTC +0.1% (RS +27.5%)
+
+![chart](output/charts/2026-09-17_UNI.png)
 
 ## Watchlist (next in line)
 
-- DELL — sr_flip (score 9.18)
-- DELLSTOCK — sr_flip (score 9.17)
-- MRVL — sr_flip (score 8.44)
-- PENDLE — ma_retest (score 7.75)
-- AXTI — sr_flip (score 6.66)
-- SILVER — sr_flip (score 6.3)
-- NBIS — sr_flip (score 5.54)
+- 0G — sr_flip (score 9.59)
+- MUSTOCK — sr_flip (score 9.51)
+- LIT — sr_flip (score 9.44)
+- UNI — daily_breakout (score 9.36)
+- MRVLSTOCK — sr_flip (score 8.98)
+- POL — sr_flip (score 8.92)
+- MOODENG — sr_flip (score 8.88)
