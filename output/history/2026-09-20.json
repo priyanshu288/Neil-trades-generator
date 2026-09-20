@@ -1,167 +1,166 @@
 {
   "date": "2026-09-20",
-  "generated_utc": "2026-09-20T16:02:47+00:00",
-  "universe_size": 142,
-  "scanned": 142,
+  "generated_utc": "2026-09-20T16:33:34+00:00",
+  "universe_size": 143,
+  "scanned": 143,
   "btc": {
     "trend": "up",
     "note": "BTC above its 4H 50/200MA \u2014 alts have a tailwind.",
     "above_4h_200": true,
-    "change_3d_pct": 5.64,
-    "last": 80872.9
+    "change_3d_pct": 6.01,
+    "last": 81155.9
   },
   "setups": [
     {
       "symbol": "ALLO",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.24973,
+      "entry": 0.24843,
       "stop": 0.2463,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.2546,
+        0.2542,
         0.2604,
-        0.2721
+        0.2646
       ],
       "tp_r": [
-        1.42,
-        3.11,
-        6.52
+        2.71,
+        5.62,
+        7.59
       ],
-      "risk_pct": 1.37,
-      "score": 10.443932284847477,
+      "risk_pct": 0.86,
+      "score": 10.345142336197148,
       "facts": [
         "4H closed above the 0.24934 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 18x before the flip",
         "reclaim bar volume 2.0x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +15.0% vs BTC +5.3% (RS +9.7%)"
+        "7d: +14.4% vs BTC +5.7% (RS +8.7%)"
       ],
       "chart_tf": "4h",
       "level": 0.24934,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-20_ALLO.png",
-      "alert": "Market long ALLO here at CMP (0.24973). No DCA, 4H close under 0.2463 for stops, TPs above \u2014 TP1 0.2546 (1.4R) \u00b7 TP2 0.2604 (3.1R) \u00b7 TP3 0.2721 (6.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "JTO",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 0.4823,
-      "stop": 0.4775,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.4909,
-        0.5005,
-        0.516
-      ],
-      "tp_r": [
-        1.79,
-        3.79,
-        7.02
-      ],
-      "risk_pct": 1.0,
-      "score": 10.203662248942106,
-      "facts": [
-        "4H closed above the 0.4834 resistance 5 bars ago and is holding above it, low already retested the level",
-        "level rejected price 7x before the flip",
-        "reclaim bar volume 2.8x the 20-bar average",
-        "above the 1H/4H/daily 200MA",
-        "7d: +15.2% vs BTC +5.3% (RS +9.9%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.4834,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-09-20_JTO.png",
-      "alert": "Market long JTO here at CMP (0.4823). No DCA, 4H close under 0.4775 for stops, TPs above \u2014 TP1 0.4909 (1.8R) \u00b7 TP2 0.5005 (3.8R) \u00b7 TP3 0.516 (7.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "ENA",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 0.20402,
-      "stop": 0.1841,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.243,
-        0.2708,
-        0.3016
-      ],
-      "tp_r": [
-        1.96,
-        3.35,
-        4.9
-      ],
-      "risk_pct": 9.76,
-      "score": 9.440727847822536,
-      "facts": [
-        "daily close above the 20-day range high 0.18885 (1 day(s) ago) and holding",
-        "range depth 40% \u2192 measured move ~0.24309",
-        "above the 1H/4H/daily 200MA",
-        "7d: +50.0% vs BTC +5.3% (RS +44.7%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.18885,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-09-20_ENA.png",
-      "alert": "Market long ENA here at CMP (0.20402). No DCA, 4H close under 0.1841 for stops, TPs above \u2014 TP1 0.243 (2.0R) \u00b7 TP2 0.2708 (3.4R) \u00b7 TP3 0.3016 (4.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
-    }
-  ],
-  "watchlist": [
-    {
-      "symbol": "SOL",
-      "kind": "sr_flip",
-      "score": 9.4,
-      "entry": 108.62,
-      "stop": 106.1
-    },
-    {
-      "symbol": "CETUS",
-      "kind": "sr_flip",
-      "score": 9.38,
-      "entry": 0.0239,
-      "stop": 0.02331
+      "alert": "Market long ALLO here at CMP (0.24843). No DCA, 4H close under 0.2463 for stops, TPs above \u2014 TP1 0.2542 (2.7R) \u00b7 TP2 0.2604 (5.6R) \u00b7 TP3 0.2646 (7.6R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "ARB",
       "kind": "daily_breakout",
-      "score": 9.17,
-      "entry": 0.20397,
-      "stop": 0.201
+      "label": "Daily range breakout",
+      "entry": 0.20807,
+      "stop": 0.201,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.2192,
+        0.2298,
+        0.2427
+      ],
+      "tp_r": [
+        1.57,
+        3.07,
+        4.9
+      ],
+      "risk_pct": 3.4,
+      "score": 9.17355881307403,
+      "facts": [
+        "daily close above the 20-day range high 0.20625 (2 day(s) ago) and holding",
+        "range depth 148% \u2192 measured move ~0.32948",
+        "above the 1H/4H/daily 200MA",
+        "7d: +56.6% vs BTC +5.7% (RS +50.9%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.20625,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-09-20_ARB.png",
+      "alert": "Market long ARB here at CMP (0.20807). No DCA, 4H close under 0.201 for stops, TPs above \u2014 TP1 0.2192 (1.6R) \u00b7 TP2 0.2298 (3.1R) \u00b7 TP3 0.2427 (4.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    },
+    {
+      "symbol": "SUI",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 0.858,
+      "stop": 0.8233,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.9143,
+        0.9567,
+        1.021
+      ],
+      "tp_r": [
+        1.62,
+        2.84,
+        4.7
+      ],
+      "risk_pct": 4.04,
+      "score": 9.092760106696808,
+      "facts": [
+        "daily close above the 20-day range high 0.8445 (1 day(s) ago) and holding",
+        "range depth 26% \u2192 measured move ~1.0174",
+        "above the 1H/4H/daily 200MA",
+        "7d: +22.4% vs BTC +5.7% (RS +16.7%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.8445,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-09-20_SUI.png",
+      "alert": "Market long SUI here at CMP (0.858). No DCA, 4H close under 0.8233 for stops, TPs above \u2014 TP1 0.9143 (1.6R) \u00b7 TP2 0.9567 (2.8R) \u00b7 TP3 1.021 (4.7R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "AAVE",
+      "kind": "sr_flip",
+      "score": 9.07,
+      "entry": 136.9,
+      "stop": 134.5
     },
     {
       "symbol": "ZEC",
       "kind": "daily_breakout",
       "score": 9.05,
-      "entry": 1443.59,
+      "entry": 1448.53,
       "stop": 1364.0
-    },
-    {
-      "symbol": "AAVE",
-      "kind": "sr_flip",
-      "score": 9.02,
-      "entry": 135.81,
-      "stop": 134.5
     },
     {
       "symbol": "TRX",
       "kind": "sr_flip",
-      "score": 9.02,
-      "entry": 0.34439,
+      "score": 8.98,
+      "entry": 0.34415,
       "stop": 0.3399
     },
     {
       "symbol": "BTC",
       "kind": "sr_flip",
       "score": 8.98,
-      "entry": 80872.8,
+      "entry": 81150.6,
       "stop": 79210.0
+    },
+    {
+      "symbol": "ONDO",
+      "kind": "daily_breakout",
+      "score": 8.81,
+      "entry": 0.4239,
+      "stop": 0.3855
+    },
+    {
+      "symbol": "MU",
+      "kind": "sr_flip",
+      "score": 8.79,
+      "entry": 1008.29,
+      "stop": 987.0
+    },
+    {
+      "symbol": "PEPE",
+      "kind": "daily_breakout",
+      "score": 8.76,
+      "entry": 3.974e-06,
+      "stop": 3.793e-06
     }
   ]
 }
