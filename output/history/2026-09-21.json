@@ -1,21 +1,21 @@
 {
   "date": "2026-09-21",
-  "generated_utc": "2026-09-21T18:16:07+00:00",
-  "universe_size": 184,
-  "scanned": 184,
+  "generated_utc": "2026-09-21T18:24:05+00:00",
+  "universe_size": 185,
+  "scanned": 185,
   "btc": {
     "trend": "up",
     "note": "BTC above its 4H 50/200MA \u2014 alts have a tailwind.",
     "above_4h_200": true,
-    "change_3d_pct": 5.91,
-    "last": 85979.9
+    "change_3d_pct": 5.97,
+    "last": 86028.9
   },
   "setups": [
     {
       "symbol": "FARTCOIN",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.1894,
+      "entry": 0.18927,
       "stop": 0.1852,
       "stop_tf": "4H",
       "dca": null,
@@ -25,31 +25,31 @@
         0.2147
       ],
       "tp_r": [
-        2.36,
-        3.4,
-        6.02
+        2.46,
+        3.55,
+        6.25
       ],
-      "risk_pct": 2.22,
-      "score": 10.187138683578503,
+      "risk_pct": 2.15,
+      "score": 10.18753126911082,
       "facts": [
         "4H closed above the 0.18751 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 1x before the flip",
         "reclaim bar volume 1.8x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +31.5% vs BTC +10.0% (RS +21.5%)"
+        "7d: +31.4% vs BTC +10.1% (RS +21.3%)"
       ],
       "chart_tf": "4h",
       "level": 0.18751,
       "source": "mexc",
       "extra": {},
       "chart": "output/charts/2026-09-21_FARTCOIN.png",
-      "alert": "Market long FARTCOIN here at CMP (0.1894). No DCA, 4H close under 0.1852 for stops, TPs above \u2014 TP1 0.1993 (2.4R) \u00b7 TP2 0.2037 (3.4R) \u00b7 TP3 0.2147 (6.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long FARTCOIN here at CMP (0.18927). No DCA, 4H close under 0.1852 for stops, TPs above \u2014 TP1 0.1993 (2.5R) \u00b7 TP2 0.2037 (3.5R) \u00b7 TP3 0.2147 (6.2R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "BCH",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 264.1,
+      "entry": 264.5,
       "stop": 258.4,
       "stop_tf": "4H",
       "dca": null,
@@ -59,110 +59,110 @@
         305.8
       ],
       "tp_r": [
-        1.75,
-        3.77,
-        7.32
+        1.57,
+        3.46,
+        6.77
       ],
-      "risk_pct": 2.16,
-      "score": 9.838425468387443,
+      "risk_pct": 2.31,
+      "score": 9.850527815311963,
       "facts": [
         "4H closed above the 261.6 resistance 3 bars ago and is holding above it, low already retested the level",
         "level rejected price 6x before the flip",
         "reclaim bar volume 2.1x the 20-bar average",
         "above the 1H/4H 200MA",
         "still under the daily 200MA",
-        "7d: +18.4% vs BTC +10.0% (RS +8.4%)"
+        "7d: +18.6% vs BTC +10.1% (RS +8.5%)"
       ],
       "chart_tf": "4h",
       "level": 261.6,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-21_BCH.png",
-      "alert": "Market long BCH here at CMP (264.1). No DCA, 4H close under 258.4 for stops, TPs above \u2014 TP1 274.1 (1.8R) \u00b7 TP2 285.6 (3.8R) \u00b7 TP3 305.8 (7.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long BCH here at CMP (264.5). No DCA, 4H close under 258.4 for stops, TPs above \u2014 TP1 274.1 (1.6R) \u00b7 TP2 285.6 (3.5R) \u00b7 TP3 305.8 (6.8R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "WIF",
+      "symbol": "TAO",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.2415,
-      "stop": 0.2196,
+      "entry": 282.8,
+      "stop": 270.1,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.2778,
-        0.3115,
-        0.3488
+        311.2,
+        333.3,
+        350.3
       ],
       "tp_r": [
-        1.66,
-        3.2,
-        4.9
+        2.24,
+        3.98,
+        5.31
       ],
-      "risk_pct": 9.07,
-      "score": 9.25826712533456,
+      "risk_pct": 4.49,
+      "score": 8.778363303934285,
       "facts": [
-        "daily close above the 20-day range high 0.2253 (0 day(s) ago) and holding",
-        "range depth 30% \u2192 measured move ~0.2778",
+        "daily close above the 20-day range high 277.06 (0 day(s) ago) and holding",
+        "range depth 30% \u2192 measured move ~340.7",
         "above the 1H/4H/daily 200MA",
-        "7d: +28.8% vs BTC +10.0% (RS +18.8%)"
+        "7d: +21.8% vs BTC +10.1% (RS +11.7%)"
       ],
       "chart_tf": "4h",
-      "level": 0.2253,
-      "source": "okx",
+      "level": 277.06,
+      "source": "mexc",
       "extra": {},
-      "chart": "output/charts/2026-09-21_WIF.png",
-      "alert": "Market long WIF here at CMP (0.2415). No DCA, 4H close under 0.2196 for stops, TPs above \u2014 TP1 0.2778 (1.7R) \u00b7 TP2 0.3115 (3.2R) \u00b7 TP3 0.3488 (4.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "chart": "output/charts/2026-09-21_TAO.png",
+      "alert": "Market long TAO here at CMP (282.8). No DCA, 4H close under 270.1 for stops, TPs above \u2014 TP1 311.2 (2.2R) \u00b7 TP2 333.3 (4.0R) \u00b7 TP3 350.3 (5.3R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
       "symbol": "VIRTUAL",
       "kind": "sr_flip",
-      "score": 9.65,
-      "entry": 0.7009,
+      "score": 9.63,
+      "entry": 0.7003,
       "stop": 0.6916
     },
     {
       "symbol": "DOT",
       "kind": "sr_flip",
-      "score": 9.58,
-      "entry": 1.1763,
+      "score": 9.56,
+      "entry": 1.1743,
       "stop": 1.157
-    },
-    {
-      "symbol": "XRP",
-      "kind": "sr_flip",
-      "score": 9.44,
-      "entry": 1.5055,
-      "stop": 1.466
     },
     {
       "symbol": "SKR",
       "kind": "sr_flip",
-      "score": 9.39,
-      "entry": 0.020988,
+      "score": 9.35,
+      "entry": 0.020931,
       "stop": 0.02048
-    },
-    {
-      "symbol": "WIF",
-      "kind": "daily_breakout",
-      "score": 9.26,
-      "entry": 0.2415,
-      "stop": 0.2196
-    },
-    {
-      "symbol": "EIGEN",
-      "kind": "sr_flip",
-      "score": 9.14,
-      "entry": 0.2428,
-      "stop": 0.2394
     },
     {
       "symbol": "LITE",
       "kind": "sr_flip",
-      "score": 9.13,
-      "entry": 956.59,
+      "score": 9.14,
+      "entry": 958.27,
       "stop": 943.7
+    },
+    {
+      "symbol": "EIGEN",
+      "kind": "sr_flip",
+      "score": 9.11,
+      "entry": 0.2424,
+      "stop": 0.2394
+    },
+    {
+      "symbol": "TAO",
+      "kind": "daily_breakout",
+      "score": 8.78,
+      "entry": 282.8,
+      "stop": 270.1
+    },
+    {
+      "symbol": "INTCSTOCK",
+      "kind": "daily_breakout",
+      "score": 8.74,
+      "entry": 121.69,
+      "stop": 109.8
     }
   ]
 }
