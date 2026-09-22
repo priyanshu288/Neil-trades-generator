@@ -1,167 +1,167 @@
 {
   "date": "2026-09-22",
-  "generated_utc": "2026-09-22T16:56:51+00:00",
+  "generated_utc": "2026-09-22T17:22:29+00:00",
   "universe_size": 188,
   "scanned": 187,
   "btc": {
     "trend": "up",
     "note": "BTC above its 4H 50/200MA \u2014 alts have a tailwind.",
     "above_4h_200": true,
-    "change_3d_pct": 6.31,
-    "last": 86473.3
+    "change_3d_pct": 5.99,
+    "last": 86213.4
   },
   "setups": [
     {
       "symbol": "MON",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.02655,
+      "entry": 0.02696,
       "stop": 0.02633,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.0269,
         0.02785,
-        0.02912
+        0.02912,
+        0.03015
       ],
       "tp_r": [
-        1.59,
-        5.91,
-        11.68
+        1.41,
+        3.43,
+        5.06
       ],
-      "risk_pct": 0.83,
-      "score": 10.070708465833928,
+      "risk_pct": 2.34,
+      "score": 10.298852654051705,
       "facts": [
         "4H closed above the 0.02665 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 19x before the flip",
         "reclaim bar volume 2.1x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +22.5% vs BTC +14.4% (RS +8.2%)"
+        "7d: +24.4% vs BTC +14.0% (RS +10.4%)"
       ],
       "chart_tf": "4h",
       "level": 0.02665,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-22_MON.png",
-      "alert": "Market long MON here at CMP (0.02655). No DCA, 4H close under 0.02633 for stops, TPs above \u2014 TP1 0.0269 (1.6R) \u00b7 TP2 0.02785 (5.9R) \u00b7 TP3 0.02912 (11.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long MON here at CMP (0.02696). No DCA, 4H close under 0.02633 for stops, TPs above \u2014 TP1 0.02785 (1.4R) \u00b7 TP2 0.02912 (3.4R) \u00b7 TP3 0.03015 (5.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "PUMP",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.004504,
+      "stop": 0.004396,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.00467,
+        0.004873,
+        0.005123
+      ],
+      "tp_r": [
+        1.54,
+        3.42,
+        5.73
+      ],
+      "risk_pct": 2.4,
+      "score": 10.118930919845532,
+      "facts": [
+        "4H closed above the 0.00445 resistance 4 bars ago and is holding above it, low already retested the level",
+        "level rejected price 4x before the flip",
+        "reclaim bar volume 1.4x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +28.1% vs BTC +14.0% (RS +14.1%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.00445,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-09-22_PUMP.png",
+      "alert": "Market long PUMP here at CMP (0.004504). No DCA, 4H close under 0.004396 for stops, TPs above \u2014 TP1 0.00467 (1.5R) \u00b7 TP2 0.004873 (3.4R) \u00b7 TP3 0.005123 (5.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "PENGU",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.009185,
+      "entry": 0.009425,
       "stop": 0.008901,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.0099,
         0.01035,
-        0.01105
+        0.01105,
+        0.01185
       ],
       "tp_r": [
-        2.52,
-        4.1,
-        6.57
+        1.77,
+        3.1,
+        4.63
       ],
-      "risk_pct": 3.09,
-      "score": 9.48096250432215,
+      "risk_pct": 5.56,
+      "score": 9.506074600278996,
       "facts": [
         "daily close above the 20-day range high 0.00913 (0 day(s) ago) and holding",
         "range depth 37% \u2192 measured move ~0.011596",
         "above the 1H/4H/daily 200MA",
-        "7d: +34.2% vs BTC +14.4% (RS +19.8%)"
+        "7d: +37.7% vs BTC +14.0% (RS +23.6%)"
       ],
       "chart_tf": "4h",
       "level": 0.00913,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-22_PENGU.png",
-      "alert": "Market long PENGU here at CMP (0.009185). No DCA, 4H close under 0.008901 for stops, TPs above \u2014 TP1 0.0099 (2.5R) \u00b7 TP2 0.01035 (4.1R) \u00b7 TP3 0.01105 (6.6R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
-    },
-    {
-      "symbol": "VIRTUAL",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 0.7282,
-      "stop": 0.7103,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.7571,
-        0.7819,
-        0.8225
-      ],
-      "tp_r": [
-        1.61,
-        3.0,
-        5.27
-      ],
-      "risk_pct": 2.46,
-      "score": 9.429205428985632,
-      "facts": [
-        "4H closed above the 0.719 resistance 6 bars ago and is holding above it, low already retested the level",
-        "level rejected price 8x before the flip",
-        "reclaim bar volume 0.9x the 20-bar average",
-        "above the 1H/4H/daily 200MA",
-        "7d: +24.5% vs BTC +14.4% (RS +10.1%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.719,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-09-22_VIRTUAL.png",
-      "alert": "Market long VIRTUAL here at CMP (0.7282). No DCA, 4H close under 0.7103 for stops, TPs above \u2014 TP1 0.7571 (1.6R) \u00b7 TP2 0.7819 (3.0R) \u00b7 TP3 0.8225 (5.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long PENGU here at CMP (0.009425). No DCA, 4H close under 0.008901 for stops, TPs above \u2014 TP1 0.01035 (1.8R) \u00b7 TP2 0.01105 (3.1R) \u00b7 TP3 0.01185 (4.6R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "FET",
-      "kind": "daily_breakout",
-      "score": 9.08,
-      "entry": 0.2041,
-      "stop": 0.1853
+      "symbol": "LINK",
+      "kind": "sr_flip",
+      "score": 9.68,
+      "entry": 13.008,
+      "stop": 12.66
     },
     {
-      "symbol": "FARTCOIN",
+      "symbol": "PENGU",
       "kind": "daily_breakout",
-      "score": 9.05,
-      "entry": 0.2021,
-      "stop": 0.1829
+      "score": 9.51,
+      "entry": 0.009425,
+      "stop": 0.008901
+    },
+    {
+      "symbol": "APT",
+      "kind": "daily_breakout",
+      "score": 9.07,
+      "entry": 0.7756,
+      "stop": 0.7645
+    },
+    {
+      "symbol": "FET",
+      "kind": "daily_breakout",
+      "score": 9.07,
+      "entry": 0.204,
+      "stop": 0.1853
     },
     {
       "symbol": "AERO",
       "kind": "sr_flip",
-      "score": 9.03,
-      "entry": 0.6815,
+      "score": 9.06,
+      "entry": 0.6812,
       "stop": 0.6675
     },
     {
-      "symbol": "SKHY",
-      "kind": "sr_flip",
-      "score": 8.79,
-      "entry": 193.75,
-      "stop": 189.5
-    },
-    {
-      "symbol": "DRAM",
-      "kind": "sr_flip",
-      "score": 8.79,
-      "entry": 63.14,
-      "stop": 61.88
-    },
-    {
-      "symbol": "SNDK",
+      "symbol": "FARTCOIN",
       "kind": "daily_breakout",
-      "score": 8.7,
-      "entry": 1886.7,
-      "stop": 1796.0
+      "score": 9.04,
+      "entry": 0.2017,
+      "stop": 0.1829
     },
     {
-      "symbol": "ADA",
+      "symbol": "HYPE",
       "kind": "daily_breakout",
-      "score": 8.69,
-      "entry": 0.2494,
-      "stop": 0.2293
+      "score": 8.92,
+      "entry": 96.417,
+      "stop": 93.7
     }
   ]
 }
