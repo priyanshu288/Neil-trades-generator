@@ -1,59 +1,59 @@
-# Neil-style setups — 2026-09-22
+# Neil-style setups — 2026-09-23
 
-**BTC context:** BTC above its 4H 50/200MA — alts have a tailwind. (3d +6.0%)
+**BTC context:** BTC above its 4H 50/200MA — alts have a tailwind. (3d +3.3%)
 
-Scanned 187 USDT perps; 74 raw setups; showing top 3.
+Scanned 194 USDT perps; 99 raw setups; showing top 3.
 
-## 1. MON — 4H SR flip / retest  (score 10.3)
+## 1. STRK — 1H 200MA first retest  (score 9.9)
 
-> Market long MON here at CMP (0.02696). No DCA, 4H close under 0.02633 for stops, TPs above — TP1 0.02785 (1.4R) · TP2 0.02912 (3.4R) · TP3 0.03015 (5.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long STRK here at CMP (0.03897). No DCA, 1H close under 0.03733 for stops, TPs above — TP1 0.04385 (3.0R) · TP2 0.04562 (4.0R) · TP3 0.04803 (5.5R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
 
-Risk to stop: 2.34% · TP1 1.4R · TP2 3.4R · TP3 5.1R
-
-Why it qualifies:
-- 4H closed above the 0.02665 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 19x before the flip
-- reclaim bar volume 2.1x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +24.4% vs BTC +14.0% (RS +10.4%)
-
-![chart](output/charts/2026-09-22_MON.png)
-
-## 2. PUMP — 4H SR flip / retest  (score 10.1)
-
-> Market long PUMP here at CMP (0.004504). No DCA, 4H close under 0.004396 for stops, TPs above — TP1 0.00467 (1.5R) · TP2 0.004873 (3.4R) · TP3 0.005123 (5.7R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 2.40% · TP1 1.5R · TP2 3.4R · TP3 5.7R
+Risk to stop: 4.21% · TP1 3.0R · TP2 4.0R · TP3 5.5R
 
 Why it qualifies:
-- 4H closed above the 0.00445 resistance 4 bars ago and is holding above it, low already retested the level
-- level rejected price 4x before the flip
-- reclaim bar volume 1.4x the 20-bar average
+- first tap of the rising 1H 200MA (0.0379048) after a 45% extension above it
+- impulse high at 0.05 is the natural first target
 - above the 1H/4H/daily 200MA
-- 7d: +28.1% vs BTC +14.0% (RS +14.1%)
+- 7d: +39.7% vs BTC +10.1% (RS +29.6%)
 
-![chart](output/charts/2026-09-22_PUMP.png)
+![chart](output/charts/2026-09-23_STRK.png)
 
-## 3. PENGU — Daily range breakout  (score 9.5)
+## 2. MUSTOCK — 4H SR flip / retest  (score 9.8)
 
-> Market long PENGU here at CMP (0.009425). No DCA, 4H close under 0.008901 for stops, TPs above — TP1 0.01035 (1.8R) · TP2 0.01105 (3.1R) · TP3 0.01185 (4.6R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long MUSTOCK here at CMP (1,067.65). No DCA, 4H close under 1,045.00 for stops, TPs above — TP1 1,105.00 (1.6R) · TP2 1,162.00 (4.2R) · TP3 1,254.00 (8.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 5.56% · TP1 1.8R · TP2 3.1R · TP3 4.6R
+Risk to stop: 2.12% · TP1 1.6R · TP2 4.2R · TP3 8.2R
 
 Why it qualifies:
-- daily close above the 20-day range high 0.00913 (0 day(s) ago) and holding
-- range depth 37% → measured move ~0.011596
+- 4H closed above the 1058.04 resistance 8 bars ago and is holding above it, low already retested the level
+- level rejected price 5x before the flip
+- reclaim bar volume 6.4x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +37.7% vs BTC +14.0% (RS +23.6%)
+- 7d: +14.1% vs BTC +10.1% (RS +4.0%)
 
-![chart](output/charts/2026-09-22_PENGU.png)
+![chart](output/charts/2026-09-23_MUSTOCK.png)
+
+## 3. MU — 4H SR flip / retest  (score 9.7)
+
+> Market long MU here at CMP (1,068.23). No DCA, 4H close under 1,045.00 for stops, TPs above — TP1 1,105.00 (1.6R) · TP2 1,158.00 (3.9R) · TP3 1,257.00 (8.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 2.17% · TP1 1.6R · TP2 3.9R · TP3 8.1R
+
+Why it qualifies:
+- 4H closed above the 1057.86 resistance 8 bars ago and is holding above it, low already retested the level
+- level rejected price 5x before the flip
+- reclaim bar volume 7.9x the 20-bar average
+- above the 1H/4H/daily 200MA
+- 7d: +14.1% vs BTC +10.1% (RS +4.0%)
+
+![chart](output/charts/2026-09-23_MU.png)
 
 ## Watchlist (next in line)
 
-- LINK — sr_flip (score 9.68)
-- PENGU — daily_breakout (score 9.51)
-- APT — daily_breakout (score 9.07)
-- FET — daily_breakout (score 9.07)
-- AERO — sr_flip (score 9.06)
-- FARTCOIN — daily_breakout (score 9.04)
-- HYPE — daily_breakout (score 8.92)
+- SNDK — sr_flip (score 9.63)
+- XRP — sr_flip (score 9.4)
+- PENGU — daily_breakout (score 9.37)
+- RAY — daily_breakout (score 9.33)
+- APE — sr_flip (score 9.28)
+- DOGE — sr_flip (score 9.26)
+- PEPE — daily_breakout (score 9.13)
