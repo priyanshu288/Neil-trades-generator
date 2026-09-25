@@ -1,55 +1,55 @@
 {
   "date": "2026-09-25",
-  "generated_utc": "2026-09-25T17:09:53+00:00",
+  "generated_utc": "2026-09-25T17:36:32+00:00",
   "universe_size": 162,
   "scanned": 161,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": true,
-    "change_3d_pct": -2.68,
-    "last": 83839.9
+    "change_3d_pct": -2.78,
+    "last": 83760.0
   },
   "setups": [
     {
       "symbol": "SOL",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 121.31,
+      "entry": 120.88,
       "stop": 118.2,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         128.2,
-        132.5,
-        136.8
+        131.9,
+        135.6
       ],
       "tp_r": [
-        2.22,
-        3.6,
-        4.98
+        2.73,
+        4.11,
+        5.49
       ],
-      "risk_pct": 2.56,
-      "score": 9.85853264263787,
+      "risk_pct": 2.22,
+      "score": 9.830254112801414,
       "facts": [
         "4H closed above the 119.69 resistance 3 bars ago and is holding above it, low already retested the level",
         "level rejected price 9x before the flip",
         "reclaim bar volume 1.9x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +7.6% vs BTC +3.7% (RS +4.0%)"
+        "7d: +7.3% vs BTC +3.6% (RS +3.7%)"
       ],
       "chart_tf": "4h",
       "level": 119.69,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-25_SOL.png",
-      "alert": "Market long SOL here at CMP (121.31). No DCA, 4H close under 118.2 for stops, TPs above \u2014 TP1 128.2 (2.2R) \u00b7 TP2 132.5 (3.6R) \u00b7 TP3 136.8 (5.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long SOL here at CMP (120.88). No DCA, 4H close under 118.2 for stops, TPs above \u2014 TP1 128.2 (2.7R) \u00b7 TP2 131.9 (4.1R) \u00b7 TP3 135.6 (5.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "RENDER",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 1.922,
+      "entry": 1.914,
       "stop": 1.885,
       "stop_tf": "4H",
       "dca": null,
@@ -59,109 +59,109 @@
         2.125
       ],
       "tp_r": [
-        1.73,
-        4.41,
-        5.49
+        2.48,
+        5.9,
+        7.28
       ],
-      "risk_pct": 1.93,
-      "score": 9.641412936170225,
+      "risk_pct": 1.52,
+      "score": 9.641754539771012,
       "facts": [
         "4H closed above the 1.908 resistance 3 bars ago and is holding above it, low already retested the level",
         "level rejected price 1x before the flip",
         "reclaim bar volume 2.5x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +24.2% vs BTC +3.7% (RS +20.5%)"
+        "7d: +23.6% vs BTC +3.6% (RS +20.1%)"
       ],
       "chart_tf": "4h",
       "level": 1.908,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-25_RENDER.png",
-      "alert": "Market long RENDER here at CMP (1.922). No DCA, 4H close under 1.885 for stops, TPs above \u2014 TP1 1.986 (1.7R) \u00b7 TP2 2.085 (4.4R) \u00b7 TP3 2.125 (5.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long RENDER here at CMP (1.914). No DCA, 4H close under 1.885 for stops, TPs above \u2014 TP1 1.986 (2.5R) \u00b7 TP2 2.085 (5.9R) \u00b7 TP3 2.125 (7.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "NEAR",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 5.115,
+      "entry": 4.973,
       "stop": 4.704,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        5.854,
-        7.495,
-        8.07
+        5.457,
+        5.833,
+        7.495
       ],
       "tp_r": [
         1.8,
-        5.79,
-        7.19
+        3.2,
+        9.38
       ],
-      "risk_pct": 8.04,
+      "risk_pct": 5.41,
       "score": 9.4,
       "facts": [
         "daily close above the 20-day range high 4.825 (0 day(s) ago) and holding",
         "range depth 124% \u2192 measured move ~7.495",
         "above the 1H/4H/daily 200MA",
-        "7d: +35.9% vs BTC +3.7% (RS +32.3%)"
+        "7d: +32.2% vs BTC +3.6% (RS +28.6%)"
       ],
       "chart_tf": "4h",
       "level": 4.825,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-25_NEAR.png",
-      "alert": "Market long NEAR here at CMP (5.115). No DCA, 4H close under 4.704 for stops, TPs above \u2014 TP1 5.854 (1.8R) \u00b7 TP2 7.495 (5.8R) \u00b7 TP3 8.07 (7.2R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long NEAR here at CMP (4.973). No DCA, 4H close under 4.704 for stops, TPs above \u2014 TP1 5.457 (1.8R) \u00b7 TP2 5.833 (3.2R) \u00b7 TP3 7.495 (9.4R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "NEAR",
-      "kind": "daily_breakout",
-      "score": 9.4,
-      "entry": 5.115,
-      "stop": 4.704
-    },
-    {
       "symbol": "SUI",
       "kind": "daily_breakout",
-      "score": 9.37,
-      "entry": 1.113,
+      "score": 9.38,
+      "entry": 1.1185,
       "stop": 1.054
+    },
+    {
+      "symbol": "JTO",
+      "kind": "sr_flip",
+      "score": 9.32,
+      "entry": 0.5353,
+      "stop": 0.523
     },
     {
       "symbol": "AXTI",
       "kind": "sr_flip",
-      "score": 9.31,
-      "entry": 79.71,
+      "score": 9.24,
+      "entry": 79.21,
       "stop": 77.87
+    },
+    {
+      "symbol": "AXS",
+      "kind": "sr_flip",
+      "score": 9.13,
+      "entry": 1.1789,
+      "stop": 1.149
     },
     {
       "symbol": "FIL",
       "kind": "sr_flip",
-      "score": 9.12,
-      "entry": 1.0266,
+      "score": 9.0,
+      "entry": 1.015,
       "stop": 1.006
     },
     {
       "symbol": "MSFTSTOCK",
       "kind": "sr_flip",
       "score": 8.98,
-      "entry": 517.26,
+      "entry": 516.56,
       "stop": 503.9
     },
     {
       "symbol": "SEI",
       "kind": "daily_breakout",
-      "score": 8.95,
-      "entry": 0.06923,
+      "score": 8.96,
+      "entry": 0.06934,
       "stop": 0.06298
-    },
-    {
-      "symbol": "KMNO",
-      "kind": "daily_breakout",
-      "score": 8.75,
-      "entry": 0.0419,
-      "stop": 0.03788
     }
   ]
 }
