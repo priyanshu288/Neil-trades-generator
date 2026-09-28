@@ -1,59 +1,58 @@
-# Neil-style setups — 2026-09-27
+# Neil-style setups — 2026-09-28
 
-**BTC context:** BTC above its 4H 50/200MA — alts have a tailwind. (3d +0.0%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -0.9%)
 
-Scanned 135 USDT perps; 40 raw setups; showing top 3.
+Scanned 178 USDT perps; 30 raw setups; showing top 3.
 
-## 1. PUMP — 4H SR flip / retest  (score 9.8)
+## 1. NVIDIA — 4H SR flip / retest  (score 9.5)
 
-> Market long PUMP here at CMP (0.004886). No DCA, 4H close under 0.004814 for stops, TPs above — TP1 0.005013 (1.8R) · TP2 0.005123 (3.3R) · TP3 0.005459 (8.0R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long NVIDIA here at CMP (228.67). No DCA, 4H close under 224.3 for stops, TPs above — TP1 240.8 (2.8R) · TP2 246.9 (4.2R) · TP3 253 (5.6R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 1.47% · TP1 1.8R · TP2 3.3R · TP3 8.0R
-
-Why it qualifies:
-- 4H closed above the 0.004873 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 1x before the flip
-- reclaim bar volume 2.9x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +15.6% vs BTC +4.0% (RS +11.6%)
-
-![chart](output/charts/2026-09-27_PUMP.png)
-
-## 2. MAGIC — 4H SR flip / retest  (score 9.7)
-
-> Market long MAGIC here at CMP (0.05389). No DCA, 4H close under 0.05275 for stops, TPs above — TP1 0.05594 (1.8R) · TP2 0.05753 (3.2R) · TP3 0.06189 (7.0R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 2.12% · TP1 1.8R · TP2 3.2R · TP3 7.0R
+Risk to stop: 1.91% · TP1 2.8R · TP2 4.2R · TP3 5.6R
 
 Why it qualifies:
-- 4H closed above the 0.0534 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 3x before the flip
-- reclaim bar volume 99.5x the 20-bar average
+- 4H closed above the 227.09 resistance 3 bars ago and is holding above it, low already retested the level
+- level rejected price 27x before the flip
+- reclaim bar volume 5.0x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +13.5% vs BTC +4.0% (RS +9.5%)
+- 7d: +0.5% vs BTC -3.9% (RS +4.5%)
 
-![chart](output/charts/2026-09-27_MAGIC.png)
+![chart](output/charts/2026-09-28_NVIDIA.png)
 
-## 3. NEAR — Daily range breakout  (score 9.3)
+## 2. NEAR — 1H 200MA first retest  (score 9.4)
 
-> Market long NEAR here at CMP (5.198). No DCA, 4H close under 4.704 for stops, TPs above — TP1 6.087 (1.8R) · TP2 7.495 (4.7R) · TP3 8.186 (6.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long NEAR here at CMP (4.718). No DCA, 1H close under 4.58 for stops, TPs above — TP1 4.966 (1.8R) · TP2 5.213 (3.6R) · TP3 5.495 (5.6R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
 
-Risk to stop: 9.50% · TP1 1.8R · TP2 4.7R · TP3 6.0R
+Risk to stop: 2.92% · TP1 1.8R · TP2 3.6R · TP3 5.6R
 
 Why it qualifies:
-- daily close above the 20-day range high 4.825 (2 day(s) ago) and holding
-- range depth 124% → measured move ~7.495
+- first tap of the rising 1H 200MA (4.65046) after a 24% extension above it
+- impulse high at 5.581 is the natural first target
 - above the 1H/4H/daily 200MA
-- 7d: +24.8% vs BTC +4.0% (RS +20.8%)
+- 7d: +10.5% vs BTC -3.9% (RS +14.4%)
 
-![chart](output/charts/2026-09-27_NEAR.png)
+![chart](output/charts/2026-09-28_NEAR.png)
+
+## 3. PUMP — Daily range breakout  (score 9.2)
+
+> Market long PUMP here at CMP (0.005157). No DCA, 4H close under 0.004751 for stops, TPs above — TP1 0.006354 (3.0R) · TP2 0.006922 (4.3R) · TP3 0.00749 (5.8R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 7.87% · TP1 3.0R · TP2 4.3R · TP3 5.8R
+
+Why it qualifies:
+- daily close above the 20-day range high 0.004873 (1 day(s) ago) and holding
+- range depth 44% → measured move ~0.006354
+- above the 1H/4H/daily 200MA
+- 7d: +17.8% vs BTC -3.9% (RS +21.8%)
+
+![chart](output/charts/2026-09-28_PUMP.png)
 
 ## Watchlist (next in line)
 
-- NEAR — daily_breakout (score 9.3)
-- TRIA — sr_flip (score 9.27)
-- Q — daily_breakout (score 9.09)
-- KAS — daily_breakout (score 8.51)
-- TAIKO — daily_breakout (score 8.46)
-- XPL — daily_breakout (score 8.33)
-- VIRTUAL — daily_breakout (score 8.28)
+- ALGO — daily_breakout (score 9.01)
+- PUMPFUN — daily_breakout (score 8.89)
+- XLM — daily_breakout (score 8.09)
+- SUI — daily_breakout (score 8.01)
+- PYTH — daily_breakout (score 7.99)
+- W — daily_breakout (score 7.98)
+- RENDER — ma_retest (score 7.83)
