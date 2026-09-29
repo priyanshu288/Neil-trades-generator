@@ -1,56 +1,56 @@
 {
   "date": "2026-09-29",
-  "generated_utc": "2026-09-29T18:06:49+00:00",
+  "generated_utc": "2026-09-29T18:20:06+00:00",
   "universe_size": 159,
   "scanned": 158,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": true,
-    "change_3d_pct": -0.92,
-    "last": 83210.8
+    "change_3d_pct": -0.68,
+    "last": 83406.0
   },
   "setups": [
     {
       "symbol": "ETHFI",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.7656,
+      "entry": 0.7638,
       "stop": 0.7501,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.7934,
+        0.7884,
         0.8206,
-        0.8422
+        0.8397
       ],
       "tp_r": [
-        1.79,
-        3.55,
-        4.94
+        1.8,
+        4.15,
+        5.54
       ],
-      "risk_pct": 2.02,
-      "score": 10.168637019269688,
+      "risk_pct": 1.79,
+      "score": 10.121079993156373,
       "facts": [
         "4H closed above the 0.7593 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 5x before the flip",
         "reclaim bar volume 3.2x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +8.0% vs BTC -3.4% (RS +11.4%)"
+        "7d: +7.7% vs BTC -3.2% (RS +10.9%)"
       ],
       "chart_tf": "4h",
       "level": 0.7593,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-29_ETHFI.png",
-      "alert": "Market long ETHFI here at CMP (0.7656). No DCA, 4H close under 0.7501 for stops, TPs above \u2014 TP1 0.7934 (1.8R) \u00b7 TP2 0.8206 (3.5R) \u00b7 TP3 0.8422 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long ETHFI here at CMP (0.7638). No DCA, 4H close under 0.7501 for stops, TPs above \u2014 TP1 0.7884 (1.8R) \u00b7 TP2 0.8206 (4.2R) \u00b7 TP3 0.8397 (5.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "SYRUP",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.2372,
-      "stop": 0.2309,
+      "entry": 0.2374,
+      "stop": 0.2314,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
@@ -59,109 +59,109 @@
         0.277
       ],
       "tp_r": [
-        2.16,
-        3.63,
-        6.32
+        2.23,
+        3.78,
+        6.6
       ],
-      "risk_pct": 2.66,
-      "score": 9.795737676937275,
+      "risk_pct": 2.53,
+      "score": 9.783366404443207,
       "facts": [
-        "4H closed above the 0.2338 resistance 4 bars ago and is holding above it, low already retested the level",
+        "4H closed above the 0.2343 resistance 4 bars ago and is holding above it, low already retested the level",
         "level rejected price 5x before the flip",
         "reclaim bar volume 1.7x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +7.8% vs BTC -3.4% (RS +11.2%)"
+        "7d: +7.9% vs BTC -3.2% (RS +11.1%)"
       ],
       "chart_tf": "4h",
-      "level": 0.2338,
+      "level": 0.2343,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-29_SYRUP.png",
-      "alert": "Market long SYRUP here at CMP (0.2372). No DCA, 4H close under 0.2309 for stops, TPs above \u2014 TP1 0.2508 (2.2R) \u00b7 TP2 0.2601 (3.6R) \u00b7 TP3 0.277 (6.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long SYRUP here at CMP (0.2374). No DCA, 4H close under 0.2314 for stops, TPs above \u2014 TP1 0.2508 (2.2R) \u00b7 TP2 0.2601 (3.8R) \u00b7 TP3 0.277 (6.6R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "AAVE",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 166.53,
+      "entry": 167.3,
       "stop": 153.4,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         201.4,
-        219.7,
-        238.0
+        220.8,
+        240.2
       ],
       "tp_r": [
-        2.66,
-        4.05,
-        5.44
+        2.45,
+        3.85,
+        5.24
       ],
-      "risk_pct": 7.88,
-      "score": 8.876051443682954,
+      "risk_pct": 8.31,
+      "score": 8.907602559471192,
       "facts": [
         "daily close above the 20-day range high 157.34 (0 day(s) ago) and holding",
         "range depth 39% \u2192 measured move ~201.49",
         "above the 1H/4H/daily 200MA",
-        "7d: +12.6% vs BTC -3.4% (RS +16.0%)"
+        "7d: +13.1% vs BTC -3.2% (RS +16.3%)"
       ],
       "chart_tf": "4h",
       "level": 157.34,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-09-29_AAVE.png",
-      "alert": "Market long AAVE here at CMP (166.53). No DCA, 4H close under 153.4 for stops, TPs above \u2014 TP1 201.4 (2.7R) \u00b7 TP2 219.7 (4.0R) \u00b7 TP3 238 (5.4R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long AAVE here at CMP (167.3). No DCA, 4H close under 153.4 for stops, TPs above \u2014 TP1 201.4 (2.5R) \u00b7 TP2 220.8 (3.9R) \u00b7 TP3 240.2 (5.2R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
+      "symbol": "BE",
+      "kind": "sr_flip",
+      "score": 9.22,
+      "entry": 293.88,
+      "stop": 289.2
+    },
+    {
       "symbol": "LITE",
       "kind": "sr_flip",
-      "score": 9.01,
-      "entry": 968.57,
+      "score": 8.96,
+      "entry": 966.41,
       "stop": 943.7
     },
     {
       "symbol": "AAVE",
       "kind": "daily_breakout",
-      "score": 8.88,
-      "entry": 166.53,
+      "score": 8.91,
+      "entry": 167.3,
       "stop": 153.4
     },
     {
       "symbol": "NVIDIA",
       "kind": "sr_flip",
-      "score": 8.78,
-      "entry": 228.32,
+      "score": 8.76,
+      "entry": 228.38,
       "stop": 224.3
     },
     {
       "symbol": "INIT",
       "kind": "daily_breakout",
-      "score": 8.69,
-      "entry": 0.10721,
+      "score": 8.7,
+      "entry": 0.10865,
       "stop": 0.09928
     },
     {
       "symbol": "LINK",
       "kind": "daily_breakout",
-      "score": 8.55,
-      "entry": 14.576,
+      "score": 8.58,
+      "entry": 14.637,
       "stop": 14.12
     },
     {
       "symbol": "ALGO",
       "kind": "daily_breakout",
-      "score": 8.13,
-      "entry": 0.12474,
+      "score": 8.31,
+      "entry": 0.12694,
       "stop": 0.1194
-    },
-    {
-      "symbol": "HBAR",
-      "kind": "daily_breakout",
-      "score": 7.85,
-      "entry": 0.10379,
-      "stop": 0.0988
     }
   ]
 }
