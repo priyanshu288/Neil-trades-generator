@@ -1,89 +1,89 @@
 {
   "date": "2026-10-01",
-  "generated_utc": "2026-10-01T18:27:06+00:00",
+  "generated_utc": "2026-10-01T18:38:04+00:00",
   "universe_size": 171,
   "scanned": 167,
   "btc": {
     "trend": "up",
     "note": "BTC above its 4H 50/200MA \u2014 alts have a tailwind.",
     "above_4h_200": true,
-    "change_3d_pct": 1.85,
-    "last": 84887.5
+    "change_3d_pct": 1.88,
+    "last": 84914.8
   },
   "setups": [
     {
       "symbol": "BTW",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 1.428343,
+      "entry": 1.420559,
       "stop": 1.405,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
+        1.444,
         1.47,
-        1.521,
-        1.553
+        1.521
       ],
       "tp_r": [
-        1.78,
-        3.97,
-        5.34
+        1.51,
+        3.18,
+        6.46
       ],
-      "risk_pct": 1.63,
-      "score": 10.270937990170566,
+      "risk_pct": 1.1,
+      "score": 10.27142246409813,
       "facts": [
         "4H closed above the 1.42249 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 3x before the flip",
         "reclaim bar volume 1.6x the 20-bar average",
         "above the 1H/4H 200MA",
-        "7d: +49.8% vs BTC +0.6% (RS +49.2%)"
+        "7d: +49.0% vs BTC +0.6% (RS +48.3%)"
       ],
       "chart_tf": "4h",
       "level": 1.422489,
       "source": "gate",
       "extra": {},
       "chart": "output/charts/2026-10-01_BTW.png",
-      "alert": "Market long BTW here at CMP (1.428). No DCA, 4H close under 1.405 for stops, TPs above \u2014 TP1 1.47 (1.8R) \u00b7 TP2 1.521 (4.0R) \u00b7 TP3 1.553 (5.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long BTW here at CMP (1.421). No DCA, 4H close under 1.405 for stops, TPs above \u2014 TP1 1.444 (1.5R) \u00b7 TP2 1.47 (3.2R) \u00b7 TP3 1.521 (6.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "PEPE",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 4.451e-06,
+      "entry": 4.456e-06,
       "stop": 4.338e-06,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        4.654e-06,
+        4.668e-06,
         5.079e-06,
         5.364e-06
       ],
       "tp_r": [
         1.8,
-        5.56,
-        8.08
+        5.28,
+        7.69
       ],
-      "risk_pct": 2.54,
-      "score": 9.795495076161963,
+      "risk_pct": 2.65,
+      "score": 9.802572663160865,
       "facts": [
         "4H closed above the 4.391e-06 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 10x before the flip",
         "reclaim bar volume 1.8x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +0.7% vs BTC +0.6% (RS +0.1%)"
+        "7d: +0.8% vs BTC +0.6% (RS +0.2%)"
       ],
       "chart_tf": "4h",
       "level": 4.391e-06,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-01_PEPE.png",
-      "alert": "Market long PEPE here at CMP (4.451e-06). No DCA, 4H close under 4.338e-06 for stops, TPs above \u2014 TP1 4.654e-06 (1.8R) \u00b7 TP2 5.079e-06 (5.6R) \u00b7 TP3 5.364e-06 (8.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long PEPE here at CMP (4.456e-06). No DCA, 4H close under 4.338e-06 for stops, TPs above \u2014 TP1 4.668e-06 (1.8R) \u00b7 TP2 5.079e-06 (5.3R) \u00b7 TP3 5.364e-06 (7.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "JASMY",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.005663,
+      "entry": 0.005673,
       "stop": 0.005343,
       "stop_tf": "4H",
       "dca": null,
@@ -93,24 +93,24 @@
         0.007815
       ],
       "tp_r": [
-        1.9,
-        5.47,
-        6.73
+        1.82,
+        5.27,
+        6.49
       ],
-      "risk_pct": 5.65,
-      "score": 9.26793343586002,
+      "risk_pct": 5.82,
+      "score": 9.271227797606326,
       "facts": [
         "daily close above the 20-day range high 0.00548 (0 day(s) ago) and holding",
         "range depth 55% \u2192 measured move ~0.007414",
         "above the 1H/4H/daily 200MA",
-        "7d: +28.5% vs BTC +0.6% (RS +27.9%)"
+        "7d: +28.7% vs BTC +0.6% (RS +28.1%)"
       ],
       "chart_tf": "4h",
       "level": 0.00548,
       "source": "mexc",
       "extra": {},
       "chart": "output/charts/2026-10-01_JASMY.png",
-      "alert": "Market long JASMY here at CMP (0.005663). No DCA, 4H close under 0.005343 for stops, TPs above \u2014 TP1 0.006272 (1.9R) \u00b7 TP2 0.007413 (5.5R) \u00b7 TP3 0.007815 (6.7R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long JASMY here at CMP (0.005673). No DCA, 4H close under 0.005343 for stops, TPs above \u2014 TP1 0.006272 (1.8R) \u00b7 TP2 0.007413 (5.3R) \u00b7 TP3 0.007815 (6.5R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
@@ -118,49 +118,49 @@
       "symbol": "JASMY",
       "kind": "daily_breakout",
       "score": 9.27,
-      "entry": 0.005663,
+      "entry": 0.005673,
       "stop": 0.005343
     },
     {
       "symbol": "PUMP",
       "kind": "daily_breakout",
       "score": 9.24,
-      "entry": 0.005795,
+      "entry": 0.005782,
       "stop": 0.005424
     },
     {
       "symbol": "STX",
       "kind": "daily_breakout",
       "score": 9.19,
-      "entry": 0.3868,
+      "entry": 0.3869,
       "stop": 0.3505
     },
     {
       "symbol": "ETHFI",
       "kind": "sr_flip",
-      "score": 9.14,
-      "entry": 0.7392,
+      "score": 9.13,
+      "entry": 0.739,
       "stop": 0.72
     },
     {
       "symbol": "ZRO",
       "kind": "daily_breakout",
-      "score": 9.08,
-      "entry": 1.8263,
+      "score": 9.09,
+      "entry": 1.823,
       "stop": 1.682
     },
     {
       "symbol": "SEI",
       "kind": "ma_retest",
-      "score": 9.03,
-      "entry": 0.07208,
+      "score": 9.02,
+      "entry": 0.07203,
       "stop": 0.07
     },
     {
       "symbol": "HUMA",
       "kind": "daily_breakout",
       "score": 8.92,
-      "entry": 0.03381,
+      "entry": 0.03377,
       "stop": 0.03129
     }
   ]
