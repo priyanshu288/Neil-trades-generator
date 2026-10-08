@@ -1,22 +1,22 @@
 {
   "date": "2026-10-08",
-  "generated_utc": "2026-10-08T18:52:15+00:00",
+  "generated_utc": "2026-10-08T19:05:26+00:00",
   "universe_size": 182,
   "scanned": 180,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": -4.97,
-    "last": 81436.4
+    "change_3d_pct": -4.91,
+    "last": 81492.7
   },
   "setups": [
     {
       "symbol": "SAND",
       "kind": "ma_retest",
       "label": "1H 200MA first retest",
-      "entry": 0.06629,
-      "stop": 0.06436,
+      "entry": 0.06663,
+      "stop": 0.06446,
       "stop_tf": "1H",
       "dca": null,
       "tps": [
@@ -25,141 +25,141 @@
         0.07896
       ],
       "tp_r": [
-        2.67,
-        3.96,
-        6.56
+        2.22,
+        3.37,
+        5.68
       ],
-      "risk_pct": 2.91,
-      "score": 9.833036036717989,
+      "risk_pct": 3.26,
+      "score": 9.831874042884989,
       "facts": [
-        "first tap of the rising 1H 200MA (0.0653428) after a 38% extension above it",
+        "first tap of the rising 1H 200MA (0.0654509) after a 38% extension above it",
         "impulse high at 0.0879 is the natural first target",
         "above the 1H/4H/daily 200MA",
-        "7d: +47.3% vs BTC -4.0% (RS +51.3%)"
+        "7d: +48.1% vs BTC -3.9% (RS +52.0%)"
       ],
       "chart_tf": "1h",
-      "level": 0.06534285,
+      "level": 0.0654509,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-08_SAND.png",
-      "alert": "Market long SAND here at CMP (0.06629). No DCA, 1H close under 0.06436 for stops, TPs above \u2014 TP1 0.07145 (2.7R) \u00b7 TP2 0.07394 (4.0R) \u00b7 TP3 0.07896 (6.6R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
-    },
-    {
-      "symbol": "ZRO",
-      "kind": "ma_retest",
-      "label": "1H 200MA first retest",
-      "entry": 2.0022,
-      "stop": 1.942,
-      "stop_tf": "1H",
-      "dca": null,
-      "tps": [
-        2.144,
-        2.29,
-        2.39
-      ],
-      "tp_r": [
-        2.36,
-        4.78,
-        6.44
-      ],
-      "risk_pct": 3.01,
-      "score": 9.157003149048515,
-      "facts": [
-        "first tap of the rising 1H 200MA (1.97183) after a 23% extension above it",
-        "impulse high at 2.2972 is the natural first target",
-        "above the 1H/4H/daily 200MA",
-        "7d: +11.3% vs BTC -4.0% (RS +15.3%)"
-      ],
-      "chart_tf": "1h",
-      "level": 1.971833,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-10-08_ZRO.png",
-      "alert": "Market long ZRO here at CMP (2.002). No DCA, 1H close under 1.942 for stops, TPs above \u2014 TP1 2.144 (2.4R) \u00b7 TP2 2.29 (4.8R) \u00b7 TP3 2.39 (6.4R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
+      "alert": "Market long SAND here at CMP (0.06663). No DCA, 1H close under 0.06446 for stops, TPs above \u2014 TP1 0.07145 (2.2R) \u00b7 TP2 0.07394 (3.4R) \u00b7 TP3 0.07896 (5.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
     },
     {
       "symbol": "MET",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.4379,
+      "entry": 0.4331,
       "stop": 0.404,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.4989,
+        0.4854,
         0.546,
         0.6301
       ],
       "tp_r": [
         1.8,
-        3.19,
-        5.67
+        3.88,
+        6.77
       ],
-      "risk_pct": 7.74,
-      "score": 9.144372826509766,
+      "risk_pct": 6.72,
+      "score": 9.140838884920775,
       "facts": [
         "daily close above the 20-day range high 0.4144 (1 day(s) ago) and holding",
         "range depth 109% \u2192 measured move ~0.6301",
         "above the 1H/4H/daily 200MA",
-        "7d: +45.8% vs BTC -4.0% (RS +49.8%)"
+        "7d: +44.2% vs BTC -3.9% (RS +48.1%)"
       ],
       "chart_tf": "4h",
       "level": 0.4144,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-08_MET.png",
-      "alert": "Market long MET here at CMP (0.4379). No DCA, 4H close under 0.404 for stops, TPs above \u2014 TP1 0.4989 (1.8R) \u00b7 TP2 0.546 (3.2R) \u00b7 TP3 0.6301 (5.7R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
-    }
-  ],
-  "watchlist": [
-    {
-      "symbol": "CHIP",
-      "kind": "ma_retest",
-      "score": 8.68,
-      "entry": 0.04876,
-      "stop": 0.04655
+      "alert": "Market long MET here at CMP (0.4331). No DCA, 4H close under 0.404 for stops, TPs above \u2014 TP1 0.4854 (1.8R) \u00b7 TP2 0.546 (3.9R) \u00b7 TP3 0.6301 (6.8R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     },
     {
       "symbol": "SPCX",
       "kind": "ma_retest",
-      "score": 8.36,
-      "entry": 162.33,
-      "stop": 158.4
-    },
+      "label": "1H 200MA first retest",
+      "entry": 162.42,
+      "stop": 158.5,
+      "stop_tf": "1H",
+      "dca": null,
+      "tps": [
+        167.9,
+        176.3,
+        181.7
+      ],
+      "tp_r": [
+        1.4,
+        3.54,
+        4.92
+      ],
+      "risk_pct": 2.41,
+      "score": 8.361244110591311,
+      "facts": [
+        "first tap of the rising 1H 200MA (160.955) after a 12% extension above it",
+        "impulse high at 176.28 is the natural first target",
+        "above the 1H/4H 200MA",
+        "7d: +9.0% vs BTC -3.9% (RS +12.9%)"
+      ],
+      "chart_tf": "1h",
+      "level": 160.9554,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-10-08_SPCX.png",
+      "alert": "Market long SPCX here at CMP (162.42). No DCA, 1H close under 158.5 for stops, TPs above \u2014 TP1 167.9 (1.4R) \u00b7 TP2 176.3 (3.5R) \u00b7 TP3 181.7 (4.9R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
+    }
+  ],
+  "watchlist": [
     {
       "symbol": "SPCXSTOCK",
       "kind": "ma_retest",
-      "score": 8.15,
+      "score": 8.14,
       "entry": 162.37,
       "stop": 158.5
     },
     {
       "symbol": "SPX500",
       "kind": "sr_flip",
-      "score": 8.11,
-      "entry": 7756.1,
+      "score": 8.1,
+      "entry": 7755.4,
       "stop": 7686.0
     },
     {
       "symbol": "MSFTSTOCK",
       "kind": "sr_flip",
-      "score": 7.74,
-      "entry": 522.36,
+      "score": 7.72,
+      "entry": 521.95,
       "stop": 513.0
     },
     {
       "symbol": "OKB",
       "kind": "sr_flip",
-      "score": 7.21,
-      "entry": 123.48,
+      "score": 7.23,
+      "entry": 123.82,
       "stop": 120.9
     },
     {
       "symbol": "MCDSTOCK",
       "kind": "sr_flip",
-      "score": 7.08,
-      "entry": 237.22,
+      "score": 7.06,
+      "entry": 236.99,
       "stop": 231.3
+    },
+    {
+      "symbol": "QQQSTOCK",
+      "kind": "sr_flip",
+      "score": 6.79,
+      "entry": 747.45,
+      "stop": 740.2
+    },
+    {
+      "symbol": "AVGO",
+      "kind": "sr_flip",
+      "score": 6.47,
+      "entry": 358.86,
+      "stop": 353.4
     }
   ]
 }
