@@ -1,57 +1,59 @@
-# Neil-style setups — 2026-10-08
+# Neil-style setups — 2026-10-09
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -4.9%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -3.5%)
 
-Scanned 180 USDT perps; 17 raw setups; showing top 3.
+Scanned 174 USDT perps; 22 raw setups; showing top 3.
 
-## 1. SAND — 1H 200MA first retest  (score 9.8)
+## 1. TESLA — 4H SR flip / retest  (score 9.5)
 
-> Market long SAND here at CMP (0.06663). No DCA, 1H close under 0.06446 for stops, TPs above — TP1 0.07145 (2.2R) · TP2 0.07394 (3.4R) · TP3 0.07896 (5.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+> Market long TESLA here at CMP (383.8). No DCA, 4H close under 378.8 for stops, TPs above — TP1 397.2 (2.7R) · TP2 413.7 (6.0R) · TP3 436.7 (10.6R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 3.26% · TP1 2.2R · TP2 3.4R · TP3 5.7R
+Risk to stop: 1.30% · TP1 2.7R · TP2 6.0R · TP3 10.6R
 
 Why it qualifies:
-- first tap of the rising 1H 200MA (0.0654509) after a 38% extension above it
-- impulse high at 0.0879 is the natural first target
+- 4H closed above the 383.48 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 17x before the flip
+- reclaim bar volume 4.5x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +48.1% vs BTC -3.9% (RS +52.0%)
+- 7d: +3.3% vs BTC -2.3% (RS +5.6%)
 
-![chart](output/charts/2026-10-08_SAND.png)
+![chart](output/charts/2026-10-09_TESLA.png)
 
-## 2. MET — Daily range breakout  (score 9.1)
+## 2. S — 4H SR flip / retest  (score 9.5)
 
-> Market long MET here at CMP (0.4331). No DCA, 4H close under 0.404 for stops, TPs above — TP1 0.4854 (1.8R) · TP2 0.546 (3.9R) · TP3 0.6301 (6.8R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long S here at CMP (0.04399). No DCA, 4H close under 0.0435 for stops, TPs above — TP1 0.045 (2.1R) · TP2 0.04568 (3.5R) · TP3 0.04705 (6.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 6.72% · TP1 1.8R · TP2 3.9R · TP3 6.8R
+Risk to stop: 1.11% · TP1 2.1R · TP2 3.5R · TP3 6.2R
 
 Why it qualifies:
-- daily close above the 20-day range high 0.4144 (1 day(s) ago) and holding
-- range depth 109% → measured move ~0.6301
+- 4H closed above the 0.04403 resistance 3 bars ago and is holding above it, low already retested the level
+- level rejected price 1x before the flip
+- reclaim bar volume 9.2x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +44.2% vs BTC -3.9% (RS +48.1%)
+- 7d: +16.0% vs BTC -2.3% (RS +18.3%)
 
-![chart](output/charts/2026-10-08_MET.png)
+![chart](output/charts/2026-10-09_S.png)
 
-## 3. SPCX — 1H 200MA first retest  (score 8.4)
+## 3. ATOM — Daily range breakout  (score 9.0)
 
-> Market long SPCX here at CMP (162.42). No DCA, 1H close under 158.5 for stops, TPs above — TP1 167.9 (1.4R) · TP2 176.3 (3.5R) · TP3 181.7 (4.9R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+> Market long ATOM here at CMP (2.028). No DCA, 4H close under 1.875 for stops, TPs above — TP1 2.297 (1.8R) · TP2 2.505 (3.1R) · TP3 2.777 (4.9R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 2.41% · TP1 1.4R · TP2 3.5R · TP3 4.9R
+Risk to stop: 7.54% · TP1 1.8R · TP2 3.1R · TP3 4.9R
 
 Why it qualifies:
-- first tap of the rising 1H 200MA (160.955) after a 12% extension above it
-- impulse high at 176.28 is the natural first target
-- above the 1H/4H 200MA
-- 7d: +9.0% vs BTC -3.9% (RS +12.9%)
+- daily close above the 20-day range high 1.924 (0 day(s) ago) and holding
+- range depth 20% → measured move ~2.243
+- above the 1H/4H/daily 200MA
+- 7d: +23.1% vs BTC -2.3% (RS +25.3%)
 
-![chart](output/charts/2026-10-08_SPCX.png)
+![chart](output/charts/2026-10-09_ATOM.png)
 
 ## Watchlist (next in line)
 
-- SPCXSTOCK — ma_retest (score 8.14)
-- SPX500 — sr_flip (score 8.1)
-- MSFTSTOCK — sr_flip (score 7.72)
-- OKB — sr_flip (score 7.23)
-- MCDSTOCK — sr_flip (score 7.06)
-- QQQSTOCK — sr_flip (score 6.79)
-- AVGO — sr_flip (score 6.47)
+- SOXS — sr_flip (score 9.28)
+- PYTH — sr_flip (score 9.23)
+- ATOM — daily_breakout (score 8.96)
+- MET — daily_breakout (score 8.6)
+- RAY — daily_breakout (score 8.46)
+- NG — daily_breakout (score 8.29)
+- ZK — daily_breakout (score 8.28)
