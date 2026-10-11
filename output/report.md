@@ -1,59 +1,60 @@
-# Neil-style setups — 2026-10-10
+# Neil-style setups — 2026-10-11
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -0.5%)
+**BTC context:** BTC above its 4H 50/200MA — alts have a tailwind. (3d +2.8%)
 
-Scanned 141 USDT perps; 24 raw setups; showing top 3.
+Scanned 130 USDT perps; 38 raw setups; showing top 3.
 
-## 1. DOT — 4H SR flip / retest  (score 9.7)
+## 1. PARTI — 4H SR flip / retest  (score 9.8)
 
-> Market long DOT here at CMP (1.261). No DCA, 4H close under 1.233 for stops, TPs above — TP1 1.326 (2.3R) · TP2 1.395 (4.7R) · TP3 1.437 (6.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long PARTI here at CMP (0.03514). No DCA, 4H close under 0.03424 for stops, TPs above — TP1 0.03674 (1.8R) · TP2 0.03801 (3.2R) · TP3 0.04438 (10.3R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.25% · TP1 2.3R · TP2 4.7R · TP3 6.2R
-
-Why it qualifies:
-- 4H closed above the 1.2489 resistance 5 bars ago and is holding above it, low already retested the level
-- level rejected price 22x before the flip
-- reclaim bar volume 1.6x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +6.5% vs BTC -2.0% (RS +8.5%)
-
-![chart](output/charts/2026-10-10_DOT.png)
-
-## 2. OP — 4H SR flip / retest  (score 9.3)
-
-> Market long OP here at CMP (0.13797). No DCA, 4H close under 0.1345 for stops, TPs above — TP1 0.1442 (1.8R) · TP2 0.1501 (3.5R) · TP3 0.1549 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 2.52% · TP1 1.8R · TP2 3.5R · TP3 4.9R
+Risk to stop: 2.56% · TP1 1.8R · TP2 3.2R · TP3 10.3R
 
 Why it qualifies:
-- 4H closed above the 0.13616 resistance 5 bars ago and is holding above it, low already retested the level
-- level rejected price 7x before the flip
-- reclaim bar volume 5.7x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +1.3% vs BTC -2.0% (RS +3.3%)
+- 4H closed above the 0.03466 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 11x before the flip
+- reclaim bar volume 0.7x the 20-bar average
+- above the 1H/4H 200MA
+- still under the daily 200MA
+- 7d: +25.1% vs BTC -2.8% (RS +27.9%)
 
-![chart](output/charts/2026-10-10_OP.png)
+![chart](output/charts/2026-10-11_PARTI.png)
 
-## 3. CFX — Daily range breakout  (score 8.8)
+## 2. NEAR — Daily range breakout  (score 9.8)
 
-> Market long CFX here at CMP (0.06255). No DCA, 4H close under 0.05635 for stops, TPs above — TP1 0.07881 (2.6R) · TP2 0.08749 (4.0R) · TP3 0.09617 (5.4R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long NEAR here at CMP (5.81). No DCA, 4H close under 5.479 for stops, TPs above — TP1 6.405 (1.8R) · TP2 7.324 (4.6R) · TP3 7.787 (6.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 9.91% · TP1 2.6R · TP2 4.0R · TP3 5.4R
+Risk to stop: 5.70% · TP1 1.8R · TP2 4.6R · TP3 6.0R
 
 Why it qualifies:
-- daily close above the 20-day range high 0.0578 (0 day(s) ago) and holding
-- range depth 22% → measured move ~0.06815
+- daily close above the 20-day range high 5.62 (0 day(s) ago) and holding
+- range depth 44% → measured move ~7.324
 - above the 1H/4H/daily 200MA
-- 7d: +15.2% vs BTC -2.0% (RS +17.2%)
+- 7d: +18.3% vs BTC -2.8% (RS +21.1%)
 
-![chart](output/charts/2026-10-10_CFX.png)
+![chart](output/charts/2026-10-11_NEAR.png)
+
+## 3. ONDO — 4H SR flip / retest  (score 9.5)
+
+> Market long ONDO here at CMP (0.5088). No DCA, 4H close under 0.4973 for stops, TPs above — TP1 0.5284 (1.7R) · TP2 0.5605 (4.5R) · TP3 0.5787 (6.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 2.26% · TP1 1.7R · TP2 4.5R · TP3 6.1R
+
+Why it qualifies:
+- 4H closed above the 0.5034 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 13x before the flip
+- reclaim bar volume 0.6x the 20-bar average
+- above the 1H/4H/daily 200MA
+- 7d: +2.1% vs BTC -2.8% (RS +4.9%)
+
+![chart](output/charts/2026-10-11_ONDO.png)
 
 ## Watchlist (next in line)
 
-- AXS — sr_flip (score 8.84)
-- CFX — daily_breakout (score 8.84)
-- LAB — sr_flip (score 8.74)
-- LPT — sr_flip (score 8.54)
-- WLFI — sr_flip (score 8.53)
-- SOXS — sr_flip (score 8.37)
-- ATOM — daily_breakout (score 8.36)
+- BTC — sr_flip (score 9.34)
+- APT — daily_breakout (score 9.31)
+- FET — sr_flip (score 9.13)
+- W — daily_breakout (score 9.11)
+- CRV — sr_flip (score 8.9)
+- JTO — sr_flip (score 8.81)
+- LA — sr_flip (score 8.76)
