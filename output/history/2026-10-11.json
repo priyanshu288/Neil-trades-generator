@@ -1,168 +1,168 @@
 {
   "date": "2026-10-11",
-  "generated_utc": "2026-10-11T17:42:51+00:00",
+  "generated_utc": "2026-10-11T17:50:33+00:00",
   "universe_size": 130,
   "scanned": 130,
   "btc": {
-    "trend": "up",
-    "note": "BTC above its 4H 50/200MA \u2014 alts have a tailwind.",
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": true,
-    "change_3d_pct": 2.83,
-    "last": 84058.8
+    "change_3d_pct": 2.66,
+    "last": 83918.0
   },
   "setups": [
     {
       "symbol": "PARTI",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.03514,
+      "entry": 0.03513,
       "stop": 0.03424,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         0.03674,
-        0.03801,
+        0.03798,
         0.04438
       ],
       "tp_r": [
-        1.78,
-        3.19,
-        10.27
+        1.81,
+        3.2,
+        10.39
       ],
-      "risk_pct": 2.56,
-      "score": 9.814936855197,
+      "risk_pct": 2.53,
+      "score": 9.416234215545666,
       "facts": [
         "4H closed above the 0.03466 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 11x before the flip",
         "reclaim bar volume 0.7x the 20-bar average",
         "above the 1H/4H 200MA",
         "still under the daily 200MA",
-        "7d: +25.1% vs BTC -2.8% (RS +27.9%)"
+        "7d: +25.1% vs BTC -3.0% (RS +28.1%)"
       ],
       "chart_tf": "4h",
       "level": 0.03466,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-11_PARTI.png",
-      "alert": "Market long PARTI here at CMP (0.03514). No DCA, 4H close under 0.03424 for stops, TPs above \u2014 TP1 0.03674 (1.8R) \u00b7 TP2 0.03801 (3.2R) \u00b7 TP3 0.04438 (10.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long PARTI here at CMP (0.03513). No DCA, 4H close under 0.03424 for stops, TPs above \u2014 TP1 0.03674 (1.8R) \u00b7 TP2 0.03798 (3.2R) \u00b7 TP3 0.04438 (10.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "NEAR",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 5.81,
+      "entry": 5.781,
       "stop": 5.479,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        6.405,
+        6.324,
         7.324,
-        7.787
+        7.746
       ],
       "tp_r": [
         1.8,
-        4.57,
-        5.97
+        5.11,
+        6.51
       ],
-      "risk_pct": 5.7,
-      "score": 9.797332523928437,
+      "risk_pct": 5.22,
+      "score": 9.395330227893846,
       "facts": [
         "daily close above the 20-day range high 5.62 (0 day(s) ago) and holding",
         "range depth 44% \u2192 measured move ~7.324",
         "above the 1H/4H/daily 200MA",
-        "7d: +18.3% vs BTC -2.8% (RS +21.1%)"
+        "7d: +17.7% vs BTC -3.0% (RS +20.6%)"
       ],
       "chart_tf": "4h",
       "level": 5.62,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-11_NEAR.png",
-      "alert": "Market long NEAR here at CMP (5.81). No DCA, 4H close under 5.479 for stops, TPs above \u2014 TP1 6.405 (1.8R) \u00b7 TP2 7.324 (4.6R) \u00b7 TP3 7.787 (6.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long NEAR here at CMP (5.781). No DCA, 4H close under 5.479 for stops, TPs above \u2014 TP1 6.324 (1.8R) \u00b7 TP2 7.324 (5.1R) \u00b7 TP3 7.746 (6.5R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     },
     {
       "symbol": "ONDO",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.5088,
+      "entry": 0.5057,
       "stop": 0.4973,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         0.5284,
-        0.5605,
-        0.5787
+        0.5401,
+        0.5605
       ],
       "tp_r": [
-        1.7,
-        4.5,
-        6.08
+        2.7,
+        4.1,
+        6.52
       ],
-      "risk_pct": 2.26,
-      "score": 9.451092156224078,
+      "risk_pct": 1.66,
+      "score": 9.006320842824739,
       "facts": [
         "4H closed above the 0.5034 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 13x before the flip",
         "reclaim bar volume 0.6x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +2.1% vs BTC -2.8% (RS +4.9%)"
+        "7d: +1.5% vs BTC -3.0% (RS +4.5%)"
       ],
       "chart_tf": "4h",
       "level": 0.5034,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-11_ONDO.png",
-      "alert": "Market long ONDO here at CMP (0.5088). No DCA, 4H close under 0.4973 for stops, TPs above \u2014 TP1 0.5284 (1.7R) \u00b7 TP2 0.5605 (4.5R) \u00b7 TP3 0.5787 (6.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long ONDO here at CMP (0.5057). No DCA, 4H close under 0.4973 for stops, TPs above \u2014 TP1 0.5284 (2.7R) \u00b7 TP2 0.5401 (4.1R) \u00b7 TP3 0.5605 (6.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     }
   ],
   "watchlist": [
     {
-      "symbol": "BTC",
-      "kind": "sr_flip",
-      "score": 9.34,
-      "entry": 84058.9,
-      "stop": 82490.0
-    },
-    {
       "symbol": "APT",
       "kind": "daily_breakout",
-      "score": 9.31,
-      "entry": 0.9301,
+      "score": 8.84,
+      "entry": 0.9234,
       "stop": 0.8664
     },
     {
       "symbol": "FET",
       "kind": "sr_flip",
-      "score": 9.13,
-      "entry": 0.2384,
+      "score": 8.72,
+      "entry": 0.2377,
       "stop": 0.233
     },
     {
       "symbol": "W",
       "kind": "daily_breakout",
-      "score": 9.11,
-      "entry": 0.01941,
+      "score": 8.72,
+      "entry": 0.019604,
       "stop": 0.01848
     },
     {
       "symbol": "CRV",
       "kind": "sr_flip",
-      "score": 8.9,
-      "entry": 0.3728,
+      "score": 8.53,
+      "entry": 0.3731,
       "stop": 0.3668
     },
     {
       "symbol": "JTO",
       "kind": "sr_flip",
-      "score": 8.81,
-      "entry": 0.5682,
+      "score": 8.44,
+      "entry": 0.5684,
       "stop": 0.5566
     },
     {
       "symbol": "LA",
       "kind": "sr_flip",
-      "score": 8.76,
+      "score": 8.38,
       "entry": 0.06806,
       "stop": 0.06717
+    },
+    {
+      "symbol": "SEI",
+      "kind": "sr_flip",
+      "score": 8.24,
+      "entry": 0.07085,
+      "stop": 0.06949
     }
   ]
 }
