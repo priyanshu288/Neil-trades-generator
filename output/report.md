@@ -1,60 +1,59 @@
-# Neil-style setups — 2026-10-11
+# Neil-style setups — 2026-10-12
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d +2.7%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d +0.3%)
 
-Scanned 130 USDT perps; 39 raw setups; showing top 3.
+Scanned 166 USDT perps; 34 raw setups; showing top 3.
 
-## 1. PARTI — 4H SR flip / retest  (score 9.4)
+## 1. CAP — 4H SR flip / retest  (score 9.7)
 
-> Market long PARTI here at CMP (0.03513). No DCA, 4H close under 0.03424 for stops, TPs above — TP1 0.03674 (1.8R) · TP2 0.03798 (3.2R) · TP3 0.04438 (10.4R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long CAP here at CMP (0.09514). No DCA, 4H close under 0.09402 for stops, TPs above — TP1 0.09715 (1.8R) · TP2 0.09976 (4.1R) · TP3 0.1009 (5.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.53% · TP1 1.8R · TP2 3.2R · TP3 10.4R
+Risk to stop: 1.18% · TP1 1.8R · TP2 4.1R · TP3 5.1R
 
 Why it qualifies:
-- 4H closed above the 0.03466 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 11x before the flip
-- reclaim bar volume 0.7x the 20-bar average
+- 4H closed above the 0.09517 resistance 3 bars ago and is holding above it, low already retested the level
+- level rejected price 2x before the flip
+- reclaim bar volume 7.8x the 20-bar average
 - above the 1H/4H 200MA
-- still under the daily 200MA
-- 7d: +25.1% vs BTC -3.0% (RS +28.1%)
+- 7d: +22.5% vs BTC -3.1% (RS +25.6%)
 
-![chart](output/charts/2026-10-11_PARTI.png)
+![chart](output/charts/2026-10-12_CAP.png)
 
-## 2. NEAR — Daily range breakout  (score 9.4)
+## 2. NEAR — 4H SR flip / retest  (score 9.5)
 
-> Market long NEAR here at CMP (5.781). No DCA, 4H close under 5.479 for stops, TPs above — TP1 6.324 (1.8R) · TP2 7.324 (5.1R) · TP3 7.746 (6.5R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long NEAR here at CMP (5.353). No DCA, 4H close under 5.309 for stops, TPs above — TP1 5.432 (1.8R) · TP2 5.539 (4.2R) · TP3 5.6 (5.6R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 5.22% · TP1 1.8R · TP2 5.1R · TP3 6.5R
-
-Why it qualifies:
-- daily close above the 20-day range high 5.62 (0 day(s) ago) and holding
-- range depth 44% → measured move ~7.324
-- above the 1H/4H/daily 200MA
-- 7d: +17.7% vs BTC -3.0% (RS +20.6%)
-
-![chart](output/charts/2026-10-11_NEAR.png)
-
-## 3. ONDO — 4H SR flip / retest  (score 9.0)
-
-> Market long ONDO here at CMP (0.5057). No DCA, 4H close under 0.4973 for stops, TPs above — TP1 0.5284 (2.7R) · TP2 0.5401 (4.1R) · TP3 0.5605 (6.5R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 1.66% · TP1 2.7R · TP2 4.1R · TP3 6.5R
+Risk to stop: 0.82% · TP1 1.8R · TP2 4.2R · TP3 5.6R
 
 Why it qualifies:
-- 4H closed above the 0.5034 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 13x before the flip
-- reclaim bar volume 0.6x the 20-bar average
+- 4H closed above the 5.374 resistance 9 bars ago and is holding above it, low already retested the level
+- level rejected price 7x before the flip
+- reclaim bar volume 2.0x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +1.5% vs BTC -3.0% (RS +4.5%)
+- 7d: +2.0% vs BTC -3.1% (RS +5.1%)
 
-![chart](output/charts/2026-10-11_ONDO.png)
+![chart](output/charts/2026-10-12_NEAR.png)
+
+## 3. W — Daily range breakout  (score 9.1)
+
+> Market long W here at CMP (0.019916). No DCA, 4H close under 0.01848 for stops, TPs above — TP1 0.0225 (1.8R) · TP2 0.02684 (4.8R) · TP3 0.03183 (8.3R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 7.21% · TP1 1.8R · TP2 4.8R · TP3 8.3R
+
+Why it qualifies:
+- daily close above the 20-day range high 0.01896 (1 day(s) ago) and holding
+- range depth 71% → measured move ~0.02684
+- above the 1H/4H/daily 200MA
+- 7d: +42.9% vs BTC -3.1% (RS +46.0%)
+
+![chart](output/charts/2026-10-12_W.png)
 
 ## Watchlist (next in line)
 
-- APT — daily_breakout (score 8.84)
-- FET — sr_flip (score 8.72)
-- W — daily_breakout (score 8.72)
-- CRV — sr_flip (score 8.53)
-- JTO — sr_flip (score 8.44)
-- LA — sr_flip (score 8.38)
-- SEI — sr_flip (score 8.24)
+- PLUME — sr_flip (score 8.89)
+- AERO — sr_flip (score 8.83)
+- STX — daily_breakout (score 8.79)
+- CL — sr_flip (score 8.69)
+- TIA — daily_breakout (score 8.54)
+- OP — sr_flip (score 8.48)
+- CKB — daily_breakout (score 8.44)
