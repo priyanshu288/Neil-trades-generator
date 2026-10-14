@@ -1,59 +1,59 @@
-# Neil-style setups — 2026-10-13
+# Neil-style setups — 2026-10-14
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d +0.2%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -1.9%)
 
-Scanned 185 USDT perps; 15 raw setups; showing top 3.
+Scanned 167 USDT perps; 10 raw setups; showing top 3.
 
-## 1. AAPLSTOCK — 4H SR flip / retest  (score 9.1)
+## 1. CL — 4H SR flip / retest  (score 9.8)
 
-> Market long AAPLSTOCK here at CMP (341.88). No DCA, 4H close under 337.6 for stops, TPs above — TP1 348.3 (1.5R) · TP2 355.5 (3.2R) · TP3 362.8 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long CL here at CMP (94.67). No DCA, 4H close under 92.53 for stops, TPs above — TP1 101 (3.0R) · TP2 103.3 (4.0R) · TP3 106.9 (5.7R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 1.25% · TP1 1.5R · TP2 3.2R · TP3 4.9R
-
-Why it qualifies:
-- 4H closed above the 341.74 resistance 5 bars ago and is holding above it, low already retested the level
-- level rejected price 28x before the flip
-- reclaim bar volume 1.9x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +2.3% vs BTC -2.7% (RS +5.0%)
-
-![chart](output/charts/2026-10-13_AAPLSTOCK.png)
-
-## 2. OP — Daily range breakout  (score 9.0)
-
-> Market long OP here at CMP (0.15406). No DCA, 4H close under 0.1471 for stops, TPs above — TP1 0.1665 (1.8R) · TP2 0.1814 (3.9R) · TP3 0.1909 (5.3R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
-
-Risk to stop: 4.52% · TP1 1.8R · TP2 3.9R · TP3 5.3R
+Risk to stop: 2.26% · TP1 3.0R · TP2 4.0R · TP3 5.7R
 
 Why it qualifies:
-- daily close above the 20-day range high 0.15089 (0 day(s) ago) and holding
-- range depth 36% → measured move ~0.19098
+- 4H closed above the 93.66 resistance 7 bars ago and is holding above it, low already retested the level
+- level rejected price 36x before the flip
+- reclaim bar volume 1.6x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +18.3% vs BTC -2.7% (RS +20.9%)
+- 7d: +6.6% vs BTC -1.5% (RS +8.1%)
 
-![chart](output/charts/2026-10-13_OP.png)
+![chart](output/charts/2026-10-14_CL.png)
 
-## 3. CFX — 4H SR flip / retest  (score 8.8)
+## 2. TIA — 1H 200MA first retest  (score 9.2)
 
-> Market long CFX here at CMP (0.05753). No DCA, 4H close under 0.05647 for stops, TPs above — TP1 0.06053 (2.8R) · TP2 0.06364 (5.8R) · TP3 0.06487 (6.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long TIA here at CMP (0.5383). No DCA, 1H close under 0.5174 for stops, TPs above — TP1 0.5759 (1.8R) · TP2 0.6078 (3.3R) · TP3 0.6325 (4.5R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
 
-Risk to stop: 1.84% · TP1 2.8R · TP2 5.8R · TP3 6.9R
+Risk to stop: 3.88% · TP1 1.8R · TP2 3.3R · TP3 4.5R
 
 Why it qualifies:
-- 4H closed above the 0.05716 resistance 18 bars ago and is holding above it, low already retested the level
-- level rejected price 13x before the flip
-- reclaim bar volume 1.8x the 20-bar average
+- first tap of the rising 1H 200MA (0.525367) after a 22% extension above it
+- impulse high at 0.632 is the natural first target
 - above the 1H/4H/daily 200MA
-- 7d: +5.9% vs BTC -2.7% (RS +8.6%)
+- 7d: +14.2% vs BTC -1.5% (RS +15.7%)
 
-![chart](output/charts/2026-10-13_CFX.png)
+![chart](output/charts/2026-10-14_TIA.png)
+
+## 3. XIAOMI — 4H SR flip / retest  (score 9.1)
+
+> Market long XIAOMI here at CMP (3.322). No DCA, 4H close under 3.272 for stops, TPs above — TP1 3.412 (1.8R) · TP2 3.499 (3.5R) · TP3 3.661 (6.8R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 1.51% · TP1 1.8R · TP2 3.5R · TP3 6.8R
+
+Why it qualifies:
+- 4H closed above the 3.312 resistance 5 bars ago and is holding above it, low already retested the level
+- level rejected price 17x before the flip
+- reclaim bar volume 5.8x the 20-bar average
+- above the 1H/4H 200MA
+- 7d: +8.8% vs BTC -1.5% (RS +10.3%)
+
+![chart](output/charts/2026-10-14_XIAOMI.png)
 
 ## Watchlist (next in line)
 
-- RLC — ma_retest (score 8.8)
-- NG — daily_breakout (score 8.62)
-- NGAS — daily_breakout (score 8.45)
-- TIA — daily_breakout (score 8.37)
-- SOXS — daily_breakout (score 7.81)
-- BTW — daily_breakout (score 7.75)
-- SPX500 — sr_flip (score 7.54)
+- XMR — sr_flip (score 8.69)
+- RSR — daily_breakout (score 8.33)
+- AERO — ma_retest (score 8.09)
+- LEAD — sr_flip (score 7.89)
+- TRX — sr_flip (score 7.83)
+- INJ — ma_retest (score 7.62)
+- NG — daily_breakout (score 7.3)
