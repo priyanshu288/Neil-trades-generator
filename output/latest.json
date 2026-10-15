@@ -1,55 +1,89 @@
 {
   "date": "2026-10-15",
-  "generated_utc": "2026-10-15T16:58:46+00:00",
-  "universe_size": 197,
-  "scanned": 196,
+  "generated_utc": "2026-10-15T17:26:44+00:00",
+  "universe_size": 196,
+  "scanned": 195,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
-    "above_4h_200": false,
-    "change_3d_pct": -0.95,
-    "last": 82039.2
+    "above_4h_200": true,
+    "change_3d_pct": -0.37,
+    "last": 82514.2
   },
   "setups": [
+    {
+      "symbol": "ZRO",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 2.1036,
+      "stop": 2.068,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        2.154,
+        2.288,
+        2.39
+      ],
+      "tp_r": [
+        1.42,
+        5.18,
+        8.04
+      ],
+      "risk_pct": 1.69,
+      "score": 9.73428329322387,
+      "facts": [
+        "4H closed above the 2.094 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 11x before the flip",
+        "reclaim bar volume 1.8x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +7.1% vs BTC +1.0% (RS +6.2%)"
+      ],
+      "chart_tf": "4h",
+      "level": 2.094,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-10-15_ZRO.png",
+      "alert": "Market long ZRO here at CMP (2.104). No DCA, 4H close under 2.068 for stops, TPs above \u2014 TP1 2.154 (1.4R) \u00b7 TP2 2.288 (5.2R) \u00b7 TP3 2.39 (8.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
     {
       "symbol": "XIAOMI",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 3.468,
+      "entry": 3.461,
       "stop": 3.375,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         3.621,
         3.743,
-        3.923
+        3.882
       ],
       "tp_r": [
-        1.65,
-        2.96,
-        4.89
+        1.86,
+        3.28,
+        4.9
       ],
-      "risk_pct": 2.68,
-      "score": 9.63645173462527,
+      "risk_pct": 2.48,
+      "score": 9.555976745855675,
       "facts": [
         "4H closed above the 3.417 resistance 5 bars ago and is holding above it, low already retested the level",
         "level rejected price 30x before the flip",
         "reclaim bar volume 5.1x the 20-bar average",
         "above the 1H/4H 200MA",
-        "7d: +15.5% vs BTC +0.4% (RS +15.1%)"
+        "7d: +15.3% vs BTC +1.0% (RS +14.3%)"
       ],
       "chart_tf": "4h",
       "level": 3.417,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-15_XIAOMI.png",
-      "alert": "Market long XIAOMI here at CMP (3.468). No DCA, 4H close under 3.375 for stops, TPs above \u2014 TP1 3.621 (1.6R) \u00b7 TP2 3.743 (3.0R) \u00b7 TP3 3.923 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long XIAOMI here at CMP (3.461). No DCA, 4H close under 3.375 for stops, TPs above \u2014 TP1 3.621 (1.9R) \u00b7 TP2 3.743 (3.3R) \u00b7 TP3 3.882 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "ZK",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.017496,
+      "entry": 0.017539,
       "stop": 0.01704,
       "stop_tf": "4H",
       "dca": null,
@@ -59,108 +93,75 @@
         0.01999
       ],
       "tp_r": [
-        2.68,
-        4.22,
-        5.47
+        2.37,
+        3.77,
+        4.91
       ],
-      "risk_pct": 2.61,
-      "score": 9.148229613325993,
+      "risk_pct": 2.85,
+      "score": 9.149905512053218,
       "facts": [
         "daily close above the 20-day range high 0.017486 (0 day(s) ago) and holding",
         "range depth 64% \u2192 measured move ~0.024299",
         "above the 1H/4H/daily 200MA",
-        "7d: +53.8% vs BTC +0.4% (RS +53.4%)"
+        "7d: +54.2% vs BTC +1.0% (RS +53.2%)"
       ],
       "chart_tf": "4h",
       "level": 0.017486,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-15_ZK.png",
-      "alert": "Market long ZK here at CMP (0.017496). No DCA, 4H close under 0.01704 for stops, TPs above \u2014 TP1 0.01872 (2.7R) \u00b7 TP2 0.01942 (4.2R) \u00b7 TP3 0.01999 (5.5R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
-    },
-    {
-      "symbol": "ZKSYNC",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 0.017479,
-      "stop": 0.01704,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.01812,
-        0.01943,
-        0.01999
-      ],
-      "tp_r": [
-        1.46,
-        4.44,
-        5.72
-      ],
-      "risk_pct": 2.51,
-      "score": 8.76282355681313,
-      "facts": [
-        "daily close above the 20-day range high 0.017477 (0 day(s) ago) and holding",
-        "range depth 64% \u2192 measured move ~0.024277",
-        "above the 1H/4H/daily 200MA",
-        "7d: +53.6% vs BTC +0.4% (RS +53.2%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.017477,
-      "source": "mexc",
-      "extra": {},
-      "chart": "output/charts/2026-10-15_ZKSYNC.png",
-      "alert": "Market long ZKSYNC here at CMP (0.017479). No DCA, 4H close under 0.01704 for stops, TPs above \u2014 TP1 0.01812 (1.5R) \u00b7 TP2 0.01943 (4.4R) \u00b7 TP3 0.01999 (5.7R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long ZK here at CMP (0.017539). No DCA, 4H close under 0.01704 for stops, TPs above \u2014 TP1 0.01872 (2.4R) \u00b7 TP2 0.01942 (3.8R) \u00b7 TP3 0.01999 (4.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "ANIME",
+      "symbol": "ZKSYNC",
       "kind": "daily_breakout",
-      "score": 8.72,
-      "entry": 0.003741,
-      "stop": 0.003479
+      "score": 8.76,
+      "entry": 0.017495,
+      "stop": 0.01704
     },
     {
       "symbol": "TRUTH",
       "kind": "daily_breakout",
-      "score": 8.53,
-      "entry": 0.01712,
+      "score": 8.52,
+      "entry": 0.017002,
       "stop": 0.0155
     },
     {
       "symbol": "PYTH",
       "kind": "daily_breakout",
-      "score": 8.4,
-      "entry": 0.09309,
+      "score": 8.5,
+      "entry": 0.09428,
       "stop": 0.08836
     },
     {
       "symbol": "RSR",
       "kind": "daily_breakout",
       "score": 8.15,
-      "entry": 0.001967,
+      "entry": 0.001962,
       "stop": 0.001796
     },
     {
       "symbol": "STX",
       "kind": "sr_flip",
-      "score": 7.5,
-      "entry": 0.4013,
+      "score": 7.49,
+      "entry": 0.403,
       "stop": 0.3938
+    },
+    {
+      "symbol": "XPL",
+      "kind": "sr_flip",
+      "score": 7.4,
+      "entry": 0.08463,
+      "stop": 0.08269
     },
     {
       "symbol": "PARTI",
       "kind": "sr_flip",
-      "score": 7.41,
-      "entry": 0.03553,
+      "score": 7.4,
+      "entry": 0.03568,
       "stop": 0.03524
-    },
-    {
-      "symbol": "BTW",
-      "kind": "daily_breakout",
-      "score": 7.38,
-      "entry": 1.874861,
-      "stop": 1.823
     }
   ]
 }
