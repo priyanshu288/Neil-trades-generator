@@ -1,168 +1,167 @@
 {
   "date": "2026-10-20",
-  "generated_utc": "2026-10-20T17:00:17+00:00",
+  "generated_utc": "2026-10-20T17:35:58+00:00",
   "universe_size": 157,
   "scanned": 155,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": 1.47,
-    "last": 82770.6
+    "change_3d_pct": 1.39,
+    "last": 82700.1
   },
   "setups": [
     {
-      "symbol": "COMP",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 27.32,
-      "stop": 26.31,
+      "symbol": "IOST",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.0009271,
+      "stop": 0.0009116,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        29.36,
-        30.77,
-        33.39
+        0.000955,
+        0.0009855,
+        0.001025
       ],
       "tp_r": [
-        2.02,
-        3.42,
-        6.01
+        1.8,
+        3.77,
+        6.32
       ],
-      "risk_pct": 3.7,
-      "score": 8.79853603982142,
+      "risk_pct": 1.67,
+      "score": 10.179583084602202,
       "facts": [
-        "daily close above the 20-day range high 26.99 (0 day(s) ago) and holding",
-        "range depth 31% \u2192 measured move ~33.39",
+        "4H closed above the 0.0009227 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 21x before the flip",
+        "reclaim bar volume 89.6x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +19.4% vs BTC -0.4% (RS +19.8%)"
+        "7d: +11.3% vs BTC -0.5% (RS +11.8%)"
       ],
       "chart_tf": "4h",
-      "level": 26.99,
+      "level": 0.0009227,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-10-20_COMP.png",
-      "alert": "Market long COMP here at CMP (27.32). No DCA, 4H close under 26.31 for stops, TPs above \u2014 TP1 29.36 (2.0R) \u00b7 TP2 30.77 (3.4R) \u00b7 TP3 33.39 (6.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "chart": "output/charts/2026-10-20_IOST.png",
+      "alert": "Market long IOST here at CMP (0.0009271). No DCA, 4H close under 0.0009116 for stops, TPs above \u2014 TP1 0.000955 (1.8R) \u00b7 TP2 0.0009855 (3.8R) \u00b7 TP3 0.001025 (6.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "SOXS",
+      "kind": "ma_retest",
+      "label": "1H 200MA first retest",
+      "entry": 46.26,
+      "stop": 44.06,
+      "stop_tf": "1H",
+      "dca": null,
+      "tps": [
+        49.69,
+        52.67,
+        60.44
+      ],
+      "tp_r": [
+        1.56,
+        2.91,
+        6.45
+      ],
+      "risk_pct": 4.76,
+      "score": 9.125486756760642,
+      "facts": [
+        "first tap of the rising 1H 200MA (44.733) after a 25% extension above it",
+        "impulse high at 52.34 is the natural first target",
+        "above the 1H/4H 200MA",
+        "7d: +23.6% vs BTC -0.5% (RS +24.1%)"
+      ],
+      "chart_tf": "1h",
+      "level": 44.73295,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-10-20_SOXS.png",
+      "alert": "Market long SOXS here at CMP (46.26). No DCA, 1H close under 44.06 for stops, TPs above \u2014 TP1 49.69 (1.6R) \u00b7 TP2 52.67 (2.9R) \u00b7 TP3 60.44 (6.5R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
     },
     {
       "symbol": "AERO",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.8666,
+      "entry": 0.8618,
       "stop": 0.8469,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
+        0.8903,
         0.9063,
-        0.9325,
-        0.9798
+        0.9325
       ],
       "tp_r": [
-        2.02,
-        3.35,
-        5.75
+        1.91,
+        2.99,
+        4.74
       ],
-      "risk_pct": 2.27,
-      "score": 8.585081116771823,
+      "risk_pct": 1.73,
+      "score": 8.526238068696996,
       "facts": [
         "4H closed above the 0.8572 resistance 2 bars ago and is holding above it, low already retested the level",
         "level rejected price 6x before the flip",
         "reclaim bar volume 3.8x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: -4.1% vs BTC -0.4% (RS -3.7%)"
+        "7d: -4.7% vs BTC -0.5% (RS -4.1%)"
       ],
       "chart_tf": "4h",
       "level": 0.8572,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-10-20_AERO.png",
-      "alert": "Market long AERO here at CMP (0.8666). No DCA, 4H close under 0.8469 for stops, TPs above \u2014 TP1 0.9063 (2.0R) \u00b7 TP2 0.9325 (3.4R) \u00b7 TP3 0.9798 (5.8R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "XRP",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 1.3282,
-      "stop": 1.305,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        1.369,
-        1.457,
-        1.606
-      ],
-      "tp_r": [
-        1.76,
-        5.55,
-        11.97
-      ],
-      "risk_pct": 1.75,
-      "score": 8.113001370901001,
-      "facts": [
-        "4H closed above the 1.3212 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 18x before the flip",
-        "reclaim bar volume 2.4x the 20-bar average",
-        "above the 1H/daily 200MA",
-        "still under the 4H 200MA",
-        "7d: -2.7% vs BTC -0.4% (RS -2.3%)"
-      ],
-      "chart_tf": "4h",
-      "level": 1.3212,
-      "source": "mexc",
-      "extra": {},
-      "chart": "output/charts/2026-10-20_XRP.png",
-      "alert": "Market long XRP here at CMP (1.328). No DCA, 4H close under 1.305 for stops, TPs above \u2014 TP1 1.369 (1.8R) \u00b7 TP2 1.457 (5.5R) \u00b7 TP3 1.606 (12.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long AERO here at CMP (0.8618). No DCA, 4H close under 0.8469 for stops, TPs above \u2014 TP1 0.8903 (1.9R) \u00b7 TP2 0.9063 (3.0R) \u00b7 TP3 0.9325 (4.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     }
   ],
   "watchlist": [
     {
+      "symbol": "XRP",
+      "kind": "sr_flip",
+      "score": 8.11,
+      "entry": 1.3272,
+      "stop": 1.305
+    },
+    {
       "symbol": "GRVT",
       "kind": "daily_breakout",
-      "score": 7.58,
-      "entry": 0.24228,
+      "score": 7.82,
+      "entry": 0.247,
       "stop": 0.2323
     },
     {
       "symbol": "INIT",
       "kind": "sr_flip",
-      "score": 7.46,
-      "entry": 0.12874,
+      "score": 7.4,
+      "entry": 0.12787,
       "stop": 0.1259
     },
     {
       "symbol": "SHIB",
       "kind": "sr_flip",
-      "score": 7.03,
-      "entry": 5.113e-06,
+      "score": 7.0,
+      "entry": 5.097e-06,
       "stop": 4.982e-06
     },
     {
       "symbol": "WDC",
       "kind": "sr_flip",
-      "score": 6.61,
-      "entry": 360.6,
+      "score": 6.7,
+      "entry": 363.7,
       "stop": 356.4
     },
     {
       "symbol": "ETC",
       "kind": "sr_flip",
-      "score": 6.44,
-      "entry": 7.902,
+      "score": 6.42,
+      "entry": 7.879,
       "stop": 7.741
     },
     {
       "symbol": "DOGE",
       "kind": "sr_flip",
-      "score": 6.31,
-      "entry": 0.08113,
+      "score": 6.33,
+      "entry": 0.08117,
       "stop": 0.07928
-    },
-    {
-      "symbol": "FET",
-      "kind": "sr_flip",
-      "score": 4.91,
-      "entry": 0.1949,
-      "stop": 0.1912
     }
   ]
 }
