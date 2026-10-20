@@ -1,58 +1,60 @@
-# Neil-style setups — 2026-10-19
+# Neil-style setups — 2026-10-20
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d +0.5%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d +1.5%)
 
-Scanned 152 USDT perps; 26 raw setups; showing top 3.
+Scanned 155 USDT perps; 51 raw setups; showing top 3.
 
-## 1. CRV — 4H SR flip / retest  (score 9.5)
+## 1. COMP — Daily range breakout  (score 8.8)
 
-> Market long CRV here at CMP (0.3668). No DCA, 4H close under 0.3621 for stops, TPs above — TP1 0.3752 (1.8R) · TP2 0.3875 (4.4R) · TP3 0.3991 (6.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long COMP here at CMP (27.32). No DCA, 4H close under 26.31 for stops, TPs above — TP1 29.36 (2.0R) · TP2 30.77 (3.4R) · TP3 33.39 (6.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 1.28% · TP1 1.8R · TP2 4.4R · TP3 6.9R
-
-Why it qualifies:
-- 4H closed above the 0.3665 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 23x before the flip
-- reclaim bar volume 3.6x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +4.8% vs BTC +0.2% (RS +4.6%)
-
-![chart](output/charts/2026-10-19_CRV.png)
-
-## 2. INJ — Daily range breakout  (score 8.2)
-
-> Market long INJ here at CMP (8.626). No DCA, 4H close under 8.377 for stops, TPs above — TP1 9.074 (1.8R) · TP2 9.414 (3.2R) · TP3 10.76 (8.6R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
-
-Risk to stop: 2.89% · TP1 1.8R · TP2 3.2R · TP3 8.6R
+Risk to stop: 3.70% · TP1 2.0R · TP2 3.4R · TP3 6.0R
 
 Why it qualifies:
-- daily close above the 20-day range high 8.592 (3 day(s) ago) and holding
-- range depth 34% → measured move ~10.768
+- daily close above the 20-day range high 26.99 (0 day(s) ago) and holding
+- range depth 31% → measured move ~33.39
 - above the 1H/4H/daily 200MA
-- 7d: +18.3% vs BTC +0.2% (RS +18.0%)
+- 7d: +19.4% vs BTC -0.4% (RS +19.8%)
 
-![chart](output/charts/2026-10-19_INJ.png)
+![chart](output/charts/2026-10-20_COMP.png)
 
-## 3. XMR — Daily range breakout  (score 7.7)
+## 2. AERO — 4H SR flip / retest  (score 8.6)
 
-> Market long XMR here at CMP (588.13). No DCA, 4H close under 557.6 for stops, TPs above — TP1 634.9 (1.5R) · TP2 685.8 (3.2R) · TP3 737.7 (4.9R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long AERO here at CMP (0.8666). No DCA, 4H close under 0.8469 for stops, TPs above — TP1 0.9063 (2.0R) · TP2 0.9325 (3.4R) · TP3 0.9798 (5.8R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 5.19% · TP1 1.5R · TP2 3.2R · TP3 4.9R
+Risk to stop: 2.27% · TP1 2.0R · TP2 3.4R · TP3 5.8R
 
 Why it qualifies:
-- daily close above the 20-day range high 572 (1 day(s) ago) and holding
-- range depth 11% → measured move ~630.61
+- 4H closed above the 0.8572 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 6x before the flip
+- reclaim bar volume 3.8x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +11.6% vs BTC +0.2% (RS +11.4%)
+- 7d: -4.1% vs BTC -0.4% (RS -3.7%)
 
-![chart](output/charts/2026-10-19_XMR.png)
+![chart](output/charts/2026-10-20_AERO.png)
+
+## 3. XRP — 4H SR flip / retest  (score 8.1)
+
+> Market long XRP here at CMP (1.328). No DCA, 4H close under 1.305 for stops, TPs above — TP1 1.369 (1.8R) · TP2 1.457 (5.5R) · TP3 1.606 (12.0R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 1.75% · TP1 1.8R · TP2 5.5R · TP3 12.0R
+
+Why it qualifies:
+- 4H closed above the 1.3212 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 18x before the flip
+- reclaim bar volume 2.4x the 20-bar average
+- above the 1H/daily 200MA
+- still under the 4H 200MA
+- 7d: -2.7% vs BTC -0.4% (RS -2.3%)
+
+![chart](output/charts/2026-10-20_XRP.png)
 
 ## Watchlist (next in line)
 
-- MRNA — sr_flip (score 7.68)
-- UNITREE — daily_breakout (score 7.54)
-- SKINNOVSTOCK — sr_flip (score 7.43)
-- CL — daily_breakout (score 7.11)
-- NICKEL — sr_flip (score 6.37)
-- SILVER — range_low (score 2.45)
-- MUSTOCK — range_low (score 1.56)
+- GRVT — daily_breakout (score 7.58)
+- INIT — sr_flip (score 7.46)
+- SHIB — sr_flip (score 7.03)
+- WDC — sr_flip (score 6.61)
+- ETC — sr_flip (score 6.44)
+- DOGE — sr_flip (score 6.31)
+- FET — sr_flip (score 4.91)
