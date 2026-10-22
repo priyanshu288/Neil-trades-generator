@@ -1,59 +1,60 @@
-# Neil-style setups — 2026-10-21
+# Neil-style setups — 2026-10-22
 
-**BTC context:** BTC above its 4H 50/200MA — alts have a tailwind. (3d +4.7%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -0.8%)
 
-Scanned 161 USDT perps; 74 raw setups; showing top 3.
+Scanned 168 USDT perps; 22 raw setups; showing top 3.
 
-## 1. NEAR — 4H SR flip / retest  (score 10.5)
+## 1. PEPE — 4H SR flip / retest  (score 9.3)
 
-> Market long NEAR here at CMP (5.361). No DCA, 4H close under 5.309 for stops, TPs above — TP1 5.454 (1.8R) · TP2 5.526 (3.2R) · TP3 5.615 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long PEPE here at CMP (4.391e-06). No DCA, 4H close under 4.281e-06 for stops, TPs above — TP1 4.551e-06 (1.4R) · TP2 4.767e-06 (3.4R) · TP3 5.064e-06 (6.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 0.97% · TP1 1.8R · TP2 3.2R · TP3 4.9R
-
-Why it qualifies:
-- 4H closed above the 5.374 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 7x before the flip
-- reclaim bar volume 1.8x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +9.8% vs BTC +3.7% (RS +6.1%)
-
-![chart](output/charts/2026-10-21_NEAR.png)
-
-## 2. COMP — 4H SR flip / retest  (score 10.0)
-
-> Market long COMP here at CMP (25.9). No DCA, 4H close under 25.33 for stops, TPs above — TP1 26.99 (1.9R) · TP2 29.22 (5.8R) · TP3 30.01 (7.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 2.20% · TP1 1.9R · TP2 5.8R · TP3 7.2R
+Risk to stop: 2.51% · TP1 1.4R · TP2 3.4R · TP3 6.1R
 
 Why it qualifies:
-- 4H closed above the 25.64 resistance 7 bars ago and is holding above it, low already retested the level
-- level rejected price 6x before the flip
-- reclaim bar volume 43.4x the 20-bar average
+- 4H closed above the 4.333e-06 resistance 14 bars ago and is holding above it, low already retested the level
+- level rejected price 17x before the flip
+- reclaim bar volume 6.1x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +13.9% vs BTC +3.7% (RS +10.2%)
+- 7d: +7.5% vs BTC -1.2% (RS +8.7%)
 
-![chart](output/charts/2026-10-21_COMP.png)
+![chart](output/charts/2026-10-22_PEPE.png)
 
-## 3. CRCLSTOCK — Daily range breakout  (score 8.6)
+## 2. DOOD — Range-low higher low  (score 8.5)
 
-> Market long CRCLSTOCK here at CMP (91.71). No DCA, 4H close under 86.19 for stops, TPs above — TP1 102.4 (1.9R) · TP2 110.1 (3.3R) · TP3 118.7 (4.9R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long DOOD here at CMP (0.002237). DCA @ 0.002168, 4H close under 0.002078 for stops, TPs above — TP1 0.002523 (1.8R) · TP2 0.003126 (5.6R) · TP3 0.003333 (6.9R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in — playing the rotation back to range highs.
 
-Risk to stop: 6.02% · TP1 1.9R · TP2 3.3R · TP3 4.9R
+Risk to stop: 7.11% · TP1 1.8R · TP2 5.6R · TP3 6.9R
 
 Why it qualifies:
-- daily close above the 20-day range high 88.4 (0 day(s) ago) and holding
-- range depth 18% → measured move ~101.75
+- 30-day range 0.001264–0.004902; price in the bottom 27% of it
+- higher low 0.002099 vs prior low 0.001307 — range low holding
+- mid-range 0.003083 and top-quarter 0.0039925 are the rotation targets
 - above the 1H/4H/daily 200MA
-- 7d: +18.4% vs BTC +3.7% (RS +14.7%)
+- 7d: +60.5% vs BTC -1.2% (RS +61.7%)
+- already 60% up on the week — extended, size down or wait for a deeper pullback
 
-![chart](output/charts/2026-10-21_CRCLSTOCK.png)
+![chart](output/charts/2026-10-22_DOOD.png)
+
+## 3. WLD — 1H 200MA first retest  (score 8.4)
+
+> Market long WLD here at CMP (0.5278). No DCA, 1H close under 0.5126 for stops, TPs above — TP1 0.5551 (1.8R) · TP2 0.5838 (3.7R) · TP3 0.6188 (6.0R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+
+Risk to stop: 2.88% · TP1 1.8R · TP2 3.7R · TP3 6.0R
+
+Why it qualifies:
+- first tap of the rising 1H 200MA (0.520458) after a 17% extension above it
+- impulse high at 0.5987 is the natural first target
+- above the 1H/4H/daily 200MA
+- 7d: +4.3% vs BTC -1.2% (RS +5.5%)
+
+![chart](output/charts/2026-10-22_WLD.png)
 
 ## Watchlist (next in line)
 
-- BTC — sr_flip (score 9.94)
-- TESLA — sr_flip (score 9.64)
-- ZRO — sr_flip (score 9.59)
-- ETHFI — sr_flip (score 9.55)
-- SOON — sr_flip (score 9.35)
-- WLD — sr_flip (score 9.16)
-- W — sr_flip (score 9.04)
+- BULLA — sr_flip (score 8.32)
+- NICKEL — sr_flip (score 7.57)
+- IOST — sr_flip (score 6.91)
+- VVV — sr_flip (score 6.43)
+- CRCLSTOCK — sr_flip (score 6.26)
+- PENGU — ma_retest (score 5.9)
+- GRVT — daily_breakout (score 5.7)

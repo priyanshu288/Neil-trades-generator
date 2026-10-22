@@ -1,167 +1,173 @@
 {
-  "date": "2026-10-21",
-  "generated_utc": "2026-10-21T17:44:22+00:00",
-  "universe_size": 164,
-  "scanned": 161,
+  "date": "2026-10-22",
+  "generated_utc": "2026-10-22T17:09:10+00:00",
+  "universe_size": 171,
+  "scanned": 168,
   "btc": {
-    "trend": "up",
-    "note": "BTC above its 4H 50/200MA \u2014 alts have a tailwind.",
-    "above_4h_200": true,
-    "change_3d_pct": 4.71,
-    "last": 84649.9
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "above_4h_200": false,
+    "change_3d_pct": -0.78,
+    "last": 81200.4
   },
   "setups": [
     {
-      "symbol": "NEAR",
+      "symbol": "PEPE",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 5.361,
-      "stop": 5.309,
+      "entry": 4.391e-06,
+      "stop": 4.281e-06,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        5.454,
-        5.526,
-        5.615
+        4.551e-06,
+        4.767e-06,
+        5.064e-06
       ],
       "tp_r": [
-        1.79,
-        3.17,
-        4.88
+        1.45,
+        3.42,
+        6.12
       ],
-      "risk_pct": 0.97,
-      "score": 10.537138888931633,
+      "risk_pct": 2.51,
+      "score": 9.31475499440533,
       "facts": [
-        "4H closed above the 5.374 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 7x before the flip",
-        "reclaim bar volume 1.8x the 20-bar average",
+        "4H closed above the 4.333e-06 resistance 14 bars ago and is holding above it, low already retested the level",
+        "level rejected price 17x before the flip",
+        "reclaim bar volume 6.1x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +9.8% vs BTC +3.7% (RS +6.1%)"
+        "7d: +7.5% vs BTC -1.2% (RS +8.7%)"
       ],
       "chart_tf": "4h",
-      "level": 5.374,
+      "level": 4.333e-06,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-10-21_NEAR.png",
-      "alert": "Market long NEAR here at CMP (5.361). No DCA, 4H close under 5.309 for stops, TPs above \u2014 TP1 5.454 (1.8R) \u00b7 TP2 5.526 (3.2R) \u00b7 TP3 5.615 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-10-22_PEPE.png",
+      "alert": "Market long PEPE here at CMP (4.391e-06). No DCA, 4H close under 4.281e-06 for stops, TPs above \u2014 TP1 4.551e-06 (1.4R) \u00b7 TP2 4.767e-06 (3.4R) \u00b7 TP3 5.064e-06 (6.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "COMP",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 25.9,
-      "stop": 25.33,
+      "symbol": "DOOD",
+      "kind": "range_low",
+      "label": "Range-low higher low",
+      "entry": 0.002237,
+      "stop": 0.002078,
       "stop_tf": "4H",
-      "dca": null,
+      "dca": 0.002168,
       "tps": [
-        26.99,
-        29.22,
-        30.01
+        0.002523,
+        0.003126,
+        0.003333
       ],
       "tp_r": [
-        1.91,
-        5.82,
-        7.21
+        1.8,
+        5.59,
+        6.89
       ],
-      "risk_pct": 2.2,
-      "score": 10.02310420474167,
+      "risk_pct": 7.11,
+      "score": 8.482062157894939,
       "facts": [
-        "4H closed above the 25.64 resistance 7 bars ago and is holding above it, low already retested the level",
-        "level rejected price 6x before the flip",
-        "reclaim bar volume 43.4x the 20-bar average",
+        "30-day range 0.001264\u20130.004902; price in the bottom 27% of it",
+        "higher low 0.002099 vs prior low 0.001307 \u2014 range low holding",
+        "mid-range 0.003083 and top-quarter 0.0039925 are the rotation targets",
         "above the 1H/4H/daily 200MA",
-        "7d: +13.9% vs BTC +3.7% (RS +10.2%)"
+        "7d: +60.5% vs BTC -1.2% (RS +61.7%)",
+        "already 60% up on the week \u2014 extended, size down or wait for a deeper pullback"
       ],
       "chart_tf": "4h",
-      "level": 25.64,
+      "level": 0.002099,
+      "source": "okx",
+      "extra": {
+        "range": [
+          0.001264,
+          0.004902
+        ]
+      },
+      "chart": "output/charts/2026-10-22_DOOD.png",
+      "alert": "Market long DOOD here at CMP (0.002237). DCA @ 0.002168, 4H close under 0.002078 for stops, TPs above \u2014 TP1 0.002523 (1.8R) \u00b7 TP2 0.003126 (5.6R) \u00b7 TP3 0.003333 (6.9R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
+    },
+    {
+      "symbol": "WLD",
+      "kind": "ma_retest",
+      "label": "1H 200MA first retest",
+      "entry": 0.5278,
+      "stop": 0.5126,
+      "stop_tf": "1H",
+      "dca": null,
+      "tps": [
+        0.5551,
+        0.5838,
+        0.6188
+      ],
+      "tp_r": [
+        1.8,
+        3.68,
+        5.99
+      ],
+      "risk_pct": 2.88,
+      "score": 8.445707025734071,
+      "facts": [
+        "first tap of the rising 1H 200MA (0.520458) after a 17% extension above it",
+        "impulse high at 0.5987 is the natural first target",
+        "above the 1H/4H/daily 200MA",
+        "7d: +4.3% vs BTC -1.2% (RS +5.5%)"
+      ],
+      "chart_tf": "1h",
+      "level": 0.5204575,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-10-21_COMP.png",
-      "alert": "Market long COMP here at CMP (25.9). No DCA, 4H close under 25.33 for stops, TPs above \u2014 TP1 26.99 (1.9R) \u00b7 TP2 29.22 (5.8R) \u00b7 TP3 30.01 (7.2R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "CRCLSTOCK",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 91.71,
-      "stop": 86.19,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        102.4,
-        110.1,
-        118.7
-      ],
-      "tp_r": [
-        1.94,
-        3.33,
-        4.89
-      ],
-      "risk_pct": 6.02,
-      "score": 8.58297221249913,
-      "facts": [
-        "daily close above the 20-day range high 88.4 (0 day(s) ago) and holding",
-        "range depth 18% \u2192 measured move ~101.75",
-        "above the 1H/4H/daily 200MA",
-        "7d: +18.4% vs BTC +3.7% (RS +14.7%)"
-      ],
-      "chart_tf": "4h",
-      "level": 88.4,
-      "source": "mexc",
-      "extra": {},
-      "chart": "output/charts/2026-10-21_CRCLSTOCK.png",
-      "alert": "Market long CRCLSTOCK here at CMP (91.71). No DCA, 4H close under 86.19 for stops, TPs above \u2014 TP1 102.4 (1.9R) \u00b7 TP2 110.1 (3.3R) \u00b7 TP3 118.7 (4.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "chart": "output/charts/2026-10-22_WLD.png",
+      "alert": "Market long WLD here at CMP (0.5278). No DCA, 1H close under 0.5126 for stops, TPs above \u2014 TP1 0.5551 (1.8R) \u00b7 TP2 0.5838 (3.7R) \u00b7 TP3 0.6188 (6.0R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
     }
   ],
   "watchlist": [
     {
-      "symbol": "BTC",
+      "symbol": "BULLA",
       "kind": "sr_flip",
-      "score": 9.94,
-      "entry": 84650.0,
-      "stop": 82490.0
+      "score": 8.32,
+      "entry": 0.08078,
+      "stop": 0.07912
     },
     {
-      "symbol": "TESLA",
+      "symbol": "NICKEL",
       "kind": "sr_flip",
-      "score": 9.64,
-      "entry": 386.72,
-      "stop": 379.1
+      "score": 7.57,
+      "entry": 15994.04,
+      "stop": 15630.0
     },
     {
-      "symbol": "ZRO",
+      "symbol": "IOST",
       "kind": "sr_flip",
-      "score": 9.59,
-      "entry": 2.0973,
-      "stop": 2.068
+      "score": 6.91,
+      "entry": 0.0008497,
+      "stop": 0.0008418
     },
     {
-      "symbol": "ETHFI",
+      "symbol": "VVV",
       "kind": "sr_flip",
-      "score": 9.55,
-      "entry": 0.7258,
-      "stop": 0.7101
+      "score": 6.43,
+      "entry": 25.759,
+      "stop": 25.23
     },
     {
-      "symbol": "SOON",
+      "symbol": "CRCLSTOCK",
       "kind": "sr_flip",
-      "score": 9.35,
-      "entry": 0.3183,
-      "stop": 0.3117
+      "score": 6.26,
+      "entry": 85.35,
+      "stop": 84.43
     },
     {
-      "symbol": "WLD",
-      "kind": "sr_flip",
-      "score": 9.16,
-      "entry": 0.572,
-      "stop": 0.5643
+      "symbol": "PENGU",
+      "kind": "ma_retest",
+      "score": 5.9,
+      "entry": 0.007714,
+      "stop": 0.007533
     },
     {
-      "symbol": "W",
-      "kind": "sr_flip",
-      "score": 9.04,
-      "entry": 0.015178,
-      "stop": 0.01503
+      "symbol": "GRVT",
+      "kind": "daily_breakout",
+      "score": 5.7,
+      "entry": 0.23845,
+      "stop": 0.2323
     }
   ]
 }
