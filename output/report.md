@@ -1,62 +1,58 @@
-# Neil-style setups — 2026-10-24
+# Neil-style setups — 2026-10-25
 
-**BTC context:** BTC below its 4H 50MA and pressing recent lows — Neil sits on hands here; scalp-size only. (3d -5.5%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -1.1%)
 
-Scanned 137 USDT perps; 10 raw setups; showing top 3.
+Scanned 117 USDT perps; 21 raw setups; showing top 3.
 
-## 1. ANIME — 4H SR flip / retest  (score 9.2)
+## 1. GRASS — 4H SR flip / retest  (score 10.4)
 
-> Market long ANIME here at CMP (0.00325). No DCA, 4H close under 0.003215 for stops, TPs above — TP1 0.003323 (2.1R) · TP2 0.003443 (5.5R) · TP3 0.003565 (9.0R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long GRASS here at CMP (0.7096). No DCA, 4H close under 0.6911 for stops, TPs above — TP1 0.7366 (1.5R) · TP2 0.7649 (3.0R) · TP3 0.7951 (4.6R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 1.08% · TP1 2.1R · TP2 5.5R · TP3 9.0R
-
-Why it qualifies:
-- 4H closed above the 0.003255 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 6x before the flip
-- reclaim bar volume 15.4x the 20-bar average
-- above the 1H/4H 200MA
-- still under the daily 200MA
-- 7d: +17.4% vs BTC -2.0% (RS +19.4%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-10-24_ANIME.png)
-
-## 2. PEPE — 4H SR flip / retest  (score 8.0)
-
-> Market long PEPE here at CMP (4.299e-06). No DCA, 4H close under 4.213e-06 for stops, TPs above — TP1 4.551e-06 (2.9R) · TP2 4.767e-06 (5.4R) · TP3 5.087e-06 (9.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 2.00% · TP1 2.9R · TP2 5.4R · TP3 9.2R
+Risk to stop: 2.61% · TP1 1.5R · TP2 3.0R · TP3 4.6R
 
 Why it qualifies:
-- 4H closed above the 4.265e-06 resistance 18 bars ago and is holding above it, low already retested the level
-- level rejected price 16x before the flip
-- reclaim bar volume 0.4x the 20-bar average
+- 4H closed above the 0.6995 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 3x before the flip
+- reclaim bar volume 2.1x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +11.1% vs BTC -2.0% (RS +13.1%)
-- BTC is weak — treat as scalp size until it stabilises
+- 7d: +20.6% vs BTC -1.8% (RS +22.4%)
 
-![chart](output/charts/2026-10-24_PEPE.png)
+![chart](output/charts/2026-10-25_GRASS.png)
 
-## 3. INIT — Daily range breakout  (score 7.5)
+## 2. LIGHT — Daily range breakout  (score 8.1)
 
-> Market long INIT here at CMP (0.14611). No DCA, 4H close under 0.1412 for stops, TPs above — TP1 0.1578 (2.4R) · TP2 0.1646 (3.8R) · TP3 0.1844 (7.8R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long LIGHT here at CMP (0.241). No DCA, 4H close under 0.2195 for stops, TPs above — TP1 0.2825 (1.9R) · TP2 0.3299 (4.1R) · TP3 0.3925 (7.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 3.36% · TP1 2.4R · TP2 3.8R · TP3 7.8R
+Risk to stop: 8.92% · TP1 1.9R · TP2 4.1R · TP3 7.0R
 
 Why it qualifies:
-- daily close above the 20-day range high 0.1449 (1 day(s) ago) and holding
-- range depth 38% → measured move ~0.18448
+- daily close above the 20-day range high 0.2252 (2 day(s) ago) and holding
+- range depth 34% → measured move ~0.2825
 - above the 1H/4H/daily 200MA
-- 7d: +17.5% vs BTC -2.0% (RS +19.5%)
-- BTC is weak — treat as scalp size until it stabilises
+- 7d: +13.3% vs BTC -1.8% (RS +15.1%)
 
-![chart](output/charts/2026-10-24_INIT.png)
+![chart](output/charts/2026-10-25_LIGHT.png)
+
+## 3. CL — Daily range breakout  (score 7.2)
+
+> Market long CL here at CMP (102.73). No DCA, 4H close under 98.96 for stops, TPs above — TP1 110.7 (2.1R) · TP2 116.2 (3.6R) · TP3 121.4 (5.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 3.67% · TP1 2.1R · TP2 3.6R · TP3 5.0R
+
+Why it qualifies:
+- daily close above the 20-day range high 101.5 (2 day(s) ago) and holding
+- range depth 17% → measured move ~116.1
+- above the 1H/4H/daily 200MA
+- 7d: +5.2% vs BTC -1.8% (RS +7.0%)
+
+![chart](output/charts/2026-10-25_CL.png)
 
 ## Watchlist (next in line)
 
-- INIT — daily_breakout (score 7.46)
-- CL — daily_breakout (score 6.53)
-- SOXS — daily_breakout (score 4.84)
-- WET — range_low (score 2.99)
-- ME — range_low (score 2.2)
-- AVNT — range_low (score 2.02)
+- ANIME — ma_retest (score 6.88)
+- SKHYNIX — compression (score 4.49)
+- MU — range_low (score 4.37)
+- SKHYNIXSTOCK — compression (score 4.33)
+- MUSTOCK — range_low (score 4.2)
+- SKHY — range_low (score 3.99)
+- AI — range_low (score 3.78)
