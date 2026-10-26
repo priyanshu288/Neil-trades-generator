@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-26",
+  "generated_utc": "2026-10-26T18:42:31+00:00",
+  "universe_size": 161,
+  "scanned": 159,
+  "btc": {
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "above_4h_200": false,
+    "change_3d_pct": -1.28,
+    "last": 80222.1
+  },
+  "setups": [
+    {
+      "symbol": "BABY",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.014138,
+      "stop": 0.01395,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.01447,
+        0.01474,
+        0.01567
+      ],
+      "tp_r": [
+        1.77,
+        3.2,
+        8.15
+      ],
+      "risk_pct": 1.33,
+      "score": 10.75554515514555,
+      "facts": [
+        "4H closed above the 0.014127 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 14x before the flip",
+        "reclaim bar volume 3.5x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +16.5% vs BTC -2.1% (RS +18.6%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.014127,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-10-26_BABY.png",
+      "alert": "Market long BABY here at CMP (0.014138). No DCA, 4H close under 0.01395 for stops, TPs above \u2014 TP1 0.01447 (1.8R) \u00b7 TP2 0.01474 (3.2R) \u00b7 TP3 0.01567 (8.2R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "UNITREE",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 96.7,
+      "stop": 95.49,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        98.87,
+        100.5,
+        104.7
+      ],
+      "tp_r": [
+        1.79,
+        3.14,
+        6.61
+      ],
+      "risk_pct": 1.25,
+      "score": 10.235816408613319,
+      "facts": [
+        "4H closed above the 96.65 resistance 5 bars ago and is holding above it, low already retested the level",
+        "level rejected price 4x before the flip",
+        "reclaim bar volume 8.0x the 20-bar average",
+        "above the 1H/4H 200MA",
+        "7d: +33.8% vs BTC -2.1% (RS +35.9%)"
+      ],
+      "chart_tf": "4h",
+      "level": 96.65,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-10-26_UNITREE.png",
+      "alert": "Market long UNITREE here at CMP (96.7). No DCA, 4H close under 95.49 for stops, TPs above \u2014 TP1 98.87 (1.8R) \u00b7 TP2 100.5 (3.1R) \u00b7 TP3 104.7 (6.6R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "INIT",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 0.14771,
+      "stop": 0.1412,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.1578,
+        0.1672,
+        0.1844
+      ],
+      "tp_r": [
+        1.55,
+        2.99,
+        5.64
+      ],
+      "risk_pct": 4.41,
+      "score": 7.894068512360494,
+      "facts": [
+        "daily close above the 20-day range high 0.1449 (3 day(s) ago) and holding",
+        "range depth 38% \u2192 measured move ~0.18448",
+        "above the 1H/4H/daily 200MA",
+        "7d: +19.3% vs BTC -2.1% (RS +21.4%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.1449,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-10-26_INIT.png",
+      "alert": "Market long INIT here at CMP (0.14771). No DCA, 4H close under 0.1412 for stops, TPs above \u2014 TP1 0.1578 (1.6R) \u00b7 TP2 0.1672 (3.0R) \u00b7 TP3 0.1844 (5.6R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "ENA",
+      "kind": "sr_flip",
+      "score": 9.43,
+      "entry": 0.20898,
+      "stop": 0.2058
+    },
+    {
+      "symbol": "QNT",
+      "kind": "sr_flip",
+      "score": 8.8,
+      "entry": 204.36,
+      "stop": 202.0
+    },
+    {
+      "symbol": "ASTER",
+      "kind": "sr_flip",
+      "score": 8.66,
+      "entry": 0.7152,
+      "stop": 0.703
+    },
+    {
+      "symbol": "SKHYNIX",
+      "kind": "sr_flip",
+      "score": 8.23,
+      "entry": 991.7,
+      "stop": 974.6
+    },
+    {
+      "symbol": "SKHYNIXSTOCK",
+      "kind": "sr_flip",
+      "score": 8.14,
+      "entry": 990.96,
+      "stop": 974.3
+    },
+    {
+      "symbol": "QUANT",
+      "kind": "sr_flip",
+      "score": 7.98,
+      "entry": 204.3,
+      "stop": 202.1
+    },
+    {
+      "symbol": "NVIDIA",
+      "kind": "sr_flip",
+      "score": 7.95,
+      "entry": 216.5,
+      "stop": 213.0
+    }
+  ]
+}

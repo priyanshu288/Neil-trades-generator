@@ -1,59 +1,59 @@
-# Neil-style setups — 2026-10-25
+# Neil-style setups — 2026-10-26
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -1.1%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -1.3%)
 
-Scanned 117 USDT perps; 21 raw setups; showing top 3.
+Scanned 159 USDT perps; 46 raw setups; showing top 3.
 
-## 1. GRASS — 4H SR flip / retest  (score 10.4)
+## 1. BABY — 4H SR flip / retest  (score 10.8)
 
-> Market long GRASS here at CMP (0.7062). No DCA, 4H close under 0.6911 for stops, TPs above — TP1 0.7366 (2.0R) · TP2 0.7649 (3.9R) · TP3 0.7951 (5.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long BABY here at CMP (0.014138). No DCA, 4H close under 0.01395 for stops, TPs above — TP1 0.01447 (1.8R) · TP2 0.01474 (3.2R) · TP3 0.01567 (8.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.14% · TP1 2.0R · TP2 3.9R · TP3 5.9R
+Risk to stop: 1.33% · TP1 1.8R · TP2 3.2R · TP3 8.2R
 
 Why it qualifies:
-- 4H closed above the 0.6995 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 3x before the flip
-- reclaim bar volume 2.1x the 20-bar average
+- 4H closed above the 0.014127 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 14x before the flip
+- reclaim bar volume 3.5x the 20-bar average
 - above the 1H/4H/daily 200MA
-- 7d: +20.0% vs BTC -1.8% (RS +21.8%)
+- 7d: +16.5% vs BTC -2.1% (RS +18.6%)
 
-![chart](output/charts/2026-10-25_GRASS.png)
+![chart](output/charts/2026-10-26_BABY.png)
 
-## 2. CAP — 4H SR flip / retest  (score 9.8)
+## 2. UNITREE — 4H SR flip / retest  (score 10.2)
 
-> Market long CAP here at CMP (0.09539). No DCA, 4H close under 0.09402 for stops, TPs above — TP1 0.09785 (1.8R) · TP2 0.09976 (3.2R) · TP3 0.1021 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long UNITREE here at CMP (96.7). No DCA, 4H close under 95.49 for stops, TPs above — TP1 98.87 (1.8R) · TP2 100.5 (3.1R) · TP3 104.7 (6.6R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 1.44% · TP1 1.8R · TP2 3.2R · TP3 4.9R
+Risk to stop: 1.25% · TP1 1.8R · TP2 3.1R · TP3 6.6R
 
 Why it qualifies:
-- 4H closed above the 0.09517 resistance 3 bars ago and is holding above it, low already retested the level
-- level rejected price 2x before the flip
-- reclaim bar volume 11.7x the 20-bar average
+- 4H closed above the 96.65 resistance 5 bars ago and is holding above it, low already retested the level
+- level rejected price 4x before the flip
+- reclaim bar volume 8.0x the 20-bar average
 - above the 1H/4H 200MA
-- 7d: +35.4% vs BTC -1.8% (RS +37.2%)
+- 7d: +33.8% vs BTC -2.1% (RS +35.9%)
 
-![chart](output/charts/2026-10-25_CAP.png)
+![chart](output/charts/2026-10-26_UNITREE.png)
 
-## 3. LIGHT — Daily range breakout  (score 8.2)
+## 3. INIT — Daily range breakout  (score 7.9)
 
-> Market long LIGHT here at CMP (0.2429). No DCA, 4H close under 0.2195 for stops, TPs above — TP1 0.2825 (1.7R) · TP2 0.3299 (3.7R) · TP3 0.3925 (6.4R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long INIT here at CMP (0.14771). No DCA, 4H close under 0.1412 for stops, TPs above — TP1 0.1578 (1.6R) · TP2 0.1672 (3.0R) · TP3 0.1844 (5.6R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 9.63% · TP1 1.7R · TP2 3.7R · TP3 6.4R
+Risk to stop: 4.41% · TP1 1.6R · TP2 3.0R · TP3 5.6R
 
 Why it qualifies:
-- daily close above the 20-day range high 0.2252 (2 day(s) ago) and holding
-- range depth 34% → measured move ~0.2825
+- daily close above the 20-day range high 0.1449 (3 day(s) ago) and holding
+- range depth 38% → measured move ~0.18448
 - above the 1H/4H/daily 200MA
-- 7d: +14.2% vs BTC -1.8% (RS +16.0%)
+- 7d: +19.3% vs BTC -2.1% (RS +21.4%)
 
-![chart](output/charts/2026-10-25_LIGHT.png)
+![chart](output/charts/2026-10-26_INIT.png)
 
 ## Watchlist (next in line)
 
-- CL — daily_breakout (score 7.24)
-- ANIME — ma_retest (score 6.91)
-- SKHYNIX — compression (score 4.5)
-- MU — range_low (score 4.36)
-- SKHYNIXSTOCK — compression (score 4.34)
-- MUSTOCK — range_low (score 4.2)
-- SKHY — range_low (score 3.98)
+- ENA — sr_flip (score 9.43)
+- QNT — sr_flip (score 8.8)
+- ASTER — sr_flip (score 8.66)
+- SKHYNIX — sr_flip (score 8.23)
+- SKHYNIXSTOCK — sr_flip (score 8.14)
+- QUANT — sr_flip (score 7.98)
+- NVIDIA — sr_flip (score 7.95)
