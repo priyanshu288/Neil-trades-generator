@@ -1,167 +1,168 @@
 {
-  "date": "2026-10-27",
-  "generated_utc": "2026-10-27T18:22:40+00:00",
-  "universe_size": 156,
-  "scanned": 154,
+  "date": "2026-10-28",
+  "generated_utc": "2026-10-28T18:22:50+00:00",
+  "universe_size": 161,
+  "scanned": 159,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": 0.15,
-    "last": 80563.2
+    "change_3d_pct": 0.29,
+    "last": 80774.0
   },
   "setups": [
     {
-      "symbol": "DASH",
+      "symbol": "CL",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 55.09,
-      "stop": 53.75,
+      "entry": 103.02,
+      "stop": 101.9,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        58.13,
-        59.66,
-        62.71
+        105.0,
+        106.9,
+        110.7
       ],
       "tp_r": [
-        2.27,
-        3.41,
-        5.69
+        1.77,
+        3.46,
+        6.86
       ],
-      "risk_pct": 2.43,
-      "score": 10.114091992329586,
+      "risk_pct": 1.09,
+      "score": 10.32409068621775,
       "facts": [
-        "4H closed above the 54.41 resistance 4 bars ago and is holding above it, low already retested the level",
-        "level rejected price 8x before the flip",
+        "4H closed above the 103.17 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 18x before the flip",
         "reclaim bar volume 2.0x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +9.2% vs BTC -2.9% (RS +12.1%)"
+        "7d: +5.1% vs BTC -3.9% (RS +9.0%)"
       ],
       "chart_tf": "4h",
-      "level": 54.41,
+      "level": 103.17,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-10-27_DASH.png",
-      "alert": "Market long DASH here at CMP (55.09). No DCA, 4H close under 53.75 for stops, TPs above \u2014 TP1 58.13 (2.3R) \u00b7 TP2 59.66 (3.4R) \u00b7 TP3 62.71 (5.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-10-28_CL.png",
+      "alert": "Market long CL here at CMP (103.02). No DCA, 4H close under 101.9 for stops, TPs above \u2014 TP1 105 (1.8R) \u00b7 TP2 106.9 (3.5R) \u00b7 TP3 110.7 (6.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "ZEC",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 1297.99,
-      "stop": 1269.0,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        1348.0,
-        1412.0,
-        1493.0
-      ],
-      "tp_r": [
-        1.73,
-        3.93,
-        6.73
-      ],
-      "risk_pct": 2.23,
-      "score": 9.56198032480078,
-      "facts": [
-        "4H closed above the 1284.8 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 6x before the flip",
-        "reclaim bar volume 1.4x the 20-bar average",
-        "above the 1H/4H/daily 200MA",
-        "7d: +3.3% vs BTC -2.9% (RS +6.2%)"
-      ],
-      "chart_tf": "4h",
-      "level": 1284.8,
-      "source": "mexc",
-      "extra": {},
-      "chart": "output/charts/2026-10-27_ZEC.png",
-      "alert": "Market long ZEC here at CMP (1,297.99). No DCA, 4H close under 1,269.00 for stops, TPs above \u2014 TP1 1,348.00 (1.7R) \u00b7 TP2 1,412.00 (3.9R) \u00b7 TP3 1,493.00 (6.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "TESLA",
+      "symbol": "INIT",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 406.19,
-      "stop": 387.8,
+      "entry": 0.20892,
+      "stop": 0.193,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        437.3,
-        465.0,
-        496.3
+        0.2375,
+        0.2577,
+        0.2906
       ],
       "tp_r": [
-        1.69,
-        3.2,
-        4.9
+        1.8,
+        3.06,
+        5.13
       ],
-      "risk_pct": 4.53,
-      "score": 8.065531745988622,
+      "risk_pct": 7.62,
+      "score": 9.033316163597735,
       "facts": [
-        "daily close above the 20-day range high 397.78 (0 day(s) ago) and holding",
-        "range depth 14% \u2192 measured move ~447.93",
+        "daily close above the 20-day range high 0.19799 (0 day(s) ago) and holding",
+        "range depth 88% \u2192 measured move ~0.29066",
         "above the 1H/4H/daily 200MA",
-        "7d: +6.7% vs BTC -2.9% (RS +9.6%)"
+        "7d: +63.9% vs BTC -3.9% (RS +67.8%)",
+        "already 64% up on the week \u2014 extended, size down or wait for a deeper pullback"
       ],
       "chart_tf": "4h",
-      "level": 397.78,
-      "source": "mexc",
+      "level": 0.19799,
+      "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-10-27_TESLA.png",
-      "alert": "Market long TESLA here at CMP (406.19). No DCA, 4H close under 387.8 for stops, TPs above \u2014 TP1 437.3 (1.7R) \u00b7 TP2 465 (3.2R) \u00b7 TP3 496.3 (4.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
-    }
-  ],
-  "watchlist": [
-    {
-      "symbol": "MUSTOCK",
-      "kind": "sr_flip",
-      "score": 8.65,
-      "entry": 932.46,
-      "stop": 917.1
-    },
-    {
-      "symbol": "MU",
-      "kind": "sr_flip",
-      "score": 8.56,
-      "entry": 932.16,
-      "stop": 917.0
-    },
-    {
-      "symbol": "BNB",
-      "kind": "sr_flip",
-      "score": 8.41,
-      "entry": 749.55,
-      "stop": 737.7
-    },
-    {
-      "symbol": "TESLA",
-      "kind": "daily_breakout",
-      "score": 8.07,
-      "entry": 406.19,
-      "stop": 387.8
+      "chart": "output/charts/2026-10-28_INIT.png",
+      "alert": "Market long INIT here at CMP (0.20892). No DCA, 4H close under 0.193 for stops, TPs above \u2014 TP1 0.2375 (1.8R) \u00b7 TP2 0.2577 (3.1R) \u00b7 TP3 0.2906 (5.1R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     },
     {
       "symbol": "SPX500",
       "kind": "sr_flip",
-      "score": 7.98,
-      "entry": 7716.3,
-      "stop": 7634.0
+      "label": "4H SR flip / retest",
+      "entry": 7723.1,
+      "stop": 7634.0,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        7883.0,
+        8008.0,
+        8159.0
+      ],
+      "tp_r": [
+        1.79,
+        3.2,
+        4.89
+      ],
+      "risk_pct": 1.15,
+      "score": 8.737802109607959,
+      "facts": [
+        "4H closed above the 7726.9 resistance 8 bars ago and is holding above it, low already retested the level",
+        "level rejected price 60x before the flip",
+        "reclaim bar volume 6.2x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +0.1% vs BTC -3.9% (RS +4.0%)"
+      ],
+      "chart_tf": "4h",
+      "level": 7726.9,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-10-28_SPX500.png",
+      "alert": "Market long SPX500 here at CMP (7,723.10). No DCA, 4H close under 7,634.00 for stops, TPs above \u2014 TP1 7,883.00 (1.8R) \u00b7 TP2 8,008.00 (3.2R) \u00b7 TP3 8,159.00 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "ACU",
+      "kind": "daily_breakout",
+      "score": 8.49,
+      "entry": 0.12814,
+      "stop": 0.1258
     },
     {
-      "symbol": "NVIDIA",
-      "kind": "sr_flip",
-      "score": 7.98,
-      "entry": 218.15,
-      "stop": 215.5
+      "symbol": "TESLA",
+      "kind": "daily_breakout",
+      "score": 7.95,
+      "entry": 402.28,
+      "stop": 387.8
     },
     {
-      "symbol": "XRP",
+      "symbol": "SAMSUNGSTOCK",
       "kind": "sr_flip",
       "score": 7.85,
-      "entry": 1.3204,
-      "stop": 1.299
+      "entry": 181.96,
+      "stop": 177.9
+    },
+    {
+      "symbol": "ZHIPU",
+      "kind": "sr_flip",
+      "score": 7.57,
+      "entry": 72.86,
+      "stop": 72.22
+    },
+    {
+      "symbol": "SAMSUNG",
+      "kind": "sr_flip",
+      "score": 7.48,
+      "entry": 182.0,
+      "stop": 177.8
+    },
+    {
+      "symbol": "ALUMINUM",
+      "kind": "sr_flip",
+      "score": 7.38,
+      "entry": 3072.99,
+      "stop": 3034.0
+    },
+    {
+      "symbol": "ZHONGJI",
+      "kind": "sr_flip",
+      "score": 7.3,
+      "entry": 98.7,
+      "stop": 96.6
     }
   ]
 }
