@@ -1,135 +1,169 @@
 {
-  "date": "2026-10-31",
-  "generated_utc": "2026-10-31T17:24:52+00:00",
-  "universe_size": 130,
-  "scanned": 129,
+  "date": "2026-11-01",
+  "generated_utc": "2026-11-01T17:57:28+00:00",
+  "universe_size": 115,
+  "scanned": 114,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": -4.86,
-    "last": 77593.4
+    "change_3d_pct": -3.49,
+    "last": 78001.9
   },
   "setups": [
     {
-      "symbol": "HYPE",
+      "symbol": "LSK",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 87.518,
-      "stop": 85.69,
+      "entry": 0.20564,
+      "stop": 0.2029,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.2105,
+        0.2153,
+        0.2197
+      ],
+      "tp_r": [
+        1.77,
+        3.53,
+        5.13
+      ],
+      "risk_pct": 1.33,
+      "score": 8.862503450910024,
+      "facts": [
+        "4H closed above the 0.20538 resistance 14 bars ago and is holding above it, low already retested the level",
+        "level rejected price 14x before the flip",
+        "reclaim bar volume 2.9x the 20-bar average",
+        "above the 1H/daily 200MA",
+        "still under the 4H 200MA",
+        "7d: +27.9% vs BTC -2.6% (RS +30.6%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.20538,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-11-01_LSK.png",
+      "alert": "Market long LSK here at CMP (0.20564). No DCA, 4H close under 0.2029 for stops, TPs above \u2014 TP1 0.2105 (1.8R) \u00b7 TP2 0.2153 (3.5R) \u00b7 TP3 0.2197 (5.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "MORPHO",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 2.2786,
+      "stop": 2.26,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        2.31,
+        2.367,
+        2.428
+      ],
+      "tp_r": [
+        1.69,
+        4.75,
+        8.03
+      ],
+      "risk_pct": 0.82,
+      "score": 8.587448467382037,
+      "facts": [
+        "4H closed above the 2.2882 resistance 8 bars ago and is holding above it, low already retested the level",
+        "level rejected price 14x before the flip",
+        "reclaim bar volume 3.2x the 20-bar average",
+        "above the 1H/daily 200MA",
+        "still under the 4H 200MA",
+        "7d: +10.5% vs BTC -2.6% (RS +13.1%)"
+      ],
+      "chart_tf": "4h",
+      "level": 2.2882,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-01_MORPHO.png",
+      "alert": "Market long MORPHO here at CMP (2.279). No DCA, 4H close under 2.26 for stops, TPs above \u2014 TP1 2.31 (1.7R) \u00b7 TP2 2.367 (4.8R) \u00b7 TP3 2.428 (8.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "HYPE",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 88.031,
+      "stop": 85.87,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         91.64,
-        95.9,
-        98.45
+        96.0,
+        101.7
       ],
       "tp_r": [
-        2.25,
-        4.59,
-        5.98
+        1.67,
+        3.69,
+        6.33
       ],
-      "risk_pct": 2.09,
-      "score": 10.305873198819526,
+      "risk_pct": 2.45,
+      "score": 8.30248431708645,
       "facts": [
-        "4H closed above the 86.732 resistance 15 bars ago and is holding above it, low already retested the level",
-        "level rejected price 10x before the flip",
-        "reclaim bar volume 8.7x the 20-bar average",
+        "daily close above the 20-day range high 88.073 (3 day(s) ago) and holding",
+        "range depth 18% \u2192 measured move ~101.723",
         "above the 1H/4H/daily 200MA",
-        "7d: +14.2% vs BTC -4.0% (RS +18.2%)"
+        "7d: +15.4% vs BTC -2.6% (RS +18.0%)"
       ],
       "chart_tf": "4h",
-      "level": 86.732,
+      "level": 88.073,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-10-31_HYPE.png",
-      "alert": "Market long HYPE here at CMP (87.52). No DCA, 4H close under 85.69 for stops, TPs above \u2014 TP1 91.64 (2.2R) \u00b7 TP2 95.9 (4.6R) \u00b7 TP3 98.45 (6.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "EDEN",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 0.05749,
-      "stop": 0.05673,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.05869,
-        0.05992,
-        0.06343
-      ],
-      "tp_r": [
-        1.58,
-        3.2,
-        7.82
-      ],
-      "risk_pct": 1.32,
-      "score": 7.9872631801297675,
-      "facts": [
-        "4H closed above the 0.05742 resistance 3 bars ago and is holding above it, low already retested the level",
-        "level rejected price 20x before the flip",
-        "reclaim bar volume 11.3x the 20-bar average",
-        "above the 1H/daily 200MA",
-        "still under the 4H 200MA",
-        "7d: +0.1% vs BTC -4.0% (RS +4.2%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.05742,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-10-31_EDEN.png",
-      "alert": "Market long EDEN here at CMP (0.05749). No DCA, 4H close under 0.05673 for stops, TPs above \u2014 TP1 0.05869 (1.6R) \u00b7 TP2 0.05992 (3.2R) \u00b7 TP3 0.06343 (7.8R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "ZRO",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 1.7838,
-      "stop": 1.756,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        1.865,
-        1.903,
-        1.991
-      ],
-      "tp_r": [
-        2.92,
-        4.29,
-        7.45
-      ],
-      "risk_pct": 1.56,
-      "score": 7.760331869810896,
-      "facts": [
-        "4H closed above the 1.7774 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 13x before the flip",
-        "reclaim bar volume 0.8x the 20-bar average",
-        "above the 1H/daily 200MA",
-        "still under the 4H 200MA",
-        "7d: +1.5% vs BTC -4.0% (RS +5.5%)"
-      ],
-      "chart_tf": "4h",
-      "level": 1.7774,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-10-31_ZRO.png",
-      "alert": "Market long ZRO here at CMP (1.784). No DCA, 4H close under 1.756 for stops, TPs above \u2014 TP1 1.865 (2.9R) \u00b7 TP2 1.903 (4.3R) \u00b7 TP3 1.991 (7.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-01_HYPE.png",
+      "alert": "Market long HYPE here at CMP (88.03). No DCA, 4H close under 85.87 for stops, TPs above \u2014 TP1 91.64 (1.7R) \u00b7 TP2 96 (3.7R) \u00b7 TP3 101.7 (6.3R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "SKHY",
-      "kind": "sr_flip",
-      "score": 7.53,
-      "entry": 149.89,
-      "stop": 146.5
+      "symbol": "HYPE",
+      "kind": "daily_breakout",
+      "score": 8.3,
+      "entry": 88.031,
+      "stop": 85.87
     },
     {
-      "symbol": "SKHYSTOCK",
+      "symbol": "WET",
       "kind": "sr_flip",
-      "score": 7.47,
-      "entry": 149.95,
-      "stop": 146.5
+      "score": 8.15,
+      "entry": 0.05601,
+      "stop": 0.05485
+    },
+    {
+      "symbol": "BNB",
+      "kind": "sr_flip",
+      "score": 6.26,
+      "entry": 711.14,
+      "stop": 701.7
+    },
+    {
+      "symbol": "BCH",
+      "kind": "sr_flip",
+      "score": 5.7,
+      "entry": 283.37,
+      "stop": 278.8
+    },
+    {
+      "symbol": "OKB",
+      "kind": "range_low",
+      "score": 4.9,
+      "entry": 114.42,
+      "stop": 108.8
+    },
+    {
+      "symbol": "OP",
+      "kind": "range_low",
+      "score": 4.36,
+      "entry": 0.11401,
+      "stop": 0.1105
+    },
+    {
+      "symbol": "TRUMP",
+      "kind": "range_low",
+      "score": 4.0,
+      "entry": 1.672,
+      "stop": 1.547
     }
   ]
 }
