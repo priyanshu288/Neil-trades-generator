@@ -1,174 +1,168 @@
 {
   "date": "2026-11-04",
-  "generated_utc": "2026-11-04T19:46:24+00:00",
+  "generated_utc": "2026-11-04T20:07:26+00:00",
   "universe_size": 188,
   "scanned": 187,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": 3.07,
-    "last": 80155.5
+    "change_3d_pct": 2.08,
+    "last": 79940.0
   },
   "setups": [
     {
       "symbol": "UNI",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 7.592,
+      "entry": 7.548,
       "stop": 7.394,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         7.892,
-        8.225,
+        8.107,
         9.264
       ],
       "tp_r": [
-        1.52,
-        3.2,
-        8.44
+        2.23,
+        3.63,
+        11.14
       ],
-      "risk_pct": 2.61,
-      "score": 10.100260692694457,
+      "risk_pct": 2.04,
+      "score": 10.19477887388929,
       "facts": [
-        "4H closed above the 7.484 resistance 2 bars ago and is holding above it, low already retested the level",
+        "4H closed above the 7.484 resistance 3 bars ago and is holding above it, low already retested the level",
         "level rejected price 21x before the flip",
         "reclaim bar volume 2.5x the 20-bar average",
         "above the 1H/4H/daily 200MA",
-        "7d: +4.7% vs BTC -1.4% (RS +6.2%)"
+        "7d: +8.1% vs BTC +0.2% (RS +7.9%)"
       ],
       "chart_tf": "4h",
       "level": 7.484,
       "source": "mexc",
       "extra": {},
       "chart": "output/charts/2026-11-04_UNI.png",
-      "alert": "Market long UNI here at CMP (7.592). No DCA, 4H close under 7.394 for stops, TPs above \u2014 TP1 7.892 (1.5R) \u00b7 TP2 8.225 (3.2R) \u00b7 TP3 9.264 (8.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long UNI here at CMP (7.548). No DCA, 4H close under 7.394 for stops, TPs above \u2014 TP1 7.892 (2.2R) \u00b7 TP2 8.107 (3.6R) \u00b7 TP3 9.264 (11.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "SOXS",
+      "symbol": "AAPLSTOCK",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 59.35,
-      "stop": 57.89,
+      "entry": 352.47,
+      "stop": 343.1,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        61.83,
-        64.02,
-        66.5
+        369.3,
+        382.4,
+        398.3
       ],
       "tp_r": [
-        1.7,
-        3.2,
-        4.9
+        1.8,
+        3.19,
+        4.89
       ],
-      "risk_pct": 2.46,
-      "score": 9.670272315877037,
+      "risk_pct": 2.66,
+      "score": 9.071283332502817,
       "facts": [
-        "4H closed above the 58.6 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 1x before the flip",
-        "reclaim bar volume 4.9x the 20-bar average",
-        "above the 1H/4H 200MA",
-        "7d: +40.1% vs BTC -1.4% (RS +41.6%)"
+        "4H closed above the 347.35 resistance 3 bars ago and is holding above it, low already retested the level",
+        "level rejected price 8x before the flip",
+        "reclaim bar volume 4.0x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +1.7% vs BTC +0.2% (RS +1.5%)"
       ],
       "chart_tf": "4h",
-      "level": 58.6,
-      "source": "okx",
+      "level": 347.35,
+      "source": "mexc",
       "extra": {},
-      "chart": "output/charts/2026-11-04_SOXS.png",
-      "alert": "Market long SOXS here at CMP (59.35). No DCA, 4H close under 57.89 for stops, TPs above \u2014 TP1 61.83 (1.7R) \u00b7 TP2 64.02 (3.2R) \u00b7 TP3 66.5 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-04_AAPLSTOCK.png",
+      "alert": "Market long AAPLSTOCK here at CMP (352.47). No DCA, 4H close under 343.1 for stops, TPs above \u2014 TP1 369.3 (1.8R) \u00b7 TP2 382.4 (3.2R) \u00b7 TP3 398.3 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
       "symbol": "ZRO",
-      "kind": "range_low",
-      "label": "Range-low higher low",
-      "entry": 1.7823,
-      "stop": 1.661,
-      "stop_tf": "4H",
-      "dca": 1.73,
+      "kind": "ma_retest",
+      "label": "1H 200MA first retest",
+      "entry": 1.7604,
+      "stop": 1.724,
+      "stop_tf": "1H",
+      "dca": null,
       "tps": [
-        1.991,
-        2.141,
-        2.39
+        1.865,
+        1.934,
+        1.991
       ],
       "tp_r": [
-        1.72,
-        2.96,
-        5.01
+        2.87,
+        4.77,
+        6.34
       ],
-      "risk_pct": 6.81,
-      "score": 4.475785453337942,
+      "risk_pct": 2.07,
+      "score": 6.716764245604198,
       "facts": [
-        "30-day range 1.4176\u20132.4836; price in the bottom 34% of it",
-        "higher low 1.6787 vs prior low 1.4176 \u2014 range low holding",
-        "mid-range 1.9506 and top-quarter 2.2171 are the rotation targets",
+        "first tap of the rising 1H 200MA (1.75048) after a 10% extension above it",
+        "impulse high at 1.9471 is the natural first target",
         "above the 1H/daily 200MA",
         "still under the 4H 200MA",
-        "7d: +4.9% vs BTC -1.4% (RS +6.3%)"
+        "7d: +8.7% vs BTC +0.2% (RS +8.5%)"
       ],
-      "chart_tf": "4h",
-      "level": 1.6787,
+      "chart_tf": "1h",
+      "level": 1.7504769999999998,
       "source": "okx",
-      "extra": {
-        "range": [
-          1.4176,
-          2.4836
-        ]
-      },
+      "extra": {},
       "chart": "output/charts/2026-11-04_ZRO.png",
-      "alert": "Market long ZRO here at CMP (1.782). DCA @ 1.73, 4H close under 1.661 for stops, TPs above \u2014 TP1 1.991 (1.7R) \u00b7 TP2 2.141 (3.0R) \u00b7 TP3 2.39 (5.0R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
+      "alert": "Market long ZRO here at CMP (1.76). No DCA, 1H close under 1.724 for stops, TPs above \u2014 TP1 1.865 (2.9R) \u00b7 TP2 1.934 (4.8R) \u00b7 TP3 1.991 (6.3R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
     }
   ],
   "watchlist": [
     {
-      "symbol": "AAPLSTOCK",
-      "kind": "sr_flip",
-      "score": 9.34,
-      "entry": 352.84,
-      "stop": 343.6
-    },
-    {
       "symbol": "ETH",
       "kind": "sr_flip",
-      "score": 8.74,
-      "entry": 2419.19,
+      "score": 8.67,
+      "entry": 2406.5,
       "stop": 2387.0
     },
     {
       "symbol": "ARX",
       "kind": "sr_flip",
-      "score": 8.49,
-      "entry": 0.2431,
+      "score": 8.48,
+      "entry": 0.2441,
       "stop": 0.2377
     },
     {
       "symbol": "XRP",
       "kind": "sr_flip",
-      "score": 8.32,
-      "entry": 1.3046,
+      "score": 8.31,
+      "entry": 1.298,
       "stop": 1.275
     },
     {
-      "symbol": "QNT",
+      "symbol": "BTC",
       "kind": "sr_flip",
-      "score": 8.3,
-      "entry": 203.37,
-      "stop": 200.3
+      "score": 8.26,
+      "entry": 79939.9,
+      "stop": 77880.0
+    },
+    {
+      "symbol": "SUI",
+      "kind": "sr_flip",
+      "score": 8.19,
+      "entry": 0.9185,
+      "stop": 0.9026
     },
     {
       "symbol": "POL",
       "kind": "sr_flip",
-      "score": 8.15,
-      "entry": 0.09592,
+      "score": 8.12,
+      "entry": 0.09565,
       "stop": 0.09356
     },
     {
-      "symbol": "LINK",
+      "symbol": "AVAX",
       "kind": "sr_flip",
-      "score": 8.14,
-      "entry": 11.437,
-      "stop": 11.17
+      "score": 8.01,
+      "entry": 8.726,
+      "stop": 8.589
     }
   ]
 }
