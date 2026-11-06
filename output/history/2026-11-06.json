@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-06",
+  "generated_utc": "2026-11-06T19:22:29+00:00",
+  "universe_size": 181,
+  "scanned": 180,
+  "btc": {
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "above_4h_200": false,
+    "change_3d_pct": -2.41,
+    "last": 75710.5
+  },
+  "setups": [
+    {
+      "symbol": "ZEC",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 1343.89,
+      "stop": 1313.0,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        1399.0,
+        1493.0,
+        1531.0
+      ],
+      "tp_r": [
+        1.78,
+        4.83,
+        6.06
+      ],
+      "risk_pct": 2.3,
+      "score": 10.331606157398655,
+      "facts": [
+        "4H closed above the 1329.61 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 5x before the flip",
+        "reclaim bar volume 1.6x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +5.9% vs BTC -2.1% (RS +7.9%)"
+      ],
+      "chart_tf": "4h",
+      "level": 1329.61,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-11-06_ZEC.png",
+      "alert": "Market long ZEC here at CMP (1,343.89). No DCA, 4H close under 1,313.00 for stops, TPs above \u2014 TP1 1,399.00 (1.8R) \u00b7 TP2 1,493.00 (4.8R) \u00b7 TP3 1,531.00 (6.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "ONE",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 0.0016203,
+      "stop": 0.001512,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.001904,
+        0.002059,
+        0.002178
+      ],
+      "tp_r": [
+        2.62,
+        4.05,
+        5.15
+      ],
+      "risk_pct": 6.68,
+      "score": 9.030232724365156,
+      "facts": [
+        "daily close above the 20-day range high 0.0015512 (0 day(s) ago) and holding",
+        "range depth 51% \u2192 measured move ~0.0020776",
+        "above the 1H/4H/daily 200MA",
+        "7d: +36.3% vs BTC -2.1% (RS +38.3%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.0015512,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-06_ONE.png",
+      "alert": "Market long ONE here at CMP (0.0016203). No DCA, 4H close under 0.001512 for stops, TPs above \u2014 TP1 0.001904 (2.6R) \u00b7 TP2 0.002059 (4.0R) \u00b7 TP3 0.002178 (5.2R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    },
+    {
+      "symbol": "MERL",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.02989,
+      "stop": 0.02925,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.03131,
+        0.03223,
+        0.03332
+      ],
+      "tp_r": [
+        2.22,
+        3.66,
+        5.36
+      ],
+      "risk_pct": 2.14,
+      "score": 8.92551038461305,
+      "facts": [
+        "4H closed above the 0.02961 resistance 7 bars ago and is holding above it, low already retested the level",
+        "level rejected price 9x before the flip",
+        "reclaim bar volume 6.2x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +1.8% vs BTC -2.1% (RS +3.9%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.02961,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-06_MERL.png",
+      "alert": "Market long MERL here at CMP (0.02989). No DCA, 4H close under 0.02925 for stops, TPs above \u2014 TP1 0.03131 (2.2R) \u00b7 TP2 0.03223 (3.7R) \u00b7 TP3 0.03332 (5.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "BEAT",
+      "kind": "sr_flip",
+      "score": 8.63,
+      "entry": 0.11006,
+      "stop": 0.108
+    },
+    {
+      "symbol": "CYBER",
+      "kind": "daily_breakout",
+      "score": 7.55,
+      "entry": 0.3586,
+      "stop": 0.3311
+    },
+    {
+      "symbol": "UVXY",
+      "kind": "daily_breakout",
+      "score": 7.21,
+      "entry": 21.89,
+      "stop": 20.64
+    },
+    {
+      "symbol": "SQQQ",
+      "kind": "daily_breakout",
+      "score": 7.05,
+      "entry": 47.2,
+      "stop": 44.73
+    },
+    {
+      "symbol": "XIAOMI",
+      "kind": "daily_breakout",
+      "score": 6.54,
+      "entry": 3.867,
+      "stop": 3.529
+    },
+    {
+      "symbol": "NG",
+      "kind": "range_low",
+      "score": 4.79,
+      "entry": 3.076,
+      "stop": 2.905
+    },
+    {
+      "symbol": "USELESS",
+      "kind": "range_low",
+      "score": 4.25,
+      "entry": 0.13335,
+      "stop": 0.123
+    }
+  ]
+}
