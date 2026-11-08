@@ -1,65 +1,61 @@
-# Neil-style setups — 2026-11-07
+# Neil-style setups — 2026-11-08
 
-**BTC context:** BTC below its 4H 50MA and pressing recent lows — Neil sits on hands here; scalp-size only. (3d -5.2%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -0.8%)
 
-Scanned 114 USDT perps; 10 raw setups; showing top 3.
+Scanned 107 USDT perps; 12 raw setups; showing top 3.
 
-## 1. MET — 4H SR flip / retest  (score 7.7)
+## 1. RSR — 4H SR flip / retest  (score 10.9)
 
-> Market long MET here at CMP (0.3105). No DCA, 4H close under 0.3023 for stops, TPs above — TP1 0.3225 (1.5R) · TP2 0.339 (3.5R) · TP3 0.3511 (5.0R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long RSR here at CMP (0.0017). No DCA, 4H close under 0.001656 for stops, TPs above — TP1 0.001824 (2.8R) · TP2 0.001889 (4.3R) · TP3 0.001951 (5.7R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.64% · TP1 1.5R · TP2 3.5R · TP3 5.0R
-
-Why it qualifies:
-- 4H closed above the 0.306 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 5x before the flip
-- reclaim bar volume 4.6x the 20-bar average
-- above the 1H/daily 200MA
-- still under the 4H 200MA
-- 7d: +9.5% vs BTC -2.2% (RS +11.7%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-11-07_MET.png)
-
-## 2. XMR — 4H SR flip / retest  (score 5.3)
-
-> Market long XMR here at CMP (610.94). No DCA, 4H close under 605.1 for stops, TPs above — TP1 623.1 (2.1R) · TP2 636.4 (4.4R) · TP3 650.3 (6.7R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 0.96% · TP1 2.1R · TP2 4.4R · TP3 6.7R
+Risk to stop: 2.59% · TP1 2.8R · TP2 4.3R · TP3 5.7R
 
 Why it qualifies:
-- 4H closed above the 612.51 resistance 18 bars ago and is holding above it, low already retested the level
-- level rejected price 25x before the flip
-- reclaim bar volume 0.7x the 20-bar average
-- above the 4H/daily 200MA
-- still under the 1H 200MA
-- 7d: +1.8% vs BTC -2.2% (RS +4.0%)
-- BTC is weak — treat as scalp size until it stabilises
+- 4H closed above the 0.001677 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 7x before the flip
+- reclaim bar volume 10.6x the 20-bar average
+- above the 1H/4H/daily 200MA
+- 7d: +15.3% vs BTC -3.3% (RS +18.5%)
 
-![chart](output/charts/2026-11-07_XMR.png)
+![chart](output/charts/2026-11-08_RSR.png)
 
-## 3. BEAT — 1H 200MA first retest  (score 4.4)
+## 2. ACT — Daily range breakout  (score 7.3)
 
-> Market long BEAT here at CMP (0.10257). No DCA, 1H close under 0.1013 for stops, TPs above — TP1 0.1048 (1.8R) · TP2 0.1099 (5.8R) · TP3 0.1149 (9.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+> Market long ACT here at CMP (0.009922). No DCA, 4H close under 0.009281 for stops, TPs above — TP1 0.01136 (2.2R) · TP2 0.01212 (3.4R) · TP3 0.01294 (4.7R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 1.24% · TP1 1.8R · TP2 5.8R · TP3 9.7R
+Risk to stop: 6.46% · TP1 2.2R · TP2 3.4R · TP3 4.7R
 
 Why it qualifies:
-- first tap of the rising 1H 200MA (0.102932) after a 14% extension above it
-- impulse high at 0.11898 is the natural first target
-- above the 4H 200MA
-- still under the 1H/daily 200MA
-- 7d: +0.9% vs BTC -2.2% (RS +3.1%)
-- BTC is weak — treat as scalp size until it stabilises
+- daily close above the 20-day range high 0.009519 (2 day(s) ago) and holding
+- range depth 28% → measured move ~0.011628
+- above the 1H/4H 200MA
+- still under the daily 200MA
+- 7d: +21.5% vs BTC -3.3% (RS +24.8%)
 
-![chart](output/charts/2026-11-07_BEAT.png)
+![chart](output/charts/2026-11-08_ACT.png)
+
+## 3. SWARMS — 4H SR flip / retest  (score 6.0)
+
+> Market long SWARMS here at CMP (0.006742). No DCA, 4H close under 0.006575 for stops, TPs above — TP1 0.007042 (1.8R) · TP2 0.007243 (3.0R) · TP3 0.007517 (4.6R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 2.48% · TP1 1.8R · TP2 3.0R · TP3 4.6R
+
+Why it qualifies:
+- 4H closed above the 0.006655 resistance 8 bars ago and is holding above it, low already retested the level
+- level rejected price 8x before the flip
+- reclaim bar volume 1.1x the 20-bar average
+- above the 1H 200MA
+- still under the 4H/daily 200MA
+- 7d: +0.1% vs BTC -3.3% (RS +3.3%)
+
+![chart](output/charts/2026-11-08_SWARMS.png)
 
 ## Watchlist (next in line)
 
-- SILVER — range_low (score 3.18)
-- ARB — range_low (score 3.14)
-- TRX — range_low (score 2.79)
-- SKR — range_low (score 2.11)
-- QNT — range_low (score 1.99)
-- CL — range_low (score 0.14)
-- GRASS — range_low (score -0.09)
+- QNT — range_low (score 4.22)
+- DASH — range_low (score 3.93)
+- SILVER — range_low (score 3.93)
+- TRX — range_low (score 3.6)
+- TAO — range_low (score 2.57)
+- HMSTR — range_low (score 2.38)
+- SPCX — range_low (score 2.27)
