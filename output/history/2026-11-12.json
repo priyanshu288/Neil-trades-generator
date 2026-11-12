@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-12",
+  "generated_utc": "2026-11-12T19:55:17+00:00",
+  "universe_size": 169,
+  "scanned": 168,
+  "btc": {
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "above_4h_200": false,
+    "change_3d_pct": -4.31,
+    "last": 71626.8
+  },
+  "setups": [
+    {
+      "symbol": "AMDSTOCK",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 587.03,
+      "stop": 574.4,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        614.4,
+        640.1,
+        658.8
+      ],
+      "tp_r": [
+        2.17,
+        4.2,
+        5.68
+      ],
+      "risk_pct": 2.15,
+      "score": 10.86679147331582,
+      "facts": [
+        "4H closed above the 581.44 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 4x before the flip",
+        "reclaim bar volume 4.5x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +45.2% vs BTC -5.8% (RS +51.0%)"
+      ],
+      "chart_tf": "4h",
+      "level": 581.44,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-11-12_AMDSTOCK.png",
+      "alert": "Market long AMDSTOCK here at CMP (587.03). No DCA, 4H close under 574.4 for stops, TPs above \u2014 TP1 614.4 (2.2R) \u00b7 TP2 640.1 (4.2R) \u00b7 TP3 658.8 (5.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "NIGHT",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.045026,
+      "stop": 0.04449,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.04594,
+        0.04782,
+        0.04884
+      ],
+      "tp_r": [
+        1.71,
+        5.21,
+        7.12
+      ],
+      "risk_pct": 1.19,
+      "score": 9.25880395770724,
+      "facts": [
+        "4H closed above the 0.045039 resistance 8 bars ago and is holding above it, low already retested the level",
+        "level rejected price 1x before the flip",
+        "reclaim bar volume 3.1x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +16.1% vs BTC -5.8% (RS +21.9%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.045039,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-12_NIGHT.png",
+      "alert": "Market long NIGHT here at CMP (0.045026). No DCA, 4H close under 0.04449 for stops, TPs above \u2014 TP1 0.04594 (1.7R) \u00b7 TP2 0.04782 (5.2R) \u00b7 TP3 0.04884 (7.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "PIEVERSE",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 1.6329,
+      "stop": 1.514,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        1.846,
+        2.056,
+        2.25
+      ],
+      "tp_r": [
+        1.79,
+        3.56,
+        5.19
+      ],
+      "risk_pct": 7.28,
+      "score": 8.180830313714969,
+      "facts": [
+        "daily close above the 20-day range high 1.5534 (3 day(s) ago) and holding",
+        "range depth 64% \u2192 measured move ~2.162",
+        "above the 1H/4H/daily 200MA",
+        "7d: +30.9% vs BTC -5.8% (RS +36.7%)"
+      ],
+      "chart_tf": "4h",
+      "level": 1.5534,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-12_PIEVERSE.png",
+      "alert": "Market long PIEVERSE here at CMP (1.633). No DCA, 4H close under 1.514 for stops, TPs above \u2014 TP1 1.846 (1.8R) \u00b7 TP2 2.056 (3.6R) \u00b7 TP3 2.25 (5.2R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "CRWV",
+      "kind": "sr_flip",
+      "score": 8.63,
+      "entry": 56.11,
+      "stop": 55.07
+    },
+    {
+      "symbol": "GOOGLSTOCK",
+      "kind": "sr_flip",
+      "score": 8.53,
+      "entry": 300.35,
+      "stop": 292.5
+    },
+    {
+      "symbol": "KGEN",
+      "kind": "sr_flip",
+      "score": 8.43,
+      "entry": 0.07329,
+      "stop": 0.07261
+    },
+    {
+      "symbol": "PIEVERSE",
+      "kind": "daily_breakout",
+      "score": 8.18,
+      "entry": 1.6329,
+      "stop": 1.514
+    },
+    {
+      "symbol": "BARD",
+      "kind": "daily_breakout",
+      "score": 7.85,
+      "entry": 0.1247,
+      "stop": 0.1171
+    },
+    {
+      "symbol": "ICP",
+      "kind": "sr_flip",
+      "score": 7.73,
+      "entry": 2.574,
+      "stop": 2.516
+    },
+    {
+      "symbol": "AVGOSTOCK",
+      "kind": "daily_breakout",
+      "score": 7.54,
+      "entry": 364.85,
+      "stop": 345.3
+    }
+  ]
+}
