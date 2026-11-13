@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-13",
+  "generated_utc": "2026-11-13T19:40:15+00:00",
+  "universe_size": 165,
+  "scanned": 164,
+  "btc": {
+    "trend": "down",
+    "note": "BTC below its 4H 50MA and pressing recent lows \u2014 Neil sits on hands here; scalp-size only.",
+    "above_4h_200": false,
+    "change_3d_pct": -5.99,
+    "last": 69041.5
+  },
+  "setups": [
+    {
+      "symbol": "AMDSTOCK",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 532.65,
+      "stop": 518.4,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        568.1,
+        594.5,
+        614.4
+      ],
+      "tp_r": [
+        2.49,
+        4.34,
+        5.74
+      ],
+      "risk_pct": 2.68,
+      "score": 8.295413141165366,
+      "facts": [
+        "4H closed above the 524.79 resistance 17 bars ago and is holding above it, low already retested the level",
+        "level rejected price 14x before the flip",
+        "reclaim bar volume 0.6x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +19.0% vs BTC -8.9% (RS +27.9%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
+      ],
+      "chart_tf": "4h",
+      "level": 524.79,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-11-13_AMDSTOCK.png",
+      "alert": "Market long AMDSTOCK here at CMP (532.65). No DCA, 4H close under 518.4 for stops, TPs above \u2014 TP1 568.1 (2.5R) \u00b7 TP2 594.5 (4.3R) \u00b7 TP3 614.4 (5.7R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "AAPLSTOCK",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 358.04,
+      "stop": 349.1,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        374.1,
+        386.6,
+        401.8
+      ],
+      "tp_r": [
+        1.8,
+        3.19,
+        4.89
+      ],
+      "risk_pct": 2.5,
+      "score": 8.098526652967987,
+      "facts": [
+        "4H closed above the 353.35 resistance 14 bars ago and is holding above it, low already retested the level",
+        "level rejected price 12x before the flip",
+        "reclaim bar volume 3.6x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +4.4% vs BTC -8.9% (RS +13.3%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
+      ],
+      "chart_tf": "4h",
+      "level": 353.35,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-11-13_AAPLSTOCK.png",
+      "alert": "Market long AAPLSTOCK here at CMP (358.04). No DCA, 4H close under 349.1 for stops, TPs above \u2014 TP1 374.1 (1.8R) \u00b7 TP2 386.6 (3.2R) \u00b7 TP3 401.8 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "NIGHT",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 0.046259,
+      "stop": 0.04391,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.0499,
+        0.0529,
+        0.05776
+      ],
+      "tp_r": [
+        1.55,
+        2.83,
+        4.9
+      ],
+      "risk_pct": 5.08,
+      "score": 7.1652461931868245,
+      "facts": [
+        "daily close above the 20-day range high 0.045039 (2 day(s) ago) and holding",
+        "range depth 28% \u2192 measured move ~0.05484",
+        "above the 1H/4H/daily 200MA",
+        "7d: +19.3% vs BTC -8.9% (RS +28.2%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
+      ],
+      "chart_tf": "4h",
+      "level": 0.045039,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-13_NIGHT.png",
+      "alert": "Market long NIGHT here at CMP (0.046259). No DCA, 4H close under 0.04391 for stops, TPs above \u2014 TP1 0.0499 (1.6R) \u00b7 TP2 0.0529 (2.8R) \u00b7 TP3 0.05776 (4.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "NG",
+      "kind": "daily_breakout",
+      "score": 6.95,
+      "entry": 3.618,
+      "stop": 3.302
+    },
+    {
+      "symbol": "GOOGLSTOCK",
+      "kind": "sr_flip",
+      "score": 6.81,
+      "entry": 295.41,
+      "stop": 292.2
+    },
+    {
+      "symbol": "DNA",
+      "kind": "sr_flip",
+      "score": 6.52,
+      "entry": 0.1634,
+      "stop": 0.1597
+    },
+    {
+      "symbol": "SPCX",
+      "kind": "sr_flip",
+      "score": 6.14,
+      "entry": 140.14,
+      "stop": 136.4
+    },
+    {
+      "symbol": "SQQQ",
+      "kind": "sr_flip",
+      "score": 6.07,
+      "entry": 42.61,
+      "stop": 42.1
+    },
+    {
+      "symbol": "UNITREE",
+      "kind": "sr_flip",
+      "score": 5.21,
+      "entry": 102.33,
+      "stop": 100.2
+    },
+    {
+      "symbol": "TSMSTOCK",
+      "kind": "ma_retest",
+      "score": 5.19,
+      "entry": 398.71,
+      "stop": 383.7
+    }
+  ]
+}
