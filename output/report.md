@@ -1,45 +1,14 @@
 # Neil-style setups — 2026-11-14
 
-**BTC context:** BTC below its 4H 50MA and pressing recent lows — Neil sits on hands here; scalp-size only. (3d -11.5%)
+**BTC context:** BTC below its 4H 50MA and pressing recent lows — Neil sits on hands here; scalp-size only. (3d -11.4%)
 
-Scanned 137 USDT perps; 10 raw setups; showing top 3.
+Scanned 136 USDT perps; 8 raw setups; showing top 3.
 
-## 1. SHELL — 4H SR flip / retest  (score 9.4)
+## 1. AVGOSTOCK — 4H SR flip / retest  (score 7.5)
 
-> Market long SHELL here at CMP (0.02614). No DCA, 4H close under 0.02553 for stops, TPs above — TP1 0.02773 (2.6R) · TP2 0.02846 (3.8R) · TP3 0.03082 (7.7R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long AVGOSTOCK here at CMP (337.78). No DCA, 4H close under 330.1 for stops, TPs above — TP1 351.6 (1.8R) · TP2 366 (3.7R) · TP3 408.1 (9.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.33% · TP1 2.6R · TP2 3.8R · TP3 7.7R
-
-Why it qualifies:
-- 4H closed above the 0.02585 resistance 7 bars ago and is holding above it, low already retested the level
-- level rejected price 4x before the flip
-- reclaim bar volume 328.0x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +25.7% vs BTC -13.2% (RS +38.9%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-11-14_SHELL.png)
-
-## 2. EVAA — Daily range breakout  (score 7.7)
-
-> Market long EVAA here at CMP (1.812). No DCA, 4H close under 1.704 for stops, TPs above — TP1 2.036 (2.1R) · TP2 2.186 (3.5R) · TP3 2.996 (11.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
-
-Risk to stop: 5.95% · TP1 2.1R · TP2 3.5R · TP3 11.0R
-
-Why it qualifies:
-- daily close above the 20-day range high 1.7483 (0 day(s) ago) and holding
-- range depth 250% → measured move ~2.9964
-- above the 1H/4H/daily 200MA
-- 7d: +38.4% vs BTC -13.2% (RS +51.6%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-11-14_EVAA.png)
-
-## 3. AVGOSTOCK — 4H SR flip / retest  (score 7.6)
-
-> Market long AVGOSTOCK here at CMP (337.95). No DCA, 4H close under 330.1 for stops, TPs above — TP1 352 (1.8R) · TP2 366 (3.6R) · TP3 408.1 (8.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 2.32% · TP1 1.8R · TP2 3.6R · TP3 8.9R
+Risk to stop: 2.27% · TP1 1.8R · TP2 3.7R · TP3 9.2R
 
 Why it qualifies:
 - 4H closed above the 334.2 resistance 18 bars ago and is holding above it, low already retested the level
@@ -47,17 +16,47 @@ Why it qualifies:
 - reclaim bar volume 1.1x the 20-bar average
 - above the 1H/4H 200MA
 - still under the daily 200MA
-- 7d: +14.1% vs BTC -13.2% (RS +27.3%)
+- 7d: +14.1% vs BTC -13.1% (RS +27.2%)
 - BTC is weak — treat as scalp size until it stabilises
 
 ![chart](output/charts/2026-11-14_AVGOSTOCK.png)
 
+## 2. AMDSTOCK — 4H SR flip / retest  (score 7.5)
+
+> Market long AMDSTOCK here at CMP (519.55). No DCA, 4H close under 514.7 for stops, TPs above — TP1 532.9 (2.8R) · TP2 539.6 (4.1R) · TP3 568.1 (10.0R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 0.93% · TP1 2.8R · TP2 4.1R · TP3 10.0R
+
+Why it qualifies:
+- 4H closed above the 521 resistance 18 bars ago and is holding above it, low already retested the level
+- level rejected price 27x before the flip
+- reclaim bar volume 1.8x the 20-bar average
+- above the 1H/daily 200MA
+- still under the 4H 200MA
+- 7d: +16.1% vs BTC -13.1% (RS +29.2%)
+- BTC is weak — treat as scalp size until it stabilises
+
+![chart](output/charts/2026-11-14_AMDSTOCK.png)
+
+## 3. NIGHT — Daily range breakout  (score 7.1)
+
+> Market long NIGHT here at CMP (0.048267). No DCA, 4H close under 0.04391 for stops, TPs above — TP1 0.05484 (1.5R) · TP2 0.0622 (3.2R) · TP3 0.06961 (4.9R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 9.03% · TP1 1.5R · TP2 3.2R · TP3 4.9R
+
+Why it qualifies:
+- daily close above the 20-day range high 0.045039 (3 day(s) ago) and holding
+- range depth 28% → measured move ~0.05484
+- above the 1H/4H/daily 200MA
+- 7d: +19.7% vs BTC -13.1% (RS +32.8%)
+- BTC is weak — treat as scalp size until it stabilises
+
+![chart](output/charts/2026-11-14_NIGHT.png)
+
 ## Watchlist (next in line)
 
-- AMDSTOCK — sr_flip (score 7.54)
-- NIGHT — daily_breakout (score 7.05)
+- JUP — ma_retest (score 6.27)
 - BARD — daily_breakout (score 6.25)
-- JUP — ma_retest (score 6.19)
-- ALLO — range_low (score 3.67)
-- CL — range_low (score 2.48)
-- BEAT — range_low (score -0.83)
+- ALLO — range_low (score 3.72)
+- CL — range_low (score 2.46)
+- BEAT — range_low (score -0.86)
