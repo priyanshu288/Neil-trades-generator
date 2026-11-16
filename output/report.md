@@ -1,56 +1,58 @@
-# Neil-style setups — 2026-11-15
+# Neil-style setups — 2026-11-16
 
-**BTC context:** BTC below its 4H 50MA and pressing recent lows — Neil sits on hands here; scalp-size only. (3d -9.7%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -4.4%)
 
-Scanned 123 USDT perps; 3 raw setups; showing top 3.
+Scanned 157 USDT perps; 6 raw setups; showing top 3.
 
-## 1. MEGA — 4H SR flip / retest  (score 7.5)
+## 1. ICP — 4H SR flip / retest  (score 9.1)
 
-> Market long MEGA here at CMP (0.0495). No DCA, 4H close under 0.04905 for stops, TPs above — TP1 0.05068 (2.6R) · TP2 0.05215 (5.9R) · TP3 0.05385 (9.7R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long ICP here at CMP (2.538). No DCA, 4H close under 2.473 for stops, TPs above — TP1 2.66 (1.9R) · TP2 2.803 (4.1R) · TP3 2.934 (6.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 0.91% · TP1 2.6R · TP2 5.9R · TP3 9.7R
-
-Why it qualifies:
-- 4H closed above the 0.04965 resistance 3 bars ago and is holding above it, low already retested the level
-- level rejected price 2x before the flip
-- reclaim bar volume 3.2x the 20-bar average
-- above the 1H/4H 200MA
-- still under the daily 200MA
-- 7d: -0.7% vs BTC -13.5% (RS +12.8%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-11-15_MEGA.png)
-
-## 2. SOXL — Range-low higher low  (score 4.7)
-
-> Market long SOXL here at CMP (56.09). DCA @ 54.37, 4H close under 52.13 for stops, TPs above — TP1 63.21 (1.8R) · TP2 69.54 (3.4R) · TP3 79.28 (5.9R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in — playing the rotation back to range highs.
-
-Risk to stop: 7.06% · TP1 1.8R · TP2 3.4R · TP3 5.9R
+Risk to stop: 2.56% · TP1 1.9R · TP2 4.1R · TP3 6.1R
 
 Why it qualifies:
-- 30-day range 38.82–109.17; price in the bottom 25% of it
-- higher low 52.66 vs prior low 52.42 — range low holding
-- mid-range 73.995 and top-quarter 91.5825 are the rotation targets
-- above the 1H 200MA
-- still under the 4H 200MA
-- 7d: +27.4% vs BTC -13.5% (RS +40.8%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-11-15_SOXL.png)
-
-## 3. CL — Range-low higher low  (score 3.5)
-
-> Market long CL here at CMP (87.79). No DCA, 4H close under 85.9 for stops, TPs above — TP1 92.77 (2.6R) · TP2 96.73 (4.7R) · TP3 100.3 (6.6R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in — playing the rotation back to range highs.
-
-Risk to stop: 2.15% · TP1 2.6R · TP2 4.7R · TP3 6.6R
-
-Why it qualifies:
-- 30-day range 83.46–105.03; price in the bottom 20% of it
-- higher low 86.77 vs prior low 84.36 — range low holding
-- mid-range 94.245 and top-quarter 99.6375 are the rotation targets
+- 4H closed above the 2.504 resistance 2 bars ago and is holding above it, low already retested the level
+- level rejected price 27x before the flip
+- reclaim bar volume 4.1x the 20-bar average
 - above the 1H 200MA
 - still under the 4H/daily 200MA
-- 7d: -2.7% vs BTC -13.5% (RS +10.8%)
-- BTC is weak — treat as scalp size until it stabilises
+- 7d: +6.2% vs BTC -12.5% (RS +18.6%)
 
-![chart](output/charts/2026-11-15_CL.png)
+![chart](output/charts/2026-11-16_ICP.png)
+
+## 2. SPACE — Daily range breakout  (score 7.9)
+
+> Market long SPACE here at CMP (0.004218). No DCA, 4H close under 0.003845 for stops, TPs above — TP1 0.00496 (2.0R) · TP2 0.005403 (3.2R) · TP3 0.006291 (5.6R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 8.84% · TP1 2.0R · TP2 3.2R · TP3 5.6R
+
+Why it qualifies:
+- daily close above the 20-day range high 0.003944 (0 day(s) ago) and holding
+- range depth 53% → measured move ~0.005303
+- above the 1H/4H 200MA
+- still under the daily 200MA
+- 7d: +32.6% vs BTC -12.5% (RS +45.0%)
+
+![chart](output/charts/2026-11-16_SPACE.png)
+
+## 3. AAPLSTOCK — 4H SR flip / retest  (score 7.5)
+
+> Market long AAPLSTOCK here at CMP (352.99). No DCA, 4H close under 349.1 for stops, TPs above — TP1 360.2 (1.9R) · TP2 365.6 (3.2R) · TP3 372 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 1.10% · TP1 1.9R · TP2 3.2R · TP3 4.9R
+
+Why it qualifies:
+- 4H closed above the 353.35 resistance 18 bars ago and is holding above it, low already retested the level
+- level rejected price 12x before the flip
+- reclaim bar volume 0.1x the 20-bar average
+- above the 4H/daily 200MA
+- still under the 1H 200MA
+- 7d: +0.4% vs BTC -12.5% (RS +12.8%)
+
+![chart](output/charts/2026-11-16_AAPLSTOCK.png)
+
+## Watchlist (next in line)
+
+- XMR — range_low (score 2.63)
+- SWARMS — range_low (score 2.36)
+- SYRUP — sr_flip (score 2.19)
