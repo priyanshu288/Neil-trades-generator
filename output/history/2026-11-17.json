@@ -1,0 +1,167 @@
+{
+  "date": "2026-11-17",
+  "generated_utc": "2026-11-17T20:52:28+00:00",
+  "universe_size": 164,
+  "scanned": 163,
+  "btc": {
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "above_4h_200": false,
+    "change_3d_pct": -0.33,
+    "last": 63910.0
+  },
+  "setups": [
+    {
+      "symbol": "SQQQ",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 47.83,
+      "stop": 47.13,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        49.44,
+        50.63,
+        51.62
+      ],
+      "tp_r": [
+        2.3,
+        4.0,
+        5.41
+      ],
+      "risk_pct": 1.46,
+      "score": 10.283474619885672,
+      "facts": [
+        "4H closed above the 47.71 resistance 3 bars ago and is holding above it, low already retested the level",
+        "level rejected price 9x before the flip",
+        "reclaim bar volume 4.7x the 20-bar average",
+        "above the 1H/4H 200MA",
+        "7d: +14.3% vs BTC -13.3% (RS +27.6%)"
+      ],
+      "chart_tf": "4h",
+      "level": 47.71,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-17_SQQQ.png",
+      "alert": "Market long SQQQ here at CMP (47.83). No DCA, 4H close under 47.13 for stops, TPs above \u2014 TP1 49.44 (2.3R) \u00b7 TP2 50.63 (4.0R) \u00b7 TP3 51.62 (5.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "SOXS",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 60.83,
+      "stop": 59.71,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        62.84,
+        64.41,
+        66.31
+      ],
+      "tp_r": [
+        1.79,
+        3.2,
+        4.89
+      ],
+      "risk_pct": 1.84,
+      "score": 10.19925212000557,
+      "facts": [
+        "4H closed above the 60.44 resistance 3 bars ago and is holding above it, low already retested the level",
+        "level rejected price 3x before the flip",
+        "reclaim bar volume 3.9x the 20-bar average",
+        "above the 1H/4H 200MA",
+        "7d: +23.2% vs BTC -13.3% (RS +36.6%)"
+      ],
+      "chart_tf": "4h",
+      "level": 60.44,
+      "source": "gate",
+      "extra": {},
+      "chart": "output/charts/2026-11-17_SOXS.png",
+      "alert": "Market long SOXS here at CMP (60.83). No DCA, 4H close under 59.71 for stops, TPs above \u2014 TP1 62.84 (1.8R) \u00b7 TP2 64.41 (3.2R) \u00b7 TP3 66.31 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "NES",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 0.2022,
+      "stop": 0.1897,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.2256,
+        0.243,
+        0.2772
+      ],
+      "tp_r": [
+        1.87,
+        3.26,
+        6.0
+      ],
+      "risk_pct": 6.18,
+      "score": 7.5226479942205255,
+      "facts": [
+        "daily close above the 20-day range high 0.1946 (0 day(s) ago) and holding",
+        "range depth 74% \u2192 measured move ~0.2772",
+        "above the 1H/4H 200MA",
+        "7d: +16.9% vs BTC -13.3% (RS +30.2%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.1946,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-17_NES.png",
+      "alert": "Market long NES here at CMP (0.2022). No DCA, 4H close under 0.1897 for stops, TPs above \u2014 TP1 0.2256 (1.9R) \u00b7 TP2 0.243 (3.3R) \u00b7 TP3 0.2772 (6.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "SPCX",
+      "kind": "sr_flip",
+      "score": 8.68,
+      "entry": 141.68,
+      "stop": 139.3
+    },
+    {
+      "symbol": "SPCXSTOCK",
+      "kind": "sr_flip",
+      "score": 8.6,
+      "entry": 141.26,
+      "stop": 139.2
+    },
+    {
+      "symbol": "NES",
+      "kind": "daily_breakout",
+      "score": 7.52,
+      "entry": 0.2022,
+      "stop": 0.1897
+    },
+    {
+      "symbol": "BASED",
+      "kind": "sr_flip",
+      "score": 7.47,
+      "entry": 0.04036,
+      "stop": 0.0395
+    },
+    {
+      "symbol": "TRX",
+      "kind": "sr_flip",
+      "score": 6.4,
+      "entry": 0.30715,
+      "stop": 0.3035
+    },
+    {
+      "symbol": "VVV",
+      "kind": "range_low",
+      "score": 5.1,
+      "entry": 20.304,
+      "stop": 19.42
+    },
+    {
+      "symbol": "JUP",
+      "kind": "range_low",
+      "score": 3.89,
+      "entry": 0.2487,
+      "stop": 0.236
+    }
+  ]
+}
