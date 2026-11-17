@@ -1,167 +1,169 @@
 {
   "date": "2026-11-17",
-  "generated_utc": "2026-11-17T20:52:28+00:00",
-  "universe_size": 164,
-  "scanned": 163,
+  "generated_utc": "2026-11-17T21:24:12+00:00",
+  "universe_size": 166,
+  "scanned": 165,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": -0.33,
-    "last": 63910.0
+    "change_3d_pct": 0.19,
+    "last": 64247.2
   },
   "setups": [
     {
-      "symbol": "SQQQ",
+      "symbol": "PIEVERSE",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 47.83,
-      "stop": 47.13,
+      "entry": 2.0475,
+      "stop": 2.016,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        49.44,
-        50.63,
-        51.62
+        2.128,
+        2.172,
+        2.25
       ],
       "tp_r": [
-        2.3,
-        4.0,
-        5.41
+        2.56,
+        3.95,
+        6.43
       ],
-      "risk_pct": 1.46,
-      "score": 10.283474619885672,
+      "risk_pct": 1.54,
+      "score": 9.66650767479941,
       "facts": [
-        "4H closed above the 47.71 resistance 3 bars ago and is holding above it, low already retested the level",
-        "level rejected price 9x before the flip",
-        "reclaim bar volume 4.7x the 20-bar average",
-        "above the 1H/4H 200MA",
-        "7d: +14.3% vs BTC -13.3% (RS +27.6%)"
+        "4H closed above the 2.041 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 2x before the flip",
+        "reclaim bar volume 0.6x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +16.0% vs BTC -12.9% (RS +28.9%)"
       ],
       "chart_tf": "4h",
-      "level": 47.71,
+      "level": 2.041,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-17_SQQQ.png",
-      "alert": "Market long SQQQ here at CMP (47.83). No DCA, 4H close under 47.13 for stops, TPs above \u2014 TP1 49.44 (2.3R) \u00b7 TP2 50.63 (4.0R) \u00b7 TP3 51.62 (5.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-17_PIEVERSE.png",
+      "alert": "Market long PIEVERSE here at CMP (2.047). No DCA, 4H close under 2.016 for stops, TPs above \u2014 TP1 2.128 (2.6R) \u00b7 TP2 2.172 (4.0R) \u00b7 TP3 2.25 (6.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "SOXS",
+      "symbol": "SPCX",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 60.83,
-      "stop": 59.71,
+      "entry": 141.7,
+      "stop": 139.3,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        62.84,
-        64.41,
-        66.31
+        145.1,
+        151.0,
+        158.7
       ],
       "tp_r": [
-        1.79,
-        3.2,
-        4.89
+        1.42,
+        3.88,
+        7.08
       ],
-      "risk_pct": 1.84,
-      "score": 10.19925212000557,
+      "risk_pct": 1.69,
+      "score": 8.627621872924552,
       "facts": [
-        "4H closed above the 60.44 resistance 3 bars ago and is holding above it, low already retested the level",
-        "level rejected price 3x before the flip",
-        "reclaim bar volume 3.9x the 20-bar average",
-        "above the 1H/4H 200MA",
-        "7d: +23.2% vs BTC -13.3% (RS +36.6%)"
+        "4H closed above the 141.08 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 22x before the flip",
+        "reclaim bar volume 1.6x the 20-bar average",
+        "above the 1H 200MA",
+        "still under the 4H 200MA",
+        "7d: -2.4% vs BTC -12.9% (RS +10.5%)"
       ],
       "chart_tf": "4h",
-      "level": 60.44,
-      "source": "gate",
+      "level": 141.08,
+      "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-17_SOXS.png",
-      "alert": "Market long SOXS here at CMP (60.83). No DCA, 4H close under 59.71 for stops, TPs above \u2014 TP1 62.84 (1.8R) \u00b7 TP2 64.41 (3.2R) \u00b7 TP3 66.31 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-17_SPCX.png",
+      "alert": "Market long SPCX here at CMP (141.7). No DCA, 4H close under 139.3 for stops, TPs above \u2014 TP1 145.1 (1.4R) \u00b7 TP2 151 (3.9R) \u00b7 TP3 158.7 (7.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "NES",
+      "symbol": "MMT",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.2022,
-      "stop": 0.1897,
+      "entry": 0.1444,
+      "stop": 0.1396,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.2256,
-        0.243,
-        0.2772
+        0.1524,
+        0.1586,
+        0.1688
       ],
       "tp_r": [
-        1.87,
-        3.26,
-        6.0
+        1.67,
+        2.96,
+        5.08
       ],
-      "risk_pct": 6.18,
-      "score": 7.5226479942205255,
+      "risk_pct": 3.32,
+      "score": 7.898518305136035,
       "facts": [
-        "daily close above the 20-day range high 0.1946 (0 day(s) ago) and holding",
-        "range depth 74% \u2192 measured move ~0.2772",
+        "daily close above the 20-day range high 0.1432 (0 day(s) ago) and holding",
+        "range depth 52% \u2192 measured move ~0.1921",
         "above the 1H/4H 200MA",
-        "7d: +16.9% vs BTC -13.3% (RS +30.2%)"
+        "still under the daily 200MA",
+        "7d: +19.2% vs BTC -12.9% (RS +32.1%)"
       ],
       "chart_tf": "4h",
-      "level": 0.1946,
+      "level": 0.1432,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-17_NES.png",
-      "alert": "Market long NES here at CMP (0.2022). No DCA, 4H close under 0.1897 for stops, TPs above \u2014 TP1 0.2256 (1.9R) \u00b7 TP2 0.243 (3.3R) \u00b7 TP3 0.2772 (6.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "chart": "output/charts/2026-11-17_MMT.png",
+      "alert": "Market long MMT here at CMP (0.1444). No DCA, 4H close under 0.1396 for stops, TPs above \u2014 TP1 0.1524 (1.7R) \u00b7 TP2 0.1586 (3.0R) \u00b7 TP3 0.1688 (5.1R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "SPCX",
-      "kind": "sr_flip",
-      "score": 8.68,
-      "entry": 141.68,
-      "stop": 139.3
-    },
-    {
-      "symbol": "SPCXSTOCK",
-      "kind": "sr_flip",
-      "score": 8.6,
-      "entry": 141.26,
-      "stop": 139.2
+      "symbol": "MMT",
+      "kind": "daily_breakout",
+      "score": 7.9,
+      "entry": 0.1444,
+      "stop": 0.1396
     },
     {
       "symbol": "NES",
       "kind": "daily_breakout",
       "score": 7.52,
-      "entry": 0.2022,
+      "entry": 0.2028,
       "stop": 0.1897
-    },
-    {
-      "symbol": "BASED",
-      "kind": "sr_flip",
-      "score": 7.47,
-      "entry": 0.04036,
-      "stop": 0.0395
     },
     {
       "symbol": "TRX",
       "kind": "sr_flip",
-      "score": 6.4,
-      "entry": 0.30715,
+      "score": 6.36,
+      "entry": 0.30722,
       "stop": 0.3035
     },
     {
       "symbol": "VVV",
       "kind": "range_low",
       "score": 5.1,
-      "entry": 20.304,
+      "entry": 20.416,
       "stop": 19.42
     },
     {
       "symbol": "JUP",
       "kind": "range_low",
       "score": 3.89,
-      "entry": 0.2487,
+      "entry": 0.2507,
       "stop": 0.236
+    },
+    {
+      "symbol": "HYPE",
+      "kind": "range_low",
+      "score": 3.72,
+      "entry": 68.664,
+      "stop": 64.17
+    },
+    {
+      "symbol": "NEAR",
+      "kind": "range_low",
+      "score": 3.63,
+      "entry": 3.259,
+      "stop": 3.069
     }
   ]
 }
