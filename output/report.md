@@ -1,59 +1,61 @@
 # Neil-style setups — 2026-11-18
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -4.3%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -4.2%)
 
-Scanned 156 USDT perps; 17 raw setups; showing top 3.
+Scanned 157 USDT perps; 18 raw setups; showing top 3.
 
-## 1. BREV — 4H SR flip / retest  (score 10.8)
+## 1. SPCX — 4H SR flip / retest  (score 10.5)
 
-> Market long BREV here at CMP (0.08417). No DCA, 4H close under 0.08231 for stops, TPs above — TP1 0.0896 (2.9R) · TP2 0.09348 (5.0R) · TP3 0.09837 (7.6R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long SPCX here at CMP (144.02). No DCA, 4H close under 141.6 for stops, TPs above — TP1 151 (2.9R) · TP2 154.3 (4.2R) · TP3 158.7 (6.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.21% · TP1 2.9R · TP2 5.0R · TP3 7.6R
-
-Why it qualifies:
-- 4H closed above the 0.08331 resistance 9 bars ago and is holding above it, low already retested the level
-- level rejected price 18x before the flip
-- reclaim bar volume 1510.4x the 20-bar average
-- above the 1H/4H/daily 200MA
-- 7d: +28.2% vs BTC -15.3% (RS +43.4%)
-
-![chart](output/charts/2026-11-18_BREV.png)
-
-## 2. SPCX — 4H SR flip / retest  (score 10.5)
-
-> Market long SPCX here at CMP (143.8). No DCA, 4H close under 141.6 for stops, TPs above — TP1 147.7 (1.8R) · TP2 151 (3.3R) · TP3 158.7 (6.8R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 1.53% · TP1 1.8R · TP2 3.3R · TP3 6.8R
+Risk to stop: 1.68% · TP1 2.9R · TP2 4.2R · TP3 6.1R
 
 Why it qualifies:
 - 4H closed above the 143.42 resistance 3 bars ago and is holding above it, low already retested the level
 - level rejected price 6x before the flip
 - reclaim bar volume 3.1x the 20-bar average
 - above the 1H/4H 200MA
-- 7d: +2.7% vs BTC -15.3% (RS +18.0%)
+- 7d: +2.9% vs BTC -15.2% (RS +18.0%)
 
 ![chart](output/charts/2026-11-18_SPCX.png)
 
-## 3. PROS — Daily range breakout  (score 8.8)
+## 2. SPCXSTOCK — 4H SR flip / retest  (score 10.4)
 
-> Market long PROS here at CMP (0.6789). No DCA, 4H close under 0.6132 for stops, TPs above — TP1 0.8301 (2.3R) · TP2 0.922 (3.7R) · TP3 1.142 (7.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+> Market long SPCXSTOCK here at CMP (143.96). No DCA, 4H close under 141.7 for stops, TPs above — TP1 148 (1.8R) · TP2 151 (3.1R) · TP3 158.7 (6.5R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 9.68% · TP1 2.3R · TP2 3.7R · TP3 7.0R
+Risk to stop: 1.57% · TP1 1.8R · TP2 3.1R · TP3 6.5R
 
 Why it qualifies:
-- daily close above the 20-day range high 0.629 (0 day(s) ago) and holding
-- range depth 46% → measured move ~0.8273
-- above the 1H/4H/daily 200MA
-- 7d: +35.1% vs BTC -15.3% (RS +50.3%)
+- 4H closed above the 143.43 resistance 3 bars ago and is holding above it, low already retested the level
+- level rejected price 6x before the flip
+- reclaim bar volume 4.0x the 20-bar average
+- above the 1H/4H 200MA
+- 7d: +2.8% vs BTC -15.2% (RS +17.9%)
 
-![chart](output/charts/2026-11-18_PROS.png)
+![chart](output/charts/2026-11-18_SPCXSTOCK.png)
+
+## 3. JUP — Range-low higher low  (score 4.2)
+
+> Market long JUP here at CMP (0.2521). DCA @ 0.2452, 4H close under 0.236 for stops, TPs above — TP1 0.2765 (1.5R) · TP2 0.2989 (2.9R) · TP3 0.325 (4.5R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in — playing the rotation back to range highs.
+
+Risk to stop: 6.39% · TP1 1.5R · TP2 2.9R · TP3 4.5R
+
+Why it qualifies:
+- 30-day range 0.2251–0.3421; price in the bottom 23% of it
+- higher low 0.2384 vs prior low 0.2343 — range low holding
+- mid-range 0.2836 and top-quarter 0.31285 are the rotation targets
+- above the daily 200MA
+- still under the 1H/4H 200MA
+- 7d: -1.7% vs BTC -15.2% (RS +13.5%)
+
+![chart](output/charts/2026-11-18_JUP.png)
 
 ## Watchlist (next in line)
 
-- AVGOSTOCK — sr_flip (score 9.46)
-- AVGO — sr_flip (score 9.18)
-- PROS — daily_breakout (score 8.83)
-- DGAI — sr_flip (score 7.81)
+- AVGO — sr_flip (score 9.16)
+- DGAI — sr_flip (score 7.79)
 - TRX — sr_flip (score 6.65)
-- JUP — range_low (score 4.2)
-- INJ — range_low (score 4.03)
+- JUP — range_low (score 4.23)
+- INJ — range_low (score 4.0)
+- SOL — range_low (score 3.41)
+- XPL — range_low (score 3.15)

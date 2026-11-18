@@ -1,167 +1,174 @@
 {
   "date": "2026-11-18",
-  "generated_utc": "2026-11-18T20:29:15+00:00",
-  "universe_size": 157,
-  "scanned": 156,
+  "generated_utc": "2026-11-18T20:57:32+00:00",
+  "universe_size": 158,
+  "scanned": 157,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": -4.29,
-    "last": 62512.0
+    "change_3d_pct": -4.16,
+    "last": 62593.3
   },
   "setups": [
-    {
-      "symbol": "BREV",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 0.08417,
-      "stop": 0.08231,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.0896,
-        0.09348,
-        0.09837
-      ],
-      "tp_r": [
-        2.92,
-        5.01,
-        7.63
-      ],
-      "risk_pct": 2.21,
-      "score": 10.817577958129325,
-      "facts": [
-        "4H closed above the 0.08331 resistance 9 bars ago and is holding above it, low already retested the level",
-        "level rejected price 18x before the flip",
-        "reclaim bar volume 1510.4x the 20-bar average",
-        "above the 1H/4H/daily 200MA",
-        "7d: +28.2% vs BTC -15.3% (RS +43.4%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.08331,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-11-18_BREV.png",
-      "alert": "Market long BREV here at CMP (0.08417). No DCA, 4H close under 0.08231 for stops, TPs above \u2014 TP1 0.0896 (2.9R) \u00b7 TP2 0.09348 (5.0R) \u00b7 TP3 0.09837 (7.6R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
     {
       "symbol": "SPCX",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 143.8,
+      "entry": 144.02,
       "stop": 141.6,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        147.7,
         151.0,
+        154.3,
         158.7
       ],
       "tp_r": [
-        1.77,
-        3.27,
-        6.77
+        2.88,
+        4.25,
+        6.07
       ],
-      "risk_pct": 1.53,
-      "score": 10.485707492625364,
+      "risk_pct": 1.68,
+      "score": 10.492903194331806,
       "facts": [
         "4H closed above the 143.42 resistance 3 bars ago and is holding above it, low already retested the level",
         "level rejected price 6x before the flip",
         "reclaim bar volume 3.1x the 20-bar average",
         "above the 1H/4H 200MA",
-        "7d: +2.7% vs BTC -15.3% (RS +18.0%)"
+        "7d: +2.9% vs BTC -15.2% (RS +18.0%)"
       ],
       "chart_tf": "4h",
       "level": 143.42,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-11-18_SPCX.png",
-      "alert": "Market long SPCX here at CMP (143.8). No DCA, 4H close under 141.6 for stops, TPs above \u2014 TP1 147.7 (1.8R) \u00b7 TP2 151 (3.3R) \u00b7 TP3 158.7 (6.8R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "alert": "Market long SPCX here at CMP (144.02). No DCA, 4H close under 141.6 for stops, TPs above \u2014 TP1 151 (2.9R) \u00b7 TP2 154.3 (4.2R) \u00b7 TP3 158.7 (6.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "PROS",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 0.6789,
-      "stop": 0.6132,
+      "symbol": "SPCXSTOCK",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 143.96,
+      "stop": 141.7,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.8301,
-        0.922,
-        1.142
+        148.0,
+        151.0,
+        158.7
       ],
       "tp_r": [
-        2.3,
-        3.7,
-        7.05
+        1.79,
+        3.12,
+        6.52
       ],
-      "risk_pct": 9.68,
-      "score": 8.827381899131222,
+      "risk_pct": 1.57,
+      "score": 10.448327249398671,
       "facts": [
-        "daily close above the 20-day range high 0.629 (0 day(s) ago) and holding",
-        "range depth 46% \u2192 measured move ~0.8273",
-        "above the 1H/4H/daily 200MA",
-        "7d: +35.1% vs BTC -15.3% (RS +50.3%)"
+        "4H closed above the 143.43 resistance 3 bars ago and is holding above it, low already retested the level",
+        "level rejected price 6x before the flip",
+        "reclaim bar volume 4.0x the 20-bar average",
+        "above the 1H/4H 200MA",
+        "7d: +2.8% vs BTC -15.2% (RS +17.9%)"
       ],
       "chart_tf": "4h",
-      "level": 0.629,
-      "source": "okx",
+      "level": 143.43,
+      "source": "mexc",
       "extra": {},
-      "chart": "output/charts/2026-11-18_PROS.png",
-      "alert": "Market long PROS here at CMP (0.6789). No DCA, 4H close under 0.6132 for stops, TPs above \u2014 TP1 0.8301 (2.3R) \u00b7 TP2 0.922 (3.7R) \u00b7 TP3 1.142 (7.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "chart": "output/charts/2026-11-18_SPCXSTOCK.png",
+      "alert": "Market long SPCXSTOCK here at CMP (143.96). No DCA, 4H close under 141.7 for stops, TPs above \u2014 TP1 148 (1.8R) \u00b7 TP2 151 (3.1R) \u00b7 TP3 158.7 (6.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "JUP",
+      "kind": "range_low",
+      "label": "Range-low higher low",
+      "entry": 0.2521,
+      "stop": 0.236,
+      "stop_tf": "4H",
+      "dca": 0.2452,
+      "tps": [
+        0.2765,
+        0.2989,
+        0.325
+      ],
+      "tp_r": [
+        1.52,
+        2.91,
+        4.53
+      ],
+      "risk_pct": 6.39,
+      "score": 4.232812963204289,
+      "facts": [
+        "30-day range 0.2251\u20130.3421; price in the bottom 23% of it",
+        "higher low 0.2384 vs prior low 0.2343 \u2014 range low holding",
+        "mid-range 0.2836 and top-quarter 0.31285 are the rotation targets",
+        "above the daily 200MA",
+        "still under the 1H/4H 200MA",
+        "7d: -1.7% vs BTC -15.2% (RS +13.5%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.2384,
+      "source": "okx",
+      "extra": {
+        "range": [
+          0.2251,
+          0.3421
+        ]
+      },
+      "chart": "output/charts/2026-11-18_JUP.png",
+      "alert": "Market long JUP here at CMP (0.2521). DCA @ 0.2452, 4H close under 0.236 for stops, TPs above \u2014 TP1 0.2765 (1.5R) \u00b7 TP2 0.2989 (2.9R) \u00b7 TP3 0.325 (4.5R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
     }
   ],
   "watchlist": [
     {
-      "symbol": "AVGOSTOCK",
-      "kind": "sr_flip",
-      "score": 9.46,
-      "entry": 355.2,
-      "stop": 349.9
-    },
-    {
       "symbol": "AVGO",
       "kind": "sr_flip",
-      "score": 9.18,
-      "entry": 355.1,
+      "score": 9.16,
+      "entry": 354.83,
       "stop": 350.0
-    },
-    {
-      "symbol": "PROS",
-      "kind": "daily_breakout",
-      "score": 8.83,
-      "entry": 0.6789,
-      "stop": 0.6132
     },
     {
       "symbol": "DGAI",
       "kind": "sr_flip",
-      "score": 7.81,
-      "entry": 0.7218,
+      "score": 7.79,
+      "entry": 0.7216,
       "stop": 0.71
     },
     {
       "symbol": "TRX",
       "kind": "sr_flip",
       "score": 6.65,
-      "entry": 0.30863,
+      "entry": 0.30886,
       "stop": 0.3057
     },
     {
       "symbol": "JUP",
       "kind": "range_low",
-      "score": 4.2,
-      "entry": 0.2502,
+      "score": 4.23,
+      "entry": 0.2521,
       "stop": 0.236
     },
     {
       "symbol": "INJ",
       "kind": "range_low",
-      "score": 4.03,
-      "entry": 7.034,
+      "score": 4.0,
+      "entry": 7.007,
       "stop": 6.529
+    },
+    {
+      "symbol": "SOL",
+      "kind": "range_low",
+      "score": 3.41,
+      "entry": 73.06,
+      "stop": 69.17
+    },
+    {
+      "symbol": "XPL",
+      "kind": "range_low",
+      "score": 3.15,
+      "entry": 0.04641,
+      "stop": 0.04362
     }
   ]
 }
