@@ -1,61 +1,63 @@
-# Neil-style setups — 2026-11-18
+# Neil-style setups — 2026-11-19
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -4.2%)
+**BTC context:** BTC below its 4H 50MA and pressing recent lows — Neil sits on hands here; scalp-size only. (3d -4.3%)
 
-Scanned 157 USDT perps; 18 raw setups; showing top 3.
+Scanned 163 USDT perps; 18 raw setups; showing top 3.
 
-## 1. SPCX — 4H SR flip / retest  (score 10.5)
+## 1. SENT — 4H SR flip / retest  (score 9.7)
 
-> Market long SPCX here at CMP (144.02). No DCA, 4H close under 141.6 for stops, TPs above — TP1 151 (2.9R) · TP2 154.3 (4.2R) · TP3 158.7 (6.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long SENT here at CMP (0.02081). No DCA, 4H close under 0.02041 for stops, TPs above — TP1 0.02152 (1.8R) · TP2 0.02205 (3.1R) · TP3 0.02278 (4.9R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 1.68% · TP1 2.9R · TP2 4.2R · TP3 6.1R
+Risk to stop: 1.92% · TP1 1.8R · TP2 3.1R · TP3 4.9R
 
 Why it qualifies:
-- 4H closed above the 143.42 resistance 3 bars ago and is holding above it, low already retested the level
-- level rejected price 6x before the flip
-- reclaim bar volume 3.1x the 20-bar average
+- 4H closed above the 0.02066 resistance 6 bars ago and is holding above it, low already retested the level
+- level rejected price 5x before the flip
+- reclaim bar volume 7.2x the 20-bar average
+- above the 1H/4H/daily 200MA
+- 7d: +29.8% vs BTC -10.0% (RS +39.8%)
+- BTC is weak — treat as scalp size until it stabilises
+
+![chart](output/charts/2026-11-19_SENT.png)
+
+## 2. OPENAI — 4H SR flip / retest  (score 7.7)
+
+> Market long OPENAI here at CMP (1,325.98). No DCA, 4H close under 1,300.00 for stops, TPs above — TP1 1,370.00 (1.7R) · TP2 1,407.00 (3.1R) · TP3 1,512.00 (7.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+
+Risk to stop: 1.96% · TP1 1.7R · TP2 3.1R · TP3 7.2R
+
+Why it qualifies:
+- 4H closed above the 1315.98 resistance 3 bars ago and is holding above it, low already retested the level
+- level rejected price 19x before the flip
+- reclaim bar volume 2.6x the 20-bar average
+- above the 1H 200MA
+- still under the 4H/daily 200MA
+- 7d: +4.0% vs BTC -10.0% (RS +13.9%)
+- BTC is weak — treat as scalp size until it stabilises
+
+![chart](output/charts/2026-11-19_OPENAI.png)
+
+## 3. UVXY — Daily range breakout  (score 6.5)
+
+> Market long UVXY here at CMP (25.1). No DCA, 4H close under 24.16 for stops, TPs above — TP1 26.42 (1.4R) · TP2 28.1 (3.2R) · TP3 33.5 (8.9R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 3.75% · TP1 1.4R · TP2 3.2R · TP3 8.9R
+
+Why it qualifies:
+- daily close above the 20-day range high 24.78 (0 day(s) ago) and holding
+- range depth 54% → measured move ~33.5
 - above the 1H/4H 200MA
-- 7d: +2.9% vs BTC -15.2% (RS +18.0%)
+- 7d: +43.5% vs BTC -10.0% (RS +53.5%)
+- BTC is weak — treat as scalp size until it stabilises
 
-![chart](output/charts/2026-11-18_SPCX.png)
-
-## 2. SPCXSTOCK — 4H SR flip / retest  (score 10.4)
-
-> Market long SPCXSTOCK here at CMP (143.96). No DCA, 4H close under 141.7 for stops, TPs above — TP1 148 (1.8R) · TP2 151 (3.1R) · TP3 158.7 (6.5R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 1.57% · TP1 1.8R · TP2 3.1R · TP3 6.5R
-
-Why it qualifies:
-- 4H closed above the 143.43 resistance 3 bars ago and is holding above it, low already retested the level
-- level rejected price 6x before the flip
-- reclaim bar volume 4.0x the 20-bar average
-- above the 1H/4H 200MA
-- 7d: +2.8% vs BTC -15.2% (RS +17.9%)
-
-![chart](output/charts/2026-11-18_SPCXSTOCK.png)
-
-## 3. JUP — Range-low higher low  (score 4.2)
-
-> Market long JUP here at CMP (0.2521). DCA @ 0.2452, 4H close under 0.236 for stops, TPs above — TP1 0.2765 (1.5R) · TP2 0.2989 (2.9R) · TP3 0.325 (4.5R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in — playing the rotation back to range highs.
-
-Risk to stop: 6.39% · TP1 1.5R · TP2 2.9R · TP3 4.5R
-
-Why it qualifies:
-- 30-day range 0.2251–0.3421; price in the bottom 23% of it
-- higher low 0.2384 vs prior low 0.2343 — range low holding
-- mid-range 0.2836 and top-quarter 0.31285 are the rotation targets
-- above the daily 200MA
-- still under the 1H/4H 200MA
-- 7d: -1.7% vs BTC -15.2% (RS +13.5%)
-
-![chart](output/charts/2026-11-18_JUP.png)
+![chart](output/charts/2026-11-19_UVXY.png)
 
 ## Watchlist (next in line)
 
-- AVGO — sr_flip (score 9.16)
-- DGAI — sr_flip (score 7.79)
-- TRX — sr_flip (score 6.65)
-- JUP — range_low (score 4.23)
-- INJ — range_low (score 4.0)
-- SOL — range_low (score 3.41)
-- XPL — range_low (score 3.15)
+- BREV — sr_flip (score 7.11)
+- AVGOSTOCK — sr_flip (score 6.56)
+- UVXY — daily_breakout (score 6.49)
+- LUNC — daily_breakout (score 6.44)
+- GRASS — sr_flip (score 5.6)
+- TRX — sr_flip (score 4.7)
+- SKR — range_low (score 2.68)

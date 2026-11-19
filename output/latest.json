@@ -1,174 +1,171 @@
 {
-  "date": "2026-11-18",
-  "generated_utc": "2026-11-18T20:57:32+00:00",
-  "universe_size": 158,
-  "scanned": 157,
+  "date": "2026-11-19",
+  "generated_utc": "2026-11-19T20:31:51+00:00",
+  "universe_size": 165,
+  "scanned": 163,
   "btc": {
-    "trend": "chop",
-    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "trend": "down",
+    "note": "BTC below its 4H 50MA and pressing recent lows \u2014 Neil sits on hands here; scalp-size only.",
     "above_4h_200": false,
-    "change_3d_pct": -4.16,
-    "last": 62593.3
+    "change_3d_pct": -4.31,
+    "last": 62052.9
   },
   "setups": [
     {
-      "symbol": "SPCX",
+      "symbol": "SENT",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 144.02,
-      "stop": 141.6,
+      "entry": 0.02081,
+      "stop": 0.02041,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        151.0,
-        154.3,
-        158.7
+        0.02152,
+        0.02205,
+        0.02278
       ],
       "tp_r": [
-        2.88,
-        4.25,
-        6.07
+        1.78,
+        3.1,
+        4.93
       ],
-      "risk_pct": 1.68,
-      "score": 10.492903194331806,
+      "risk_pct": 1.92,
+      "score": 9.70324249703225,
       "facts": [
-        "4H closed above the 143.42 resistance 3 bars ago and is holding above it, low already retested the level",
-        "level rejected price 6x before the flip",
-        "reclaim bar volume 3.1x the 20-bar average",
-        "above the 1H/4H 200MA",
-        "7d: +2.9% vs BTC -15.2% (RS +18.0%)"
+        "4H closed above the 0.02066 resistance 6 bars ago and is holding above it, low already retested the level",
+        "level rejected price 5x before the flip",
+        "reclaim bar volume 7.2x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +29.8% vs BTC -10.0% (RS +39.8%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
       ],
       "chart_tf": "4h",
-      "level": 143.42,
+      "level": 0.02066,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-18_SPCX.png",
-      "alert": "Market long SPCX here at CMP (144.02). No DCA, 4H close under 141.6 for stops, TPs above \u2014 TP1 151 (2.9R) \u00b7 TP2 154.3 (4.2R) \u00b7 TP3 158.7 (6.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-19_SENT.png",
+      "alert": "Market long SENT here at CMP (0.02081). No DCA, 4H close under 0.02041 for stops, TPs above \u2014 TP1 0.02152 (1.8R) \u00b7 TP2 0.02205 (3.1R) \u00b7 TP3 0.02278 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "SPCXSTOCK",
+      "symbol": "OPENAI",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 143.96,
-      "stop": 141.7,
+      "entry": 1325.98,
+      "stop": 1300.0,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        148.0,
-        151.0,
-        158.7
+        1370.0,
+        1407.0,
+        1512.0
       ],
       "tp_r": [
-        1.79,
+        1.69,
         3.12,
-        6.52
+        7.16
       ],
-      "risk_pct": 1.57,
-      "score": 10.448327249398671,
+      "risk_pct": 1.96,
+      "score": 7.666366350820473,
       "facts": [
-        "4H closed above the 143.43 resistance 3 bars ago and is holding above it, low already retested the level",
-        "level rejected price 6x before the flip",
-        "reclaim bar volume 4.0x the 20-bar average",
-        "above the 1H/4H 200MA",
-        "7d: +2.8% vs BTC -15.2% (RS +17.9%)"
+        "4H closed above the 1315.98 resistance 3 bars ago and is holding above it, low already retested the level",
+        "level rejected price 19x before the flip",
+        "reclaim bar volume 2.6x the 20-bar average",
+        "above the 1H 200MA",
+        "still under the 4H/daily 200MA",
+        "7d: +4.0% vs BTC -10.0% (RS +13.9%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
       ],
       "chart_tf": "4h",
-      "level": 143.43,
-      "source": "mexc",
+      "level": 1315.98,
+      "source": "gate",
       "extra": {},
-      "chart": "output/charts/2026-11-18_SPCXSTOCK.png",
-      "alert": "Market long SPCXSTOCK here at CMP (143.96). No DCA, 4H close under 141.7 for stops, TPs above \u2014 TP1 148 (1.8R) \u00b7 TP2 151 (3.1R) \u00b7 TP3 158.7 (6.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-19_OPENAI.png",
+      "alert": "Market long OPENAI here at CMP (1,325.98). No DCA, 4H close under 1,300.00 for stops, TPs above \u2014 TP1 1,370.00 (1.7R) \u00b7 TP2 1,407.00 (3.1R) \u00b7 TP3 1,512.00 (7.2R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "JUP",
-      "kind": "range_low",
-      "label": "Range-low higher low",
-      "entry": 0.2521,
-      "stop": 0.236,
+      "symbol": "UVXY",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 25.1,
+      "stop": 24.16,
       "stop_tf": "4H",
-      "dca": 0.2452,
+      "dca": null,
       "tps": [
-        0.2765,
-        0.2989,
-        0.325
+        26.42,
+        28.1,
+        33.5
       ],
       "tp_r": [
-        1.52,
-        2.91,
-        4.53
+        1.4,
+        3.19,
+        8.94
       ],
-      "risk_pct": 6.39,
-      "score": 4.232812963204289,
+      "risk_pct": 3.75,
+      "score": 6.4920123713416835,
       "facts": [
-        "30-day range 0.2251\u20130.3421; price in the bottom 23% of it",
-        "higher low 0.2384 vs prior low 0.2343 \u2014 range low holding",
-        "mid-range 0.2836 and top-quarter 0.31285 are the rotation targets",
-        "above the daily 200MA",
-        "still under the 1H/4H 200MA",
-        "7d: -1.7% vs BTC -15.2% (RS +13.5%)"
+        "daily close above the 20-day range high 24.78 (0 day(s) ago) and holding",
+        "range depth 54% \u2192 measured move ~33.5",
+        "above the 1H/4H 200MA",
+        "7d: +43.5% vs BTC -10.0% (RS +53.5%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
       ],
       "chart_tf": "4h",
-      "level": 0.2384,
+      "level": 24.78,
       "source": "okx",
-      "extra": {
-        "range": [
-          0.2251,
-          0.3421
-        ]
-      },
-      "chart": "output/charts/2026-11-18_JUP.png",
-      "alert": "Market long JUP here at CMP (0.2521). DCA @ 0.2452, 4H close under 0.236 for stops, TPs above \u2014 TP1 0.2765 (1.5R) \u00b7 TP2 0.2989 (2.9R) \u00b7 TP3 0.325 (4.5R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
+      "extra": {},
+      "chart": "output/charts/2026-11-19_UVXY.png",
+      "alert": "Market long UVXY here at CMP (25.1). No DCA, 4H close under 24.16 for stops, TPs above \u2014 TP1 26.42 (1.4R) \u00b7 TP2 28.1 (3.2R) \u00b7 TP3 33.5 (8.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "AVGO",
+      "symbol": "BREV",
       "kind": "sr_flip",
-      "score": 9.16,
-      "entry": 354.83,
-      "stop": 350.0
+      "score": 7.11,
+      "entry": 0.07631,
+      "stop": 0.07508
     },
     {
-      "symbol": "DGAI",
+      "symbol": "AVGOSTOCK",
       "kind": "sr_flip",
-      "score": 7.79,
-      "entry": 0.7216,
-      "stop": 0.71
+      "score": 6.56,
+      "entry": 347.66,
+      "stop": 342.3
+    },
+    {
+      "symbol": "UVXY",
+      "kind": "daily_breakout",
+      "score": 6.49,
+      "entry": 25.1,
+      "stop": 24.16
+    },
+    {
+      "symbol": "LUNC",
+      "kind": "daily_breakout",
+      "score": 6.44,
+      "entry": 4.727e-05,
+      "stop": 4.278e-05
+    },
+    {
+      "symbol": "GRASS",
+      "kind": "sr_flip",
+      "score": 5.6,
+      "entry": 0.418,
+      "stop": 0.4134
     },
     {
       "symbol": "TRX",
       "kind": "sr_flip",
-      "score": 6.65,
-      "entry": 0.30886,
+      "score": 4.7,
+      "entry": 0.30987,
       "stop": 0.3057
     },
     {
-      "symbol": "JUP",
+      "symbol": "SKR",
       "kind": "range_low",
-      "score": 4.23,
-      "entry": 0.2521,
-      "stop": 0.236
-    },
-    {
-      "symbol": "INJ",
-      "kind": "range_low",
-      "score": 4.0,
-      "entry": 7.007,
-      "stop": 6.529
-    },
-    {
-      "symbol": "SOL",
-      "kind": "range_low",
-      "score": 3.41,
-      "entry": 73.06,
-      "stop": 69.17
-    },
-    {
-      "symbol": "XPL",
-      "kind": "range_low",
-      "score": 3.15,
-      "entry": 0.04641,
-      "stop": 0.04362
+      "score": 2.68,
+      "entry": 0.010093,
+      "stop": 0.009365
     }
   ]
 }
