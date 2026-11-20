@@ -1,170 +1,133 @@
 {
-  "date": "2026-11-19",
-  "generated_utc": "2026-11-19T21:02:25+00:00",
-  "universe_size": 165,
-  "scanned": 163,
+  "date": "2026-11-20",
+  "generated_utc": "2026-11-20T20:08:20+00:00",
+  "universe_size": 177,
+  "scanned": 175,
   "btc": {
     "trend": "down",
     "note": "BTC below its 4H 50MA and pressing recent lows \u2014 Neil sits on hands here; scalp-size only.",
     "above_4h_200": false,
-    "change_3d_pct": -4.26,
-    "last": 62085.0
+    "change_3d_pct": -9.84,
+    "last": 58525.1
   },
   "setups": [
     {
-      "symbol": "SENT",
+      "symbol": "UP",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.02113,
-      "stop": 0.02031,
+      "entry": 0.2415,
+      "stop": 0.2316,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.02278,
-        0.02367,
-        0.02635
+        0.2675,
+        0.2813,
+        0.3084
       ],
       "tp_r": [
-        2.01,
-        3.1,
-        6.37
+        2.63,
+        4.02,
+        6.76
       ],
-      "risk_pct": 3.88,
-      "score": 7.885026235900128,
+      "risk_pct": 4.1,
+      "score": 6.507767453836205,
       "facts": [
-        "daily close above the 20-day range high 0.02084 (0 day(s) ago) and holding",
-        "range depth 36% \u2192 measured move ~0.02635",
-        "above the 1H/4H/daily 200MA",
-        "7d: +31.8% vs BTC -9.9% (RS +41.7%)",
+        "daily close above the 20-day range high 0.2376 (0 day(s) ago) and holding",
+        "range depth 153% \u2192 measured move ~0.3814",
+        "above the 1H/4H 200MA",
+        "still under the daily 200MA",
+        "7d: +24.7% vs BTC -12.3% (RS +37.0%)",
         "BTC is weak \u2014 treat as scalp size until it stabilises"
       ],
       "chart_tf": "4h",
-      "level": 0.02084,
+      "level": 0.2376,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-19_SENT.png",
-      "alert": "Market long SENT here at CMP (0.02113). No DCA, 4H close under 0.02031 for stops, TPs above \u2014 TP1 0.02278 (2.0R) \u00b7 TP2 0.02367 (3.1R) \u00b7 TP3 0.02635 (6.4R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "chart": "output/charts/2026-11-20_UP.png",
+      "alert": "Market long UP here at CMP (0.2415). No DCA, 4H close under 0.2316 for stops, TPs above \u2014 TP1 0.2675 (2.6R) \u00b7 TP2 0.2813 (4.0R) \u00b7 TP3 0.3084 (6.8R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     },
     {
-      "symbol": "OPENAI",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 1321.39,
-      "stop": 1300.0,
+      "symbol": "IRYS",
+      "kind": "range_low",
+      "label": "Range-low higher low",
+      "entry": 0.02002,
+      "stop": 0.01867,
       "stop_tf": "4H",
-      "dca": null,
+      "dca": 0.01943,
       "tps": [
-        1370.0,
-        1407.0,
-        1512.0
+        0.02325,
+        0.02544,
+        0.03418
       ],
       "tp_r": [
-        2.27,
-        4.0,
-        8.91
+        2.39,
+        4.01,
+        10.49
       ],
-      "risk_pct": 1.62,
-      "score": 7.628409147510032,
+      "risk_pct": 6.74,
+      "score": 4.938368038735337,
       "facts": [
-        "4H closed above the 1315.98 resistance 3 bars ago and is holding above it, low already retested the level",
-        "level rejected price 19x before the flip",
-        "reclaim bar volume 2.6x the 20-bar average",
+        "30-day range 0.01358\u20130.40917; price in the bottom 2% of it",
+        "higher low 0.01886 vs prior low 0.01414 \u2014 range low holding",
+        "mid-range 0.211375 and top-quarter 0.310273 are the rotation targets",
+        "above the 1H 200MA",
+        "still under the 4H 200MA",
+        "7d: +29.4% vs BTC -12.3% (RS +41.7%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
+      ],
+      "chart_tf": "4h",
+      "level": 0.01886,
+      "source": "okx",
+      "extra": {
+        "range": [
+          0.01358,
+          0.40917
+        ]
+      },
+      "chart": "output/charts/2026-11-20_IRYS.png",
+      "alert": "Market long IRYS here at CMP (0.02002). DCA @ 0.01943, 4H close under 0.01867 for stops, TPs above \u2014 TP1 0.02325 (2.4R) \u00b7 TP2 0.02544 (4.0R) \u00b7 TP3 0.03418 (10.5R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
+    },
+    {
+      "symbol": "ENSO",
+      "kind": "range_low",
+      "label": "Range-low higher low",
+      "entry": 0.4137,
+      "stop": 0.3884,
+      "stop_tf": "4H",
+      "dca": 0.403,
+      "tps": [
+        0.4544,
+        0.4961,
+        0.5658
+      ],
+      "tp_r": [
+        1.61,
+        3.26,
+        6.01
+      ],
+      "risk_pct": 6.12,
+      "score": 3.576186140849787,
+      "facts": [
+        "30-day range 0.3533\u20130.7079; price in the bottom 17% of it",
+        "higher low 0.3924 vs prior low 0.367 \u2014 range low holding",
+        "mid-range 0.5306 and top-quarter 0.61925 are the rotation targets",
         "above the 1H 200MA",
         "still under the 4H/daily 200MA",
-        "7d: +3.6% vs BTC -9.9% (RS +13.5%)",
+        "7d: +1.0% vs BTC -12.3% (RS +13.3%)",
         "BTC is weak \u2014 treat as scalp size until it stabilises"
       ],
       "chart_tf": "4h",
-      "level": 1315.98,
-      "source": "gate",
-      "extra": {},
-      "chart": "output/charts/2026-11-19_OPENAI.png",
-      "alert": "Market long OPENAI here at CMP (1,321.39). No DCA, 4H close under 1,300.00 for stops, TPs above \u2014 TP1 1,370.00 (2.3R) \u00b7 TP2 1,407.00 (4.0R) \u00b7 TP3 1,512.00 (8.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "ICNT",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 0.421,
-      "stop": 0.3858,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.4843,
-        0.6274,
-        0.6766
-      ],
-      "tp_r": [
-        1.8,
-        5.86,
-        7.26
-      ],
-      "risk_pct": 8.36,
-      "score": 7.593220102212911,
-      "facts": [
-        "daily close above the 20-day range high 0.3957 (0 day(s) ago) and holding",
-        "range depth 141% \u2192 measured move ~0.6275",
-        "above the 1H/4H/daily 200MA",
-        "7d: +51.3% vs BTC -9.9% (RS +61.2%)",
-        "BTC is weak \u2014 treat as scalp size until it stabilises"
-      ],
-      "chart_tf": "4h",
-      "level": 0.3957,
-      "source": "mexc",
-      "extra": {},
-      "chart": "output/charts/2026-11-19_ICNT.png",
-      "alert": "Market long ICNT here at CMP (0.421). No DCA, 4H close under 0.3858 for stops, TPs above \u2014 TP1 0.4843 (1.8R) \u00b7 TP2 0.6274 (5.9R) \u00b7 TP3 0.6766 (7.3R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "level": 0.3924,
+      "source": "okx",
+      "extra": {
+        "range": [
+          0.3533,
+          0.7079
+        ]
+      },
+      "chart": "output/charts/2026-11-20_ENSO.png",
+      "alert": "Market long ENSO here at CMP (0.4137). DCA @ 0.403, 4H close under 0.3884 for stops, TPs above \u2014 TP1 0.4544 (1.6R) \u00b7 TP2 0.4961 (3.3R) \u00b7 TP3 0.5658 (6.0R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
     }
   ],
-  "watchlist": [
-    {
-      "symbol": "VVV",
-      "kind": "sr_flip",
-      "score": 7.21,
-      "entry": 22.214,
-      "stop": 21.88
-    },
-    {
-      "symbol": "BREV",
-      "kind": "sr_flip",
-      "score": 7.11,
-      "entry": 0.07713,
-      "stop": 0.07508
-    },
-    {
-      "symbol": "AVGOSTOCK",
-      "kind": "sr_flip",
-      "score": 6.54,
-      "entry": 346.88,
-      "stop": 342.3
-    },
-    {
-      "symbol": "UVXY",
-      "kind": "daily_breakout",
-      "score": 6.5,
-      "entry": 25.63,
-      "stop": 24.16
-    },
-    {
-      "symbol": "LUNC",
-      "kind": "daily_breakout",
-      "score": 6.45,
-      "entry": 4.744e-05,
-      "stop": 4.278e-05
-    },
-    {
-      "symbol": "TRX",
-      "kind": "sr_flip",
-      "score": 5.7,
-      "entry": 0.31007,
-      "stop": 0.3057
-    },
-    {
-      "symbol": "GRASS",
-      "kind": "sr_flip",
-      "score": 5.65,
-      "entry": 0.4206,
-      "stop": 0.4134
-    }
-  ]
+  "watchlist": []
 }
