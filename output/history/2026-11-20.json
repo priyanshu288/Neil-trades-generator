@@ -1,42 +1,43 @@
 {
   "date": "2026-11-20",
-  "generated_utc": "2026-11-20T20:08:20+00:00",
-  "universe_size": 177,
-  "scanned": 175,
+  "generated_utc": "2026-11-20T20:47:53+00:00",
+  "universe_size": 178,
+  "scanned": 176,
   "btc": {
     "trend": "down",
     "note": "BTC below its 4H 50MA and pressing recent lows \u2014 Neil sits on hands here; scalp-size only.",
     "above_4h_200": false,
-    "change_3d_pct": -9.84,
-    "last": 58525.1
+    "change_3d_pct": -9.91,
+    "last": 58483.2
   },
   "setups": [
     {
       "symbol": "UP",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 0.2415,
-      "stop": 0.2316,
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.2394,
+      "stop": 0.2347,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
+        0.2478,
         0.2675,
-        0.2813,
-        0.3084
+        0.274
       ],
       "tp_r": [
-        2.63,
-        4.02,
-        6.76
+        1.79,
+        5.98,
+        7.36
       ],
-      "risk_pct": 4.1,
-      "score": 6.507767453836205,
+      "risk_pct": 1.96,
+      "score": 8.060073580310764,
       "facts": [
-        "daily close above the 20-day range high 0.2376 (0 day(s) ago) and holding",
-        "range depth 153% \u2192 measured move ~0.3814",
+        "4H closed above the 0.2376 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 1x before the flip",
+        "reclaim bar volume 2.3x the 20-bar average",
         "above the 1H/4H 200MA",
         "still under the daily 200MA",
-        "7d: +24.7% vs BTC -12.3% (RS +37.0%)",
+        "7d: +23.6% vs BTC -12.3% (RS +35.9%)",
         "BTC is weak \u2014 treat as scalp size until it stabilises"
       ],
       "chart_tf": "4h",
@@ -44,35 +45,70 @@
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-11-20_UP.png",
-      "alert": "Market long UP here at CMP (0.2415). No DCA, 4H close under 0.2316 for stops, TPs above \u2014 TP1 0.2675 (2.6R) \u00b7 TP2 0.2813 (4.0R) \u00b7 TP3 0.3084 (6.8R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long UP here at CMP (0.2394). No DCA, 4H close under 0.2347 for stops, TPs above \u2014 TP1 0.2478 (1.8R) \u00b7 TP2 0.2675 (6.0R) \u00b7 TP3 0.274 (7.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "YB",
+      "kind": "ma_retest",
+      "label": "1H 200MA first retest",
+      "entry": 0.04758,
+      "stop": 0.04533,
+      "stop_tf": "1H",
+      "dca": null,
+      "tps": [
+        0.05147,
+        0.05868,
+        0.0627
+      ],
+      "tp_r": [
+        1.73,
+        4.93,
+        6.72
+      ],
+      "risk_pct": 4.73,
+      "score": 5.86559549662805,
+      "facts": [
+        "first tap of the rising 1H 200MA (0.0460229) after a 34% extension above it",
+        "impulse high at 0.06881 is the natural first target",
+        "above the 1H 200MA",
+        "still under the 4H/daily 200MA",
+        "7d: +2.1% vs BTC -12.3% (RS +14.4%)",
+        "BTC is weak \u2014 treat as scalp size until it stabilises"
+      ],
+      "chart_tf": "1h",
+      "level": 0.0460229,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-20_YB.png",
+      "alert": "Market long YB here at CMP (0.04758). No DCA, 1H close under 0.04533 for stops, TPs above \u2014 TP1 0.05147 (1.7R) \u00b7 TP2 0.05868 (4.9R) \u00b7 TP3 0.0627 (6.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
     },
     {
       "symbol": "IRYS",
       "kind": "range_low",
       "label": "Range-low higher low",
-      "entry": 0.02002,
+      "entry": 0.02012,
       "stop": 0.01867,
       "stop_tf": "4H",
-      "dca": 0.01943,
+      "dca": 0.01948,
       "tps": [
         0.02325,
         0.02544,
         0.03418
       ],
       "tp_r": [
-        2.39,
-        4.01,
-        10.49
+        2.16,
+        3.67,
+        9.7
       ],
-      "risk_pct": 6.74,
-      "score": 4.938368038735337,
+      "risk_pct": 7.21,
+      "score": 4.937017988869492,
       "facts": [
         "30-day range 0.01358\u20130.40917; price in the bottom 2% of it",
         "higher low 0.01886 vs prior low 0.01414 \u2014 range low holding",
         "mid-range 0.211375 and top-quarter 0.310273 are the rotation targets",
         "above the 1H 200MA",
         "still under the 4H 200MA",
-        "7d: +29.4% vs BTC -12.3% (RS +41.7%)",
+        "7d: +30.1% vs BTC -12.3% (RS +42.4%)",
         "BTC is weak \u2014 treat as scalp size until it stabilises"
       ],
       "chart_tf": "4h",
@@ -85,49 +121,16 @@
         ]
       },
       "chart": "output/charts/2026-11-20_IRYS.png",
-      "alert": "Market long IRYS here at CMP (0.02002). DCA @ 0.01943, 4H close under 0.01867 for stops, TPs above \u2014 TP1 0.02325 (2.4R) \u00b7 TP2 0.02544 (4.0R) \u00b7 TP3 0.03418 (10.5R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
-    },
+      "alert": "Market long IRYS here at CMP (0.02012). DCA @ 0.01948, 4H close under 0.01867 for stops, TPs above \u2014 TP1 0.02325 (2.2R) \u00b7 TP2 0.02544 (3.7R) \u00b7 TP3 0.03418 (9.7R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
+    }
+  ],
+  "watchlist": [
     {
       "symbol": "ENSO",
       "kind": "range_low",
-      "label": "Range-low higher low",
-      "entry": 0.4137,
-      "stop": 0.3884,
-      "stop_tf": "4H",
-      "dca": 0.403,
-      "tps": [
-        0.4544,
-        0.4961,
-        0.5658
-      ],
-      "tp_r": [
-        1.61,
-        3.26,
-        6.01
-      ],
-      "risk_pct": 6.12,
-      "score": 3.576186140849787,
-      "facts": [
-        "30-day range 0.3533\u20130.7079; price in the bottom 17% of it",
-        "higher low 0.3924 vs prior low 0.367 \u2014 range low holding",
-        "mid-range 0.5306 and top-quarter 0.61925 are the rotation targets",
-        "above the 1H 200MA",
-        "still under the 4H/daily 200MA",
-        "7d: +1.0% vs BTC -12.3% (RS +13.3%)",
-        "BTC is weak \u2014 treat as scalp size until it stabilises"
-      ],
-      "chart_tf": "4h",
-      "level": 0.3924,
-      "source": "okx",
-      "extra": {
-        "range": [
-          0.3533,
-          0.7079
-        ]
-      },
-      "chart": "output/charts/2026-11-20_ENSO.png",
-      "alert": "Market long ENSO here at CMP (0.4137). DCA @ 0.403, 4H close under 0.3884 for stops, TPs above \u2014 TP1 0.4544 (1.6R) \u00b7 TP2 0.4961 (3.3R) \u00b7 TP3 0.5658 (6.0R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
+      "score": 3.7,
+      "entry": 0.4198,
+      "stop": 0.3884
     }
-  ],
-  "watchlist": []
+  ]
 }
