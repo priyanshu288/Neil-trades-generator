@@ -1,82 +1,117 @@
 {
   "date": "2026-11-21",
-  "generated_utc": "2026-11-21T19:10:44+00:00",
+  "generated_utc": "2026-11-21T19:51:22+00:00",
   "universe_size": 151,
   "scanned": 149,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": -3.8,
-    "last": 60343.1
+    "change_3d_pct": -3.77,
+    "last": 60361.6
   },
   "setups": [
+    {
+      "symbol": "PARTI",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.03704,
+      "stop": 0.03623,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.03898,
+        0.04021,
+        0.04438
+      ],
+      "tp_r": [
+        2.4,
+        3.91,
+        9.06
+      ],
+      "risk_pct": 2.19,
+      "score": 8.143818122101335,
+      "facts": [
+        "4H closed above the 0.03668 resistance 3 bars ago and is holding above it, low already retested the level",
+        "level rejected price 15x before the flip",
+        "reclaim bar volume 10.3x the 20-bar average",
+        "above the 1H 200MA",
+        "still under the 4H/daily 200MA",
+        "7d: +4.8% vs BTC -5.9% (RS +10.6%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.03668,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-21_PARTI.png",
+      "alert": "Market long PARTI here at CMP (0.03704). No DCA, 4H close under 0.03623 for stops, TPs above \u2014 TP1 0.03898 (2.4R) \u00b7 TP2 0.04021 (3.9R) \u00b7 TP3 0.04438 (9.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
     {
       "symbol": "SQQQ",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 54.51,
+      "entry": 54.35,
       "stop": 50.32,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         63.62,
-        69.48,
-        75.34
+        69.26,
+        74.9
       ],
       "tp_r": [
-        2.17,
-        3.57,
-        4.97
+        2.3,
+        3.7,
+        5.1
       ],
-      "risk_pct": 7.69,
-      "score": 7.419244706961033,
+      "risk_pct": 7.41,
+      "score": 7.409984287326525,
       "facts": [
         "daily close above the 20-day range high 51.62 (1 day(s) ago) and holding",
         "range depth 30% \u2192 measured move ~63.63",
         "above the 1H/4H 200MA",
-        "7d: +22.9% vs BTC -5.9% (RS +28.8%)"
+        "7d: +22.5% vs BTC -5.9% (RS +28.4%)"
       ],
       "chart_tf": "4h",
       "level": 51.62,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-11-21_SQQQ.png",
-      "alert": "Market long SQQQ here at CMP (54.51). No DCA, 4H close under 50.32 for stops, TPs above \u2014 TP1 63.62 (2.2R) \u00b7 TP2 69.48 (3.6R) \u00b7 TP3 75.34 (5.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long SQQQ here at CMP (54.35). No DCA, 4H close under 50.32 for stops, TPs above \u2014 TP1 63.62 (2.3R) \u00b7 TP2 69.26 (3.7R) \u00b7 TP3 74.9 (5.1R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     },
     {
       "symbol": "PIPPIN",
       "kind": "daily_breakout",
       "label": "Daily range breakout",
-      "entry": 0.01705,
+      "entry": 0.01733,
       "stop": 0.01561,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
         0.02,
-        0.02185,
-        0.0242
+        0.02233,
+        0.02779
       ],
       "tp_r": [
-        2.05,
-        3.33,
-        4.97
+        1.55,
+        2.91,
+        6.08
       ],
-      "risk_pct": 8.45,
-      "score": 6.804691395368259,
+      "risk_pct": 9.92,
+      "score": 6.8052019363908265,
       "facts": [
         "daily close above the 20-day range high 0.01602 (3 day(s) ago) and holding",
         "range depth 57% \u2192 measured move ~0.02186",
         "above the 1H/4H 200MA",
         "still under the daily 200MA",
-        "7d: +54.2% vs BTC -5.9% (RS +60.1%)"
+        "7d: +56.7% vs BTC -5.9% (RS +62.6%)"
       ],
       "chart_tf": "4h",
       "level": 0.01602,
       "source": "okx",
       "extra": {},
       "chart": "output/charts/2026-11-21_PIPPIN.png",
-      "alert": "Market long PIPPIN here at CMP (0.01705). No DCA, 4H close under 0.01561 for stops, TPs above \u2014 TP1 0.02 (2.0R) \u00b7 TP2 0.02185 (3.3R) \u00b7 TP3 0.0242 (5.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+      "alert": "Market long PIPPIN here at CMP (0.01733). No DCA, 4H close under 0.01561 for stops, TPs above \u2014 TP1 0.02 (1.6R) \u00b7 TP2 0.02233 (2.9R) \u00b7 TP3 0.02779 (6.1R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": []
