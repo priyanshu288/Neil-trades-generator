@@ -1,136 +1,83 @@
 {
-  "date": "2026-11-20",
-  "generated_utc": "2026-11-20T20:47:53+00:00",
-  "universe_size": 178,
-  "scanned": 176,
+  "date": "2026-11-21",
+  "generated_utc": "2026-11-21T19:10:44+00:00",
+  "universe_size": 151,
+  "scanned": 149,
   "btc": {
-    "trend": "down",
-    "note": "BTC below its 4H 50MA and pressing recent lows \u2014 Neil sits on hands here; scalp-size only.",
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": -9.91,
-    "last": 58483.2
+    "change_3d_pct": -3.8,
+    "last": 60343.1
   },
   "setups": [
     {
-      "symbol": "UP",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 0.2394,
-      "stop": 0.2347,
+      "symbol": "SQQQ",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 54.51,
+      "stop": 50.32,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.2478,
-        0.2675,
-        0.274
+        63.62,
+        69.48,
+        75.34
       ],
       "tp_r": [
-        1.79,
-        5.98,
-        7.36
+        2.17,
+        3.57,
+        4.97
       ],
-      "risk_pct": 1.96,
-      "score": 8.060073580310764,
+      "risk_pct": 7.69,
+      "score": 7.419244706961033,
       "facts": [
-        "4H closed above the 0.2376 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 1x before the flip",
-        "reclaim bar volume 2.3x the 20-bar average",
+        "daily close above the 20-day range high 51.62 (1 day(s) ago) and holding",
+        "range depth 30% \u2192 measured move ~63.63",
+        "above the 1H/4H 200MA",
+        "7d: +22.9% vs BTC -5.9% (RS +28.8%)"
+      ],
+      "chart_tf": "4h",
+      "level": 51.62,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-21_SQQQ.png",
+      "alert": "Market long SQQQ here at CMP (54.51). No DCA, 4H close under 50.32 for stops, TPs above \u2014 TP1 63.62 (2.2R) \u00b7 TP2 69.48 (3.6R) \u00b7 TP3 75.34 (5.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    },
+    {
+      "symbol": "PIPPIN",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 0.01705,
+      "stop": 0.01561,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.02,
+        0.02185,
+        0.0242
+      ],
+      "tp_r": [
+        2.05,
+        3.33,
+        4.97
+      ],
+      "risk_pct": 8.45,
+      "score": 6.804691395368259,
+      "facts": [
+        "daily close above the 20-day range high 0.01602 (3 day(s) ago) and holding",
+        "range depth 57% \u2192 measured move ~0.02186",
         "above the 1H/4H 200MA",
         "still under the daily 200MA",
-        "7d: +23.6% vs BTC -12.3% (RS +35.9%)",
-        "BTC is weak \u2014 treat as scalp size until it stabilises"
+        "7d: +54.2% vs BTC -5.9% (RS +60.1%)"
       ],
       "chart_tf": "4h",
-      "level": 0.2376,
+      "level": 0.01602,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-20_UP.png",
-      "alert": "Market long UP here at CMP (0.2394). No DCA, 4H close under 0.2347 for stops, TPs above \u2014 TP1 0.2478 (1.8R) \u00b7 TP2 0.2675 (6.0R) \u00b7 TP3 0.274 (7.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "YB",
-      "kind": "ma_retest",
-      "label": "1H 200MA first retest",
-      "entry": 0.04758,
-      "stop": 0.04533,
-      "stop_tf": "1H",
-      "dca": null,
-      "tps": [
-        0.05147,
-        0.05868,
-        0.0627
-      ],
-      "tp_r": [
-        1.73,
-        4.93,
-        6.72
-      ],
-      "risk_pct": 4.73,
-      "score": 5.86559549662805,
-      "facts": [
-        "first tap of the rising 1H 200MA (0.0460229) after a 34% extension above it",
-        "impulse high at 0.06881 is the natural first target",
-        "above the 1H 200MA",
-        "still under the 4H/daily 200MA",
-        "7d: +2.1% vs BTC -12.3% (RS +14.4%)",
-        "BTC is weak \u2014 treat as scalp size until it stabilises"
-      ],
-      "chart_tf": "1h",
-      "level": 0.0460229,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-11-20_YB.png",
-      "alert": "Market long YB here at CMP (0.04758). No DCA, 1H close under 0.04533 for stops, TPs above \u2014 TP1 0.05147 (1.7R) \u00b7 TP2 0.05868 (4.9R) \u00b7 TP3 0.0627 (6.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
-    },
-    {
-      "symbol": "IRYS",
-      "kind": "range_low",
-      "label": "Range-low higher low",
-      "entry": 0.02012,
-      "stop": 0.01867,
-      "stop_tf": "4H",
-      "dca": 0.01948,
-      "tps": [
-        0.02325,
-        0.02544,
-        0.03418
-      ],
-      "tp_r": [
-        2.16,
-        3.67,
-        9.7
-      ],
-      "risk_pct": 7.21,
-      "score": 4.937017988869492,
-      "facts": [
-        "30-day range 0.01358\u20130.40917; price in the bottom 2% of it",
-        "higher low 0.01886 vs prior low 0.01414 \u2014 range low holding",
-        "mid-range 0.211375 and top-quarter 0.310273 are the rotation targets",
-        "above the 1H 200MA",
-        "still under the 4H 200MA",
-        "7d: +30.1% vs BTC -12.3% (RS +42.4%)",
-        "BTC is weak \u2014 treat as scalp size until it stabilises"
-      ],
-      "chart_tf": "4h",
-      "level": 0.01886,
-      "source": "okx",
-      "extra": {
-        "range": [
-          0.01358,
-          0.40917
-        ]
-      },
-      "chart": "output/charts/2026-11-20_IRYS.png",
-      "alert": "Market long IRYS here at CMP (0.02012). DCA @ 0.01948, 4H close under 0.01867 for stops, TPs above \u2014 TP1 0.02325 (2.2R) \u00b7 TP2 0.02544 (3.7R) \u00b7 TP3 0.03418 (9.7R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in \u2014 playing the rotation back to range highs."
+      "chart": "output/charts/2026-11-21_PIPPIN.png",
+      "alert": "Market long PIPPIN here at CMP (0.01705). No DCA, 4H close under 0.01561 for stops, TPs above \u2014 TP1 0.02 (2.0R) \u00b7 TP2 0.02185 (3.3R) \u00b7 TP3 0.0242 (5.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
-  "watchlist": [
-    {
-      "symbol": "ENSO",
-      "kind": "range_low",
-      "score": 3.7,
-      "entry": 0.4198,
-      "stop": 0.3884
-    }
-  ]
+  "watchlist": []
 }

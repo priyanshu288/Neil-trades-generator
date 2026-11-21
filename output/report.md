@@ -1,59 +1,34 @@
-# Neil-style setups — 2026-11-20
+# Neil-style setups — 2026-11-21
 
-**BTC context:** BTC below its 4H 50MA and pressing recent lows — Neil sits on hands here; scalp-size only. (3d -9.9%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d -3.8%)
 
-Scanned 176 USDT perps; 5 raw setups; showing top 3.
+Scanned 149 USDT perps; 2 raw setups; showing top 2.
 
-## 1. UP — 4H SR flip / retest  (score 8.1)
+## 1. SQQQ — Daily range breakout  (score 7.4)
 
-> Market long UP here at CMP (0.2394). No DCA, 4H close under 0.2347 for stops, TPs above — TP1 0.2478 (1.8R) · TP2 0.2675 (6.0R) · TP3 0.274 (7.4R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long SQQQ here at CMP (54.51). No DCA, 4H close under 50.32 for stops, TPs above — TP1 63.62 (2.2R) · TP2 69.48 (3.6R) · TP3 75.34 (5.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
 
-Risk to stop: 1.96% · TP1 1.8R · TP2 6.0R · TP3 7.4R
+Risk to stop: 7.69% · TP1 2.2R · TP2 3.6R · TP3 5.0R
 
 Why it qualifies:
-- 4H closed above the 0.2376 resistance 2 bars ago and is holding above it, low already retested the level
-- level rejected price 1x before the flip
-- reclaim bar volume 2.3x the 20-bar average
+- daily close above the 20-day range high 51.62 (1 day(s) ago) and holding
+- range depth 30% → measured move ~63.63
+- above the 1H/4H 200MA
+- 7d: +22.9% vs BTC -5.9% (RS +28.8%)
+
+![chart](output/charts/2026-11-21_SQQQ.png)
+
+## 2. PIPPIN — Daily range breakout  (score 6.8)
+
+> Market long PIPPIN here at CMP (0.01705). No DCA, 4H close under 0.01561 for stops, TPs above — TP1 0.02 (2.0R) · TP2 0.02185 (3.3R) · TP3 0.0242 (5.0R). Once TP1 hits, stops to BE. Daily range breakout — not missing this one, still looks good.
+
+Risk to stop: 8.45% · TP1 2.0R · TP2 3.3R · TP3 5.0R
+
+Why it qualifies:
+- daily close above the 20-day range high 0.01602 (3 day(s) ago) and holding
+- range depth 57% → measured move ~0.02186
 - above the 1H/4H 200MA
 - still under the daily 200MA
-- 7d: +23.6% vs BTC -12.3% (RS +35.9%)
-- BTC is weak — treat as scalp size until it stabilises
+- 7d: +54.2% vs BTC -5.9% (RS +60.1%)
 
-![chart](output/charts/2026-11-20_UP.png)
-
-## 2. YB — 1H 200MA first retest  (score 5.9)
-
-> Market long YB here at CMP (0.04758). No DCA, 1H close under 0.04533 for stops, TPs above — TP1 0.05147 (1.7R) · TP2 0.05868 (4.9R) · TP3 0.0627 (6.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
-
-Risk to stop: 4.73% · TP1 1.7R · TP2 4.9R · TP3 6.7R
-
-Why it qualifies:
-- first tap of the rising 1H 200MA (0.0460229) after a 34% extension above it
-- impulse high at 0.06881 is the natural first target
-- above the 1H 200MA
-- still under the 4H/daily 200MA
-- 7d: +2.1% vs BTC -12.3% (RS +14.4%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-11-20_YB.png)
-
-## 3. IRYS — Range-low higher low  (score 4.9)
-
-> Market long IRYS here at CMP (0.02012). DCA @ 0.01948, 4H close under 0.01867 for stops, TPs above — TP1 0.02325 (2.2R) · TP2 0.02544 (3.7R) · TP3 0.03418 (9.7R). Once TP1 hits, stops to BE. Bottom side of the range, higher low in — playing the rotation back to range highs.
-
-Risk to stop: 7.21% · TP1 2.2R · TP2 3.7R · TP3 9.7R
-
-Why it qualifies:
-- 30-day range 0.01358–0.40917; price in the bottom 2% of it
-- higher low 0.01886 vs prior low 0.01414 — range low holding
-- mid-range 0.211375 and top-quarter 0.310273 are the rotation targets
-- above the 1H 200MA
-- still under the 4H 200MA
-- 7d: +30.1% vs BTC -12.3% (RS +42.4%)
-- BTC is weak — treat as scalp size until it stabilises
-
-![chart](output/charts/2026-11-20_IRYS.png)
-
-## Watchlist (next in line)
-
-- ENSO — range_low (score 3.7)
+![chart](output/charts/2026-11-21_PIPPIN.png)
