@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-22",
+  "generated_utc": "2026-11-22T19:33:07+00:00",
+  "universe_size": 114,
+  "scanned": 113,
+  "btc": {
+    "trend": "chop",
+    "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
+    "above_4h_200": false,
+    "change_3d_pct": -2.56,
+    "last": 60745.7
+  },
+  "setups": [
+    {
+      "symbol": "AI",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.01475,
+      "stop": 0.01437,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.01548,
+        0.01647,
+        0.01717
+      ],
+      "tp_r": [
+        1.92,
+        4.53,
+        6.37
+      ],
+      "risk_pct": 2.58,
+      "score": 8.660015423246945,
+      "facts": [
+        "4H closed above the 0.01455 resistance 5 bars ago and is holding above it, low already retested the level",
+        "level rejected price 4x before the flip",
+        "reclaim bar volume 3.3x the 20-bar average",
+        "above the 1H 200MA",
+        "still under the 4H/daily 200MA",
+        "7d: +19.3% vs BTC -7.0% (RS +26.3%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.01455,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-22_AI.png",
+      "alert": "Market long AI here at CMP (0.01475). No DCA, 4H close under 0.01437 for stops, TPs above \u2014 TP1 0.01548 (1.9R) \u00b7 TP2 0.01647 (4.5R) \u00b7 TP3 0.01717 (6.4R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "VVV",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 25.948,
+      "stop": 24.06,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        29.27,
+        32.6,
+        34.63
+      ],
+      "tp_r": [
+        1.76,
+        3.52,
+        4.6
+      ],
+      "risk_pct": 7.28,
+      "score": 7.5543109594537405,
+      "facts": [
+        "daily close above the 20-day range high 24.684 (1 day(s) ago) and holding",
+        "range depth 48% \u2192 measured move ~32.636",
+        "above the 1H/4H 200MA",
+        "7d: +26.8% vs BTC -7.0% (RS +33.8%)"
+      ],
+      "chart_tf": "4h",
+      "level": 24.684,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-22_VVV.png",
+      "alert": "Market long VVV here at CMP (25.95). No DCA, 4H close under 24.06 for stops, TPs above \u2014 TP1 29.27 (1.8R) \u00b7 TP2 32.6 (3.5R) \u00b7 TP3 34.63 (4.6R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
+    },
+    {
+      "symbol": "TAO",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 189.8,
+      "stop": 187.4,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        196.1,
+        200.7,
+        210.4
+      ],
+      "tp_r": [
+        2.62,
+        4.54,
+        8.58
+      ],
+      "risk_pct": 1.26,
+      "score": 7.041651455601457,
+      "facts": [
+        "4H closed above the 189.69 resistance 3 bars ago and is holding above it, low already retested the level",
+        "level rejected price 8x before the flip",
+        "reclaim bar volume 0.7x the 20-bar average",
+        "above the 1H 200MA",
+        "still under the 4H/daily 200MA",
+        "7d: -2.6% vs BTC -7.0% (RS +4.4%)"
+      ],
+      "chart_tf": "4h",
+      "level": 189.69,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-11-22_TAO.png",
+      "alert": "Market long TAO here at CMP (189.8). No DCA, 4H close under 187.4 for stops, TPs above \u2014 TP1 196.1 (2.6R) \u00b7 TP2 200.7 (4.5R) \u00b7 TP3 210.4 (8.6R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "HUMA",
+      "kind": "range_low",
+      "score": 5.48,
+      "entry": 0.008627,
+      "stop": 0.008168
+    },
+    {
+      "symbol": "LINK",
+      "kind": "sr_flip",
+      "score": 4.85,
+      "entry": 8.795,
+      "stop": 8.602
+    },
+    {
+      "symbol": "CRV",
+      "kind": "sr_flip",
+      "score": 4.19,
+      "entry": 0.1808,
+      "stop": 0.1793
+    },
+    {
+      "symbol": "CRCLSTOCK",
+      "kind": "sr_flip",
+      "score": 2.74,
+      "entry": 50.12,
+      "stop": 49.0
+    },
+    {
+      "symbol": "APT",
+      "kind": "sr_flip",
+      "score": 2.11,
+      "entry": 0.3785,
+      "stop": 0.3741
+    },
+    {
+      "symbol": "ICP",
+      "kind": "range_low",
+      "score": 2.03,
+      "entry": 1.975,
+      "stop": 1.843
+    }
+  ]
+}
