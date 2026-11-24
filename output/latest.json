@@ -1,169 +1,168 @@
 {
   "date": "2026-11-24",
-  "generated_utc": "2026-11-24T00:27:40+00:00",
-  "universe_size": 183,
-  "scanned": 181,
+  "generated_utc": "2026-11-24T22:24:32+00:00",
+  "universe_size": 161,
+  "scanned": 159,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": 8.05,
-    "last": 61265.1
+    "change_3d_pct": -0.31,
+    "last": 59999.2
   },
   "setups": [
     {
-      "symbol": "BLUR",
+      "symbol": "AAPLSTOCK",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 0.007979,
-      "stop": 0.007778,
+      "entry": 354.26,
+      "stop": 347.6,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.00834,
-        0.00892,
-        0.009239
-      ],
-      "tp_r": [
-        1.8,
-        4.68,
-        6.27
-      ],
-      "risk_pct": 2.52,
-      "score": 9.93369981500076,
-      "facts": [
-        "4H closed above the 0.007873 resistance 6 bars ago and is holding above it, low already retested the level",
-        "level rejected price 7x before the flip",
-        "reclaim bar volume 2.7x the 20-bar average",
-        "above the 1H/4H 200MA",
-        "still under the daily 200MA",
-        "7d: +29.1% vs BTC -5.3% (RS +34.4%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.007873,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-11-24_BLUR.png",
-      "alert": "Market long BLUR here at CMP (0.007979). No DCA, 4H close under 0.007778 for stops, TPs above \u2014 TP1 0.00834 (1.8R) \u00b7 TP2 0.00892 (4.7R) \u00b7 TP3 0.009239 (6.3R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "CAP",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 0.10002,
-      "stop": 0.09767,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        0.1058,
-        0.1119,
-        0.1152
-      ],
-      "tp_r": [
-        2.46,
-        5.06,
-        6.46
-      ],
-      "risk_pct": 2.35,
-      "score": 8.638278595643897,
-      "facts": [
-        "4H closed above the 0.09886 resistance 4 bars ago and is holding above it, low already retested the level",
-        "level rejected price 5x before the flip",
-        "reclaim bar volume 1.8x the 20-bar average",
-        "above the 1H/4H 200MA",
-        "7d: -1.2% vs BTC -5.3% (RS +4.1%)"
-      ],
-      "chart_tf": "4h",
-      "level": 0.09886,
-      "source": "okx",
-      "extra": {},
-      "chart": "output/charts/2026-11-24_CAP.png",
-      "alert": "Market long CAP here at CMP (0.10002). No DCA, 4H close under 0.09767 for stops, TPs above \u2014 TP1 0.1058 (2.5R) \u00b7 TP2 0.1119 (5.1R) \u00b7 TP3 0.1152 (6.5R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
-    },
-    {
-      "symbol": "ENSO",
-      "kind": "ma_retest",
-      "label": "1H 200MA first retest",
-      "entry": 0.4224,
-      "stop": 0.4128,
-      "stop_tf": "1H",
-      "dca": null,
-      "tps": [
-        0.4396,
-        0.4544,
-        0.4962
+        366.2,
+        375.5,
+        386.8
       ],
       "tp_r": [
         1.79,
-        3.33,
-        7.69
+        3.19,
+        4.89
       ],
-      "risk_pct": 2.27,
-      "score": 7.472382592210014,
+      "risk_pct": 1.88,
+      "score": 9.64044762309875,
       "facts": [
-        "first tap of the rising 1H 200MA (0.4191) after a 26% extension above it",
-        "impulse high at 0.5264 is the natural first target",
-        "above the 1H 200MA",
-        "still under the 4H/daily 200MA",
-        "7d: +12.5% vs BTC -5.3% (RS +17.8%)"
+        "4H closed above the 351.87 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 38x before the flip",
+        "reclaim bar volume 1.8x the 20-bar average",
+        "above the 1H/4H/daily 200MA",
+        "7d: +1.0% vs BTC -6.9% (RS +7.9%)"
       ],
-      "chart_tf": "1h",
-      "level": 0.4191005,
+      "chart_tf": "4h",
+      "level": 351.87,
+      "source": "mexc",
+      "extra": {},
+      "chart": "output/charts/2026-11-24_AAPLSTOCK.png",
+      "alert": "Market long AAPLSTOCK here at CMP (354.26). No DCA, 4H close under 347.6 for stops, TPs above \u2014 TP1 366.2 (1.8R) \u00b7 TP2 375.5 (3.2R) \u00b7 TP3 386.8 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "PARTI",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.03725,
+      "stop": 0.03647,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        0.03908,
+        0.04051,
+        0.04438
+      ],
+      "tp_r": [
+        2.35,
+        4.18,
+        9.14
+      ],
+      "risk_pct": 2.09,
+      "score": 7.421011765316097,
+      "facts": [
+        "4H closed above the 0.03692 resistance 16 bars ago and is holding above it, low already retested the level",
+        "level rejected price 10x before the flip",
+        "reclaim bar volume 0.7x the 20-bar average",
+        "above the 1H/daily 200MA",
+        "still under the 4H 200MA",
+        "7d: +10.3% vs BTC -6.9% (RS +17.2%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.03692,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-24_ENSO.png",
-      "alert": "Market long ENSO here at CMP (0.4224). No DCA, 1H close under 0.4128 for stops, TPs above \u2014 TP1 0.4396 (1.8R) \u00b7 TP2 0.4544 (3.3R) \u00b7 TP3 0.4962 (7.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push \u2014 think we get a bounce."
+      "chart": "output/charts/2026-11-24_PARTI.png",
+      "alert": "Market long PARTI here at CMP (0.03725). No DCA, 4H close under 0.03647 for stops, TPs above \u2014 TP1 0.03908 (2.4R) \u00b7 TP2 0.04051 (4.2R) \u00b7 TP3 0.04438 (9.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "VVV",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 24.831,
+      "stop": 24.06,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        26.1,
+        27.09,
+        28.33
+      ],
+      "tp_r": [
+        1.65,
+        2.93,
+        4.54
+      ],
+      "risk_pct": 3.1,
+      "score": 6.969487265652793,
+      "facts": [
+        "daily close above the 20-day range high 24.684 (3 day(s) ago) and holding",
+        "range depth 48% \u2192 measured move ~32.636",
+        "above the 1H/4H 200MA",
+        "7d: +18.8% vs BTC -6.9% (RS +25.7%)"
+      ],
+      "chart_tf": "4h",
+      "level": 24.684,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-24_VVV.png",
+      "alert": "Market long VVV here at CMP (24.83). No DCA, 4H close under 24.06 for stops, TPs above \u2014 TP1 26.1 (1.6R) \u00b7 TP2 27.09 (2.9R) \u00b7 TP3 28.33 (4.5R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "CXMT",
-      "kind": "sr_flip",
-      "score": 7.98,
-      "entry": 5.701,
-      "stop": 5.593
-    },
-    {
-      "symbol": "WDC",
-      "kind": "sr_flip",
-      "score": 7.96,
-      "entry": 298.0,
-      "stop": 293.5
+      "symbol": "INTCSTOCK",
+      "kind": "range_low",
+      "score": 4.49,
+      "entry": 55.18,
+      "stop": 52.2
     },
     {
       "symbol": "GOOGLSTOCK",
-      "kind": "sr_flip",
-      "score": 7.92,
-      "entry": 284.5,
-      "stop": 280.0
+      "kind": "range_low",
+      "score": 4.13,
+      "entry": 279.98,
+      "stop": 269.0
     },
     {
-      "symbol": "TRX",
-      "kind": "sr_flip",
-      "score": 7.76,
-      "entry": 0.31067,
-      "stop": 0.3057
+      "symbol": "ETH",
+      "kind": "range_low",
+      "score": 3.1,
+      "entry": 1683.97,
+      "stop": 1630.0
     },
     {
-      "symbol": "ALGO",
-      "kind": "sr_flip",
-      "score": 7.69,
-      "entry": 0.08182,
-      "stop": 0.08002
+      "symbol": "EWY",
+      "kind": "range_low",
+      "score": 2.74,
+      "entry": 131.08,
+      "stop": 123.2
     },
     {
-      "symbol": "NVDL",
-      "kind": "sr_flip",
-      "score": 7.69,
-      "entry": 16.85,
-      "stop": 16.52
+      "symbol": "LTC",
+      "kind": "range_low",
+      "score": 2.53,
+      "entry": 40.86,
+      "stop": 38.47
     },
     {
-      "symbol": "ENSO",
-      "kind": "ma_retest",
-      "score": 7.47,
-      "entry": 0.4224,
-      "stop": 0.4128
+      "symbol": "BERA",
+      "kind": "range_low",
+      "score": 2.47,
+      "entry": 0.07989,
+      "stop": 0.07451
+    },
+    {
+      "symbol": "ORCL",
+      "kind": "range_low",
+      "score": 2.37,
+      "entry": 109.83,
+      "stop": 102.4
     }
   ]
 }
