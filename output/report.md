@@ -1,61 +1,61 @@
-# Neil-style setups — 2026-11-23
+# Neil-style setups — 2026-11-24
 
-**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d +3.8%)
+**BTC context:** BTC chopping around its 4H MAs — no fresh breakdown, but keep size normal and stops honest. (3d +8.1%)
 
-Scanned 182 USDT perps; 53 raw setups; showing top 3.
+Scanned 181 USDT perps; 49 raw setups; showing top 3.
 
-## 1. BLUR — 4H SR flip / retest  (score 10.0)
+## 1. BLUR — 4H SR flip / retest  (score 9.9)
 
-> Market long BLUR here at CMP (0.007985). No DCA, 4H close under 0.007778 for stops, TPs above — TP1 0.008357 (1.8R) · TP2 0.00892 (4.5R) · TP3 0.009239 (6.1R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
+> Market long BLUR here at CMP (0.007979). No DCA, 4H close under 0.007778 for stops, TPs above — TP1 0.00834 (1.8R) · TP2 0.00892 (4.7R) · TP3 0.009239 (6.3R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 2.59% · TP1 1.8R · TP2 4.5R · TP3 6.1R
+Risk to stop: 2.52% · TP1 1.8R · TP2 4.7R · TP3 6.3R
 
 Why it qualifies:
-- 4H closed above the 0.007873 resistance 5 bars ago and is holding above it, low already retested the level
+- 4H closed above the 0.007873 resistance 6 bars ago and is holding above it, low already retested the level
 - level rejected price 7x before the flip
 - reclaim bar volume 2.7x the 20-bar average
 - above the 1H/4H 200MA
 - still under the daily 200MA
-- 7d: +30.9% vs BTC -5.9% (RS +36.8%)
+- 7d: +29.1% vs BTC -5.3% (RS +34.4%)
 
-![chart](output/charts/2026-11-23_BLUR.png)
+![chart](output/charts/2026-11-24_BLUR.png)
 
-## 2. BLESS — 1H 200MA first retest  (score 9.4)
+## 2. CAP — 4H SR flip / retest  (score 8.6)
 
-> Market long BLESS here at CMP (0.013481). No DCA, 1H close under 0.01289 for stops, TPs above — TP1 0.01435 (1.5R) · TP2 0.01537 (3.2R) · TP3 0.01864 (8.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+> Market long CAP here at CMP (0.10002). No DCA, 4H close under 0.09767 for stops, TPs above — TP1 0.1058 (2.5R) · TP2 0.1119 (5.1R) · TP3 0.1152 (6.5R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
 
-Risk to stop: 4.38% · TP1 1.5R · TP2 3.2R · TP3 8.7R
-
-Why it qualifies:
-- first tap of the rising 1H 200MA (0.0130954) after a 58% extension above it
-- impulse high at 0.020333 is the natural first target
-- above the 1H/4H/daily 200MA
-- 7d: +11.4% vs BTC -5.9% (RS +17.3%)
-
-![chart](output/charts/2026-11-23_BLESS.png)
-
-## 3. NVIDIA — 4H SR flip / retest  (score 8.7)
-
-> Market long NVIDIA here at CMP (164.68). No DCA, 4H close under 162 for stops, TPs above — TP1 171.8 (2.7R) · TP2 178 (5.0R) · TP3 181.2 (6.2R). Once TP1 hits, stops to BE. SR flip trade — level flipped and holding, looking for continuation higher.
-
-Risk to stop: 1.63% · TP1 2.7R · TP2 5.0R · TP3 6.2R
+Risk to stop: 2.35% · TP1 2.5R · TP2 5.1R · TP3 6.5R
 
 Why it qualifies:
-- 4H closed above the 163.99 resistance 3 bars ago and is holding above it, low already retested the level
-- level rejected price 15x before the flip
-- reclaim bar volume 7.8x the 20-bar average
+- 4H closed above the 0.09886 resistance 4 bars ago and is holding above it, low already retested the level
+- level rejected price 5x before the flip
+- reclaim bar volume 1.8x the 20-bar average
+- above the 1H/4H 200MA
+- 7d: -1.2% vs BTC -5.3% (RS +4.1%)
+
+![chart](output/charts/2026-11-24_CAP.png)
+
+## 3. ENSO — 1H 200MA first retest  (score 7.5)
+
+> Market long ENSO here at CMP (0.4224). No DCA, 1H close under 0.4128 for stops, TPs above — TP1 0.4396 (1.8R) · TP2 0.4544 (3.3R) · TP3 0.4962 (7.7R). Once TP1 hits, stops to BE. First retest of the 200MA after the push — think we get a bounce.
+
+Risk to stop: 2.27% · TP1 1.8R · TP2 3.3R · TP3 7.7R
+
+Why it qualifies:
+- first tap of the rising 1H 200MA (0.4191) after a 26% extension above it
+- impulse high at 0.5264 is the natural first target
 - above the 1H 200MA
 - still under the 4H/daily 200MA
-- 7d: +4.4% vs BTC -5.9% (RS +10.3%)
+- 7d: +12.5% vs BTC -5.3% (RS +17.8%)
 
-![chart](output/charts/2026-11-23_NVIDIA.png)
+![chart](output/charts/2026-11-24_ENSO.png)
 
 ## Watchlist (next in line)
 
-- CAP — sr_flip (score 8.67)
-- ZHONGJI — sr_flip (score 8.63)
-- PIEVERSE — daily_breakout (score 8.22)
-- WDC — sr_flip (score 8.02)
-- TRX — sr_flip (score 7.89)
-- NVDL — sr_flip (score 7.77)
-- ALGO — sr_flip (score 7.66)
+- CXMT — sr_flip (score 7.98)
+- WDC — sr_flip (score 7.96)
+- GOOGLSTOCK — sr_flip (score 7.92)
+- TRX — sr_flip (score 7.76)
+- ALGO — sr_flip (score 7.69)
+- NVDL — sr_flip (score 7.69)
+- ENSO — ma_retest (score 7.47)
