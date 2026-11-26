@@ -1,168 +1,169 @@
 {
-  "date": "2026-11-25",
-  "generated_utc": "2026-11-25T22:03:01+00:00",
-  "universe_size": 171,
-  "scanned": 169,
+  "date": "2026-11-26",
+  "generated_utc": "2026-11-26T21:28:42+00:00",
+  "universe_size": 142,
+  "scanned": 141,
   "btc": {
     "trend": "chop",
     "note": "BTC chopping around its 4H MAs \u2014 no fresh breakdown, but keep size normal and stops honest.",
     "above_4h_200": false,
-    "change_3d_pct": -1.64,
-    "last": 60233.2
+    "change_3d_pct": -0.7,
+    "last": 60817.0
   },
   "setups": [
     {
-      "symbol": "AAPLSTOCK",
+      "symbol": "SEI",
       "kind": "sr_flip",
       "label": "4H SR flip / retest",
-      "entry": 355.55,
-      "stop": 350.4,
+      "entry": 0.03974,
+      "stop": 0.03933,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        364.8,
-        372.0,
-        380.7
+        0.04032,
+        0.0421,
+        0.04267
       ],
       "tp_r": [
-        1.8,
-        3.19,
-        4.88
+        1.41,
+        5.76,
+        7.15
       ],
-      "risk_pct": 1.45,
-      "score": 9.410437524863278,
+      "risk_pct": 1.03,
+      "score": 8.102897197038951,
       "facts": [
-        "4H closed above the 354.7 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 8x before the flip",
-        "reclaim bar volume 3.9x the 20-bar average",
-        "above the 1H/4H/daily 200MA",
-        "7d: +0.2% vs BTC -4.6% (RS +4.9%)"
+        "4H closed above the 0.03981 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 5x before the flip",
+        "reclaim bar volume 8.8x the 20-bar average",
+        "above the 1H 200MA",
+        "still under the 4H/daily 200MA",
+        "7d: +6.5% vs BTC -2.1% (RS +8.6%)"
       ],
       "chart_tf": "4h",
-      "level": 354.7,
-      "source": "mexc",
+      "level": 0.03981,
+      "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-25_AAPLSTOCK.png",
-      "alert": "Market long AAPLSTOCK here at CMP (355.55). No DCA, 4H close under 350.4 for stops, TPs above \u2014 TP1 364.8 (1.8R) \u00b7 TP2 372 (3.2R) \u00b7 TP3 380.7 (4.9R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-26_SEI.png",
+      "alert": "Market long SEI here at CMP (0.03974). No DCA, 4H close under 0.03933 for stops, TPs above \u2014 TP1 0.04032 (1.4R) \u00b7 TP2 0.0421 (5.8R) \u00b7 TP3 0.04267 (7.2R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
     },
     {
-      "symbol": "OPG",
-      "kind": "daily_breakout",
-      "label": "Daily range breakout",
-      "entry": 0.1616,
-      "stop": 0.1598,
+      "symbol": "WIF",
+      "kind": "sr_flip",
+      "label": "4H SR flip / retest",
+      "entry": 0.1371,
+      "stop": 0.1354,
       "stop_tf": "4H",
       "dca": null,
       "tps": [
-        0.1648,
-        0.1673,
-        0.183
+        0.1401,
+        0.1425,
+        0.1474
+      ],
+      "tp_r": [
+        1.76,
+        3.18,
+        6.06
+      ],
+      "risk_pct": 1.24,
+      "score": 7.955452258498905,
+      "facts": [
+        "4H closed above the 0.1371 resistance 2 bars ago and is holding above it, low already retested the level",
+        "level rejected price 7x before the flip",
+        "reclaim bar volume 3.5x the 20-bar average",
+        "above the 1H 200MA",
+        "still under the 4H/daily 200MA",
+        "7d: +6.1% vs BTC -2.1% (RS +8.2%)"
+      ],
+      "chart_tf": "4h",
+      "level": 0.1371,
+      "source": "okx",
+      "extra": {},
+      "chart": "output/charts/2026-11-26_WIF.png",
+      "alert": "Market long WIF here at CMP (0.1371). No DCA, 4H close under 0.1354 for stops, TPs above \u2014 TP1 0.1401 (1.8R) \u00b7 TP2 0.1425 (3.2R) \u00b7 TP3 0.1474 (6.1R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+    },
+    {
+      "symbol": "VVV",
+      "kind": "daily_breakout",
+      "label": "Daily range breakout",
+      "entry": 26.817,
+      "stop": 26.41,
+      "stop_tf": "4H",
+      "dca": null,
+      "tps": [
+        27.54,
+        28.33,
+        29.27
       ],
       "tp_r": [
         1.78,
-        3.17,
-        11.89
+        3.72,
+        6.03
       ],
-      "risk_pct": 1.11,
-      "score": 8.760775312668022,
+      "risk_pct": 1.52,
+      "score": 7.580193203372978,
       "facts": [
-        "daily close above the 20-day range high 0.16393 (1 day(s) ago) and holding",
-        "range depth 46% \u2192 measured move ~0.21567",
-        "above the 1H/4H/daily 200MA",
-        "7d: +20.3% vs BTC -4.6% (RS +24.9%)"
+        "daily close above the 20-day range high 27.095 (1 day(s) ago) and holding",
+        "range depth 62% \u2192 measured move ~37.458",
+        "above the 1H/4H 200MA",
+        "7d: +29.2% vs BTC -2.1% (RS +31.3%)"
       ],
       "chart_tf": "4h",
-      "level": 0.16393,
+      "level": 27.095,
       "source": "okx",
       "extra": {},
-      "chart": "output/charts/2026-11-25_OPG.png",
-      "alert": "Market long OPG here at CMP (0.1616). No DCA, 4H close under 0.1598 for stops, TPs above \u2014 TP1 0.1648 (1.8R) \u00b7 TP2 0.1673 (3.2R) \u00b7 TP3 0.183 (11.9R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
-    },
-    {
-      "symbol": "PLTRSTOCK",
-      "kind": "sr_flip",
-      "label": "4H SR flip / retest",
-      "entry": 163.05,
-      "stop": 160.6,
-      "stop_tf": "4H",
-      "dca": null,
-      "tps": [
-        166.9,
-        171.0,
-        175.4
-      ],
-      "tp_r": [
-        1.57,
-        3.24,
-        5.04
-      ],
-      "risk_pct": 1.5,
-      "score": 8.369557588561603,
-      "facts": [
-        "4H closed above the 162.59 resistance 2 bars ago and is holding above it, low already retested the level",
-        "level rejected price 22x before the flip",
-        "reclaim bar volume 4.3x the 20-bar average",
-        "above the 1H/daily 200MA",
-        "still under the 4H 200MA",
-        "7d: +2.7% vs BTC -4.6% (RS +7.3%)"
-      ],
-      "chart_tf": "4h",
-      "level": 162.59,
-      "source": "mexc",
-      "extra": {},
-      "chart": "output/charts/2026-11-25_PLTRSTOCK.png",
-      "alert": "Market long PLTRSTOCK here at CMP (163.05). No DCA, 4H close under 160.6 for stops, TPs above \u2014 TP1 166.9 (1.6R) \u00b7 TP2 171 (3.2R) \u00b7 TP3 175.4 (5.0R). Once TP1 hits, stops to BE. SR flip trade \u2014 level flipped and holding, looking for continuation higher."
+      "chart": "output/charts/2026-11-26_VVV.png",
+      "alert": "Market long VVV here at CMP (26.82). No DCA, 4H close under 26.41 for stops, TPs above \u2014 TP1 27.54 (1.8R) \u00b7 TP2 28.33 (3.7R) \u00b7 TP3 29.27 (6.0R). Once TP1 hits, stops to BE. Daily range breakout \u2014 not missing this one, still looks good."
     }
   ],
   "watchlist": [
     {
-      "symbol": "XMR",
+      "symbol": "SAGA",
       "kind": "sr_flip",
-      "score": 8.25,
-      "entry": 523.6,
-      "stop": 512.5
+      "score": 7.71,
+      "entry": 0.01466,
+      "stop": 0.01439
     },
     {
-      "symbol": "MOODENG",
-      "kind": "sr_flip",
-      "score": 8.11,
-      "entry": 0.0285,
-      "stop": 0.02777
-    },
-    {
-      "symbol": "BIGTIME",
-      "kind": "daily_breakout",
-      "score": 7.88,
-      "entry": 0.006795,
-      "stop": 0.006457
-    },
-    {
-      "symbol": "MANTRA",
+      "symbol": "VVV",
       "kind": "daily_breakout",
       "score": 7.58,
-      "entry": 0.003292,
-      "stop": 0.003158
+      "entry": 26.817,
+      "stop": 26.41
+    },
+    {
+      "symbol": "CL",
+      "kind": "sr_flip",
+      "score": 6.94,
+      "entry": 84.87,
+      "stop": 83.08
+    },
+    {
+      "symbol": "SKY",
+      "kind": "sr_flip",
+      "score": 6.92,
+      "entry": 0.04617,
+      "stop": 0.04498
+    },
+    {
+      "symbol": "UP",
+      "kind": "sr_flip",
+      "score": 6.11,
+      "entry": 0.1963,
+      "stop": 0.192
     },
     {
       "symbol": "BCH",
-      "kind": "range_low",
-      "score": 3.89,
-      "entry": 203.39,
-      "stop": 191.2
+      "kind": "compression",
+      "score": 4.67,
+      "entry": 210.84,
+      "stop": 198.4
     },
     {
-      "symbol": "LTC",
-      "kind": "range_low",
-      "score": 3.6,
-      "entry": 42.5,
-      "stop": 39.51
-    },
-    {
-      "symbol": "OPENAI",
-      "kind": "range_low",
-      "score": 3.37,
-      "entry": 1224.72,
-      "stop": 1169.0
+      "symbol": "LINK",
+      "kind": "compression",
+      "score": 4.47,
+      "entry": 9.354,
+      "stop": 8.777
     }
   ]
 }
